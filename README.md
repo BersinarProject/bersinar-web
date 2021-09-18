@@ -1,3 +1,14 @@
 # Front End
 
-Page OK!
+Bersinar Front End Web
+
+## Check
+
+#### Installation
+* CRA (done)
+* Bootstrap 5 (done)
+
+
+#### Pages
+
+#### Components
