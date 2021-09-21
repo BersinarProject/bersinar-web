@@ -1,6 +1,9 @@
+import Navbar from "../components/navbar/Navbar";
+
 const OurClass = () => {
 	return (
-		<div>
+		
+		<div><Navbar/>
 			<p>Selamat datang di our class</p>
 		</div>
 	);
