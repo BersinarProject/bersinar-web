@@ -3,7 +3,8 @@ import Navbar from "../components/navbar/Navbar";
 const OurClass = () => {
 	return (
 		
-		<div><Navbar/>
+		<div>
+			<Navbar/>
 			<p>Selamat datang di our class</p>
 		</div>
 	);

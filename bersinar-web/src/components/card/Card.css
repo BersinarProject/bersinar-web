@@ -1,6 +1,6 @@
-.category-name,
-.category-tagline,
-.card-text {
+.card-class-category-name,
+.card-class-category-tagline,
+.card-class-card-text {
 	font-size: 12px;
 	line-height: 20px;
 	color: #595959;
@@ -12,19 +12,19 @@
 	line-height: 28px;
 } */
 
-.tutor-img {
+.card-class-tutor-img {
 	width: 38px;
 	height: 38px;
 	border-radius: 50%;
 }
 
-.tutor-name {
+.card-class-tutor-name {
 	margin-bottom: 0;
 	margin-left: 12px;
 }
 
-.tutor-name,
-.card-daftar {
+.card-class-tutor-name,
+.card-class-daftar {
 	font-size: 12px;
 	font-weight: 600;
 	line-height: 20px;
