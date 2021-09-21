@@ -7,6 +7,9 @@ Bersinar Front End Web
 #### Installation
 * CRA (done)
 * Bootstrap 5 (done)
+* eslint (done)
+* babel (done)
+* prettier (done)
 
 
 #### Pages
