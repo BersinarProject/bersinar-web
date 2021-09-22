@@ -45,11 +45,8 @@
     background-color: #E78231 !important;
 }
 
-.btn-start:focus{
-    outline: none;
-    box-shadow: 0 0 0 5px rgba(200, 104, 28, 0.4) !important;
-}
-
 .btn-start:active{
     background-color: #C8681C !important;
+    outline: none;
+    box-shadow: 0 0 0 5px rgba(200, 104, 28, 0.3) !important;
 }
