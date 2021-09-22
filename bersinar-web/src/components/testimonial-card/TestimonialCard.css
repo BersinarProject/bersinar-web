@@ -4,13 +4,13 @@
 
 .testimonial-card-img {
 	width: 180px;
-	height: 200px;
+	height: 224px;
 	border-top-left-radius: 16px;
 	border-bottom-left-radius: 16px;
 }
 
 .testimonial-card-bio {
-	padding: 0 25px;
+	padding: 25px;
 }
 
 .testimonial-quote,

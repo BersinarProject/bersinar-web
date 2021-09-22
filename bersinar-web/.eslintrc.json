@@ -11,19 +11,22 @@
 		"ecmaVersion": 12,
 		"sourceType": "module"
 	},
-	"plugins": ["react"],
+	"plugins": ["react", "prettier"],
 	"rules": {
+		"prettier/prettier": [
+			"error",
+			{},
+			{
+				"usePrettierrc": true
+			}
+		],
 		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-		"indent": [2, "tab", { "SwitchCase": 1, "VariableDeclarator": 1 }],
-		"no-tabs": 0,
 		"react/prop-types": 0,
 		"react/jsx-indent": [2, "tab"],
 		"react/jsx-indent-props": [2, "tab"],
+		"indent": [2, "tab"],
+		"no-tabs": ["error", { "allowIndentationTabs": true }],
 		"comma-dangle": ["error", "never"],
-		"quotes": [
-			"error",
-			"double",
-			{ "avoidEscape": true }
-		]
+		"quotes": ["error", "double", { "avoidEscape": true }]
 	}
 }

@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import OurClass from "./pages/OurClass";
 import "./App.css";
-import "./components/buttons/Button.css"
+import "./components/buttons/Button.css";
 
 function App() {
 	return (

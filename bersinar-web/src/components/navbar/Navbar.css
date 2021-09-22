@@ -1,22 +1,22 @@
-*{
-    font-weight: 500 !important;
-    font-size: 20px;
-    line-height: 28px;
+* {
+	font-weight: 500 !important;
+	font-size: 20px;
+	line-height: 28px;
 }
 
-.navbar{
-    background: linear-gradient(111.49deg, #FFCD82 10%, #FCFA71 110.45%);
+.navbar {
+	background: linear-gradient(111.49deg, #ffcd82 10%, #fcfa71 110.45%);
 }
-.navbar-brand{
-    margin-left: 116px;
-}
-
-.logo{
-    width: 60px;
+.navbar-brand {
+	margin-left: 116px;
 }
 
-.btn:focus{
-    outline: none !important;
+.logo {
+	width: 60px;
+}
+
+.btn:focus {
+	outline: none !important;
 }
 
 /*
@@ -31,26 +31,25 @@
 
 }
 */
-.donate{
-    background-color: #95BE5B !important;
-    color: white !important;
-    border-radius: 5px;
-    box-shadow: 0px 4px 20px #95BE5B !important;
-    margin-top: 10px;
-    margin-right: 121px;
-    margin-bottom: 10px;
-    margin-left: 12px;
-    padding: 10px 30px 10px 30px !important;
-    
+.donate {
+	background-color: #95be5b !important;
+	color: white !important;
+	border-radius: 5px;
+	box-shadow: 0px 4px 20px #95be5b !important;
+	margin-top: 10px;
+	margin-right: 121px;
+	margin-bottom: 10px;
+	margin-left: 12px;
+	padding: 10px 30px 10px 30px !important;
 }
 
-.item{
-    margin-top: 10px;
-    margin-right: 8px;
-    margin-bottom: 10px;
-    margin-left: 8px;
+.item {
+	margin-top: 10px;
+	margin-right: 8px;
+	margin-bottom: 10px;
+	margin-left: 8px;
 }
 
-li.nav-item:active{
-    font-weight: bold !important;
+li.nav-item:active {
+	font-weight: bold !important;
 }
