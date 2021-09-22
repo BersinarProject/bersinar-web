@@ -47,3 +47,4 @@ Button.propTypes ={
 export default button;
 
 */
+"use strict";
