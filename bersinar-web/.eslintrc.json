@@ -27,6 +27,7 @@
 		"indent": [2, "tab"],
 		"no-tabs": ["error", { "allowIndentationTabs": true }],
 		"comma-dangle": ["error", "never"],
-		"quotes": ["error", "double", { "avoidEscape": true }]
+		"quotes": ["error", "double", { "avoidEscape": true }],
+		"arrow-body-style": ["error", "always"]
 	}
 }

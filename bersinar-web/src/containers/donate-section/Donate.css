@@ -1,0 +1,29 @@
+.donate-section {
+	margin-top: 120px;
+}
+
+.donate-section-img {
+	width: 350px;
+	height: 350px;
+	border-radius: 20%;
+}
+
+.donate-title {
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 40px;
+}
+
+.donate-description {
+	width: 400px;
+	margin-top: 12px;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400 !important;
+}
+
+.btn-dnt {
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: #95be5b;
+}
