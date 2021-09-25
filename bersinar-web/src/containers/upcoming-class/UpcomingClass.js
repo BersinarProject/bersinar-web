@@ -39,7 +39,7 @@ const UpcomingClass = () => {
 			</div>
 			<Card dataUpcomingClassCard={getDataUpcomingClassCard} />
 			<div className="btn d-flex justify-content-center align-items-center">
-				<Link to="/our-class" className="btn btn-warning">
+				<Link to="/our-class" className="btn-more btn btn-shadow px-4">
 					More Class
 				</Link>
 			</div>

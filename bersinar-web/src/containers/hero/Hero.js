@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import heroImg from "../../assets/images/Hero.png";
 
 const hero = () => {
@@ -16,12 +16,9 @@ const hero = () => {
 							Platform kolaborasi pelajar Indonesia untuk meraih
 							mimpi dan #BersinarBersama
 						</p>
-						<NavLink
-							className="btn-start btn  btn-shadow px-4"
-							to="/"
-						>
+						<Link className="btn-start btn  btn-shadow px-4" to="/">
 							Mulai Belajar
-						</NavLink>
+						</Link>
 					</div>
 					<div className="col-lg-5">
 						<img className="heroImg" src={heroImg} alt="" />

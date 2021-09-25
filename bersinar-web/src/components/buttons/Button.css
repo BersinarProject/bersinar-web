@@ -18,13 +18,11 @@
 	background-color: #7ea645 !important;
 }
 
-.btn-donate:focus {
-	outline: none;
-	box-shadow: 0 0 0 5px rgba(119, 156, 65, 0.4) !important;
-}
 
 .btn-donate:active {
 	background-color: #6b8e39 !important;
+	outline: none;
+	box-shadow: 0 0 0 5px rgba(119, 156, 65, 0.4) !important;
 }
 
 .btn-start {
@@ -43,6 +41,26 @@
 }
 
 .btn-start:active{
+    background-color: #C8681C !important;
+    outline: none;
+    box-shadow: 0 0 0 5px rgba(200, 104, 28, 0.3) !important;
+}
+
+.btn-more {
+	background-color: #fe933e !important;
+	color: white !important;
+	border-radius: 5px;
+	box-shadow: 0px 4px 20px #fe933e !important;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 10px 30px 10px 30px !important;
+}
+
+.btn-more:hover {
+	background-color: #e78231 !important;
+}
+
+.btn-more:active{
     background-color: #C8681C !important;
     outline: none;
     box-shadow: 0 0 0 5px rgba(200, 104, 28, 0.3) !important;
