@@ -30,7 +30,7 @@ const UpcomingClass = () => {
 	]);
 
 	return (
-		<div className="upcoming-class mt-5">
+		<div className="upcoming-class">
 			<div className="upcoming-class-top-section d-flex flex-column justify-content-center align-items-center">
 				<h1 className="upcoming-class-title mb-3">Upcoming Classes</h1>
 				<h2 className="upcoming-class-subTitle">

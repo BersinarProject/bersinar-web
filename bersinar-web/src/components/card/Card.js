@@ -7,7 +7,7 @@ import cardImage1 from "../../assets/images/starwars.jpg";
 
 const card = (props) => {
 	return (
-		<div className="container-xxl cards-class col-lg-12 d-flex flex-wrap justify-content-evenly align-items-center">
+		<div className="container cards-class col-lg-12 d-flex flex-wrap justify-content-evenly align-items-center">
 			{props.dataUpcomingClassCard.map((dataCard) => {
 				return (
 					<Card

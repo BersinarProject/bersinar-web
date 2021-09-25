@@ -5,6 +5,7 @@
 .testimonial-card-img {
 	width: 180px;
 	height: 224px;
+	margin-right: 10px;
 	border-top-left-radius: 16px;
 	border-bottom-left-radius: 16px;
 }
@@ -32,4 +33,25 @@
 	font-size: 12px;
 	line-height: 20px;
 	color: #595959;
+}
+
+@media (min-width: 0px) and (max-width: 992px) {
+	.testimonial-card-body {
+		flex-direction: column;
+	}
+
+	.testimonial-card-img {
+		width: 100%;
+		height: 224px;
+		margin-right: 0;
+		border-top-left-radius: 16px;
+		border-top-right-radius: 16px;
+		border-bottom-left-radius: 0;
+	}
+
+	.testimonial-quote,
+	.testimonial-name,
+	.testimonial-edu {
+		text-align: center;
+	}
 }

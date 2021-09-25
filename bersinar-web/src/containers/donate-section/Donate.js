@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Donate.css";
 import starwars from "../../assets/images/starwars.jpg";
 
@@ -12,8 +13,13 @@ const Donate = () => {
 					Dukung Bersinar agar dapat terus berkembang dan menjangkau
 					lebih banyak pelajar lainnya!
 				</p>
-				<button type="button" className="btn-dnt">
-					Donate
+				<button type="button" className="btn btn-donate-section px-3">
+					<a
+						href="https://www.youtube.com/c/BersinarProject"
+						className="btn-donate-link text-decoration-none text-white"
+					>
+						Donate
+					</a>
 				</button>
 			</div>
 		</div>
