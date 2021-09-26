@@ -13,7 +13,7 @@ const Testimonials = () => {
 		},
 		{
 			id: 2,
-			quote: '"Berkat Bersinar, aku jadi tau mana amteri yang sudah atau belum aku kuasai. Selain itu, di sini aku nggak cuma sekadar diajarin, tapi juga diajak diskusi seru soal materi UTBK."',
+			quote: '"Berkat Bersinar, aku jadi tau mana materi yang sudah atau belum aku kuasai. Selain itu, di sini aku nggak cuma sekadar diajarin, tapi juga diajak diskusi seru soal materi UTBK."',
 			name: "Pratiwi",
 			edu: "Teknik Informatika, Unsyiah 2020"
 		},

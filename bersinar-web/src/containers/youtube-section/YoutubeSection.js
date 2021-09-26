@@ -6,7 +6,7 @@ import starwars from "../../assets/images/starwars.jpg";
 const YoutubeSection = () => {
 	return (
 		<div className="youtube-section container d-flex flex-wrap justify-content-around align-items-center">
-			<div className="youtube-left-section col-md-6">
+			<div className="youtube-text col-md-6">
 				<h1 className="youtube-title">Available on YouTube!</h1>
 				<p className="youtube-description">
 					Setelah kelas Zoom selesai, kami akan menayangkannya di
@@ -21,11 +21,7 @@ const YoutubeSection = () => {
 					</a>
 				</button>
 			</div>
-			<img
-				src={starwars}
-				alt="starwars"
-				className="youtube-section-img"
-			/>
+			<img src={starwars} alt="starwars" className="youtube-image" />
 		</div>
 	);
 };

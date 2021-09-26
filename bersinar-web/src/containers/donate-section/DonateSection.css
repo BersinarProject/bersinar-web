@@ -10,7 +10,7 @@
 
 .donate-title {
 	font-size: 32px;
-	font-weight: 600;
+	font-weight: 600 !important;
 	line-height: 40px;
 }
 
@@ -38,7 +38,7 @@
 		margin-bottom: 32px;
 	}
 
-	.donate-right-section {
+	.donate-text {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

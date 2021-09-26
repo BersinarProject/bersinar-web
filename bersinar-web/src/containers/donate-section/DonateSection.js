@@ -1,13 +1,13 @@
 import React from "react";
 
-import "./Donate.css";
+import "./DonateSection.css";
 import starwars from "../../assets/images/starwars.jpg";
 
 const Donate = () => {
 	return (
-		<div className="container donate-section d-flex flex-wrap justify-content-around align-items-center mb-5">
+		<div className="donate-section container d-flex flex-wrap justify-content-around align-items-center mb-5">
 			<img src={starwars} alt="starwars" className="donate-section-img" />
-			<div className="donate-right-section">
+			<div className="donate-text col-md-6">
 				<h1 className="donate-title">Donate to Bersinar Project</h1>
 				<p className="donate-description">
 					Dukung Bersinar agar dapat terus berkembang dan menjangkau

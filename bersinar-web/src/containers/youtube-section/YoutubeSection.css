@@ -4,7 +4,7 @@
 
 .youtube-title {
 	font-size: 32px;
-	font-weight: 600;
+	font-weight: 600 !important;
 	line-height: 40px;
 }
 
@@ -28,7 +28,7 @@
 	line-height: 24px;
 }
 
-.youtube-section-img {
+.youtube-image {
 	width: 350px;
 	height: 350px;
 	border-radius: 20%;
@@ -39,13 +39,13 @@
 		flex-direction: column-reverse;
 	}
 
-	.youtube-section-img {
+	.youtube-image {
 		width: 280px;
 		height: 280px;
 		margin-bottom: 32px;
 	}
 
-	.youtube-left-section {
+	.youtube-text {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

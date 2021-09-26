@@ -6,7 +6,7 @@ import cardImage1 from "../../assets/images/starwars.jpg";
 
 const card = (props) => {
 	return (
-		<div className="testimonials-card d-flex flex-wrap justify-content-evenly align-items-center">
+		<div className="testimonials-card container d-flex flex-wrap justify-content-evenly align-items-center">
 			{props.dataTestimonialCard.map((testimonialCard) => {
 				return (
 					<Card

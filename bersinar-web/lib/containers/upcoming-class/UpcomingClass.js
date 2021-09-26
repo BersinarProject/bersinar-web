@@ -11,7 +11,7 @@ var _react = require("react");
 
 var _reactRouterDom = require("react-router-dom");
 
-var _Card = _interopRequireDefault(require("../../components/card/Card"));
+var _upcomingClassCard = _interopRequireDefault(require("../../components/upcoming-class-card/upcomingClassCard"));
 
 require("./UpcomingClass.css");
 
@@ -40,18 +40,18 @@ const UpcomingClass = () => {
   return /*#__PURE__*/_react.React.createElement("div", {
     className: "upcoming-class"
   }, /*#__PURE__*/_react.React.createElement("div", {
-    className: "upcoming-class-top-section d-flex flex-column justify-content-center align-items-center"
+    className: "upcoming-class-header d-flex flex-column justify-content-center align-items-center"
   }, /*#__PURE__*/_react.React.createElement("h1", {
     className: "upcoming-class-title mb-3"
   }, "Upcoming Classes"), /*#__PURE__*/_react.React.createElement("h2", {
     className: "upcoming-class-subTitle"
-  }, "Kelas-kelas Bersinar yang akan diadakan selanjutnya")), /*#__PURE__*/_react.React.createElement(_Card.default, {
+  }, "Kelas-kelas Bersinar yang akan diadakan selanjutnya")), /*#__PURE__*/_react.React.createElement(_upcomingClassCard.default, {
     dataUpcomingClassCard: getDataUpcomingClassCard
   }), /*#__PURE__*/_react.React.createElement("div", {
     className: "btn d-flex justify-content-center align-items-center"
   }, /*#__PURE__*/_react.React.createElement(_reactRouterDom.Link, {
     to: "/our-class",
-    className: "btn btn-warning"
+    className: "btn-more btn btn-shadow px-4"
   }, "More Class")));
 };
 

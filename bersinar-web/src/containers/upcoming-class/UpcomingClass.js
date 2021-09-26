@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
 
-import Card from "../../components/card/Card";
+import Card from "../../components/upcoming-class-card/upcomingClassCard";
 import "./UpcomingClass.css";
 
 const UpcomingClass = () => {
@@ -31,7 +31,7 @@ const UpcomingClass = () => {
 
 	return (
 		<div className="upcoming-class">
-			<div className="upcoming-class-top-section d-flex flex-column justify-content-center align-items-center">
+			<div className="upcoming-class-header d-flex flex-column justify-content-center align-items-center">
 				<h1 className="upcoming-class-title mb-3">Upcoming Classes</h1>
 				<h2 className="upcoming-class-subTitle">
 					Kelas-kelas Bersinar yang akan diadakan selanjutnya

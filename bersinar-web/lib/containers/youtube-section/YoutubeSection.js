@@ -17,7 +17,7 @@ const YoutubeSection = () => {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "youtube-section container d-flex flex-wrap justify-content-around align-items-center"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "youtube-left-section col-md-6"
+    className: "youtube-text col-md-9"
   }, /*#__PURE__*/_react.default.createElement("h1", {
     className: "youtube-title"
   }, "Available on YouTube!"), /*#__PURE__*/_react.default.createElement("p", {
@@ -31,7 +31,7 @@ const YoutubeSection = () => {
   }, "Youtube"))), /*#__PURE__*/_react.default.createElement("img", {
     src: _starwars.default,
     alt: "starwars",
-    className: "youtube-section-img"
+    className: "youtube-image"
   }));
 };
 

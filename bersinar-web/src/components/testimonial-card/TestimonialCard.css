@@ -4,7 +4,7 @@
 
 .testimonial-card-img {
 	width: 180px;
-	height: 224px;
+	height: 246px;
 	margin-right: 10px;
 	border-top-left-radius: 16px;
 	border-bottom-left-radius: 16px;
@@ -35,7 +35,7 @@
 	color: #595959;
 }
 
-@media (min-width: 0px) and (max-width: 992px) {
+@media (min-width: 0px) and (max-width: 576px) {
 	.testimonial-card-body {
 		flex-direction: column;
 	}

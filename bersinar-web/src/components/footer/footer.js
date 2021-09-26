@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./footer.css";
 import logo from "../../assets/images/brandLogo.png";
 import logotext from "../../assets/images/logoText.png";
@@ -7,8 +8,8 @@ const footer = () => {
 	return (
 		<div className="footer">
 			<div className="container">
-				<div className="row">
-					<div className="col-lg-2">
+				<div className="row flex justify-content-between">
+					<div className="col-md-2 d-flex flex-column">
 						<h1 className="footer-title">Navigation</h1>
 						<ul>
 							<li className="footer-link">
@@ -33,7 +34,7 @@ const footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="col-lg-2">
+					<div className="col-md-2 d-flex flex-column">
 						<h1 className="footer-title">Class</h1>
 						<ul>
 							<li className="footer-link">
@@ -53,7 +54,7 @@ const footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="col-lg-2">
+					<div className="col-md-2 d-flex flex-column">
 						<h1 className="footer-title">Follow Us</h1>
 						<ul>
 							<li className="footer-link">
@@ -78,7 +79,7 @@ const footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="col-lg-2">
+					<div className="col-md-2 d-flex flex-column">
 						<h1 className="footer-title">Useful Link</h1>
 						<ul>
 							<li className="footer-link">
@@ -98,7 +99,7 @@ const footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="col-xl-4">
+					<div className="col-md-6">
 						<ul>
 							<li className="">
 								<img

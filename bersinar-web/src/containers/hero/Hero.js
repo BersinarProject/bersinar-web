@@ -1,6 +1,7 @@
 import React from "react";
-import "./Hero.css";
 import { NavLink } from "react-router-dom";
+
+import "./Hero.css";
 import heroImg from "../../assets/images/Hero.png";
 
 const hero = () => {
@@ -20,7 +21,7 @@ const hero = () => {
 					</NavLink>
 				</div>
 				<div className="">
-					<img className="heroImg" src={heroImg} alt="" />
+					<img className="hero-image" src={heroImg} alt="Hero" />
 				</div>
 			</div>
 		</div>

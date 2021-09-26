@@ -13,8 +13,6 @@ var _LandingPage = _interopRequireDefault(require("./pages/LandingPage"));
 
 var _OurClass = _interopRequireDefault(require("./pages/OurClass"));
 
-require("./App.css");
-
 require("./components/buttons/Button.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

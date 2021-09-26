@@ -17,7 +17,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 const card = props => {
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: "testimonials-card d-flex flex-wrap justify-content-evenly align-items-center"
+    className: "testimonials-card container d-flex flex-wrap justify-content-evenly align-items-center"
   }, props.dataTestimonialCard.map(testimonialCard => {
     return /*#__PURE__*/_react.default.createElement(_reactBootstrap.Card, {
       key: testimonialCard.id,

@@ -7,9 +7,9 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-require("./Hero.css");
-
 var _reactRouterDom = require("react-router-dom");
+
+require("./Hero.css");
 
 var _Hero2 = _interopRequireDefault(require("../../assets/images/Hero.png"));
 
@@ -32,9 +32,9 @@ const hero = () => {
   }, "Mulai Belajar")), /*#__PURE__*/_react.default.createElement("div", {
     className: ""
   }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "heroImg",
+    className: "hero-image",
     src: _Hero2.default,
-    alt: ""
+    alt: "Hero"
   }))));
 };
 

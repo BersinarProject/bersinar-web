@@ -1,70 +1,45 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { Navbar, Nav, Container } from "react-bootstrap";
+
 import "./Navbar.css";
 import logo from "../../assets/images/brandLogo.png";
 
 const navbar = () => {
 	return (
 		<div className="app">
-			<nav className="navbar navbar-expand-lg navbar-light">
-				<div className="container">
+			<Navbar bg="light" expand="lg">
+				<Container>
 					<NavLink to="/" className="navbar-brand">
 						<img className="logo" src={logo} alt="Bersinar Logo" />
 					</NavLink>
-					<button
-						className="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarNavAltMarkup"
-						aria-controls="navbarNavAltMarkup"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span className="navbar-toggler-icon" />
-					</button>
-					<div
-						className="collapse navbar-collapse"
-						id="navbarNavAltMarkup"
-					>
-						<ul className="navbar-nav ms-auto">
-							<li className="nav-item">
-								<NavLink
-									exact
-									className="item nav-link"
-									aria-current="page"
-									to="/"
-								>
-									Home
-								</NavLink>
-							</li>
-							<li className="nav-item">
-								<NavLink
-									className="item nav-link"
-									to="/about-us"
-								>
-									About Us
-								</NavLink>
-							</li>
-							<li className="nav-item">
-								<NavLink
-									className="item nav-link"
-									to="/our-class"
-								>
-									Our Class
-								</NavLink>
-							</li>
-							<li className="nav-item">
-								<NavLink
-									className="btn-donate-navbar btn  btn-shadow px-3"
-									to="/"
-								>
-									Donate
-								</NavLink>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
+					<Navbar.Toggle aria-controls="basic-navbar-nav" />
+					<Navbar.Collapse id="basic-navbar-nav">
+						<Nav className="ms-auto d-flex justify-content-center align-items-center">
+							<NavLink
+								exact
+								className="item nav-link"
+								aria-current="page"
+								to="/"
+							>
+								Home
+							</NavLink>
+							<NavLink className="item nav-link" to="/about-us">
+								About Us
+							</NavLink>
+							<NavLink className="item nav-link" to="/our-class">
+								Our Class
+							</NavLink>
+							<NavLink
+								className="btn-donate-navbar btn btn-shadow px-3"
+								to="/"
+							>
+								Donate
+							</NavLink>
+						</Nav>
+					</Navbar.Collapse>
+				</Container>
+			</Navbar>
 		</div>
 	);
 };

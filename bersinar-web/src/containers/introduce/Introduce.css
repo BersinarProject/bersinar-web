@@ -1,49 +1,48 @@
 .intro {
-	background-color: #fffdf7;
 	margin-top: 120px;
 }
 
-.introImg{
+.introImg {
 	width: 370px;
-	margin-left: 50px;
 }
 
-.intro-title{
+.intro-right-section {
+	margin-left: 28px;
+}
+
+.intro-title {
+	font-size: 28px;
 	font-weight: 600 !important;
-	font-size: 38px;
+	line-height: 36px;
 	color: #121212;
 }
 
-.intro-subtitle{
-	margin-top: 25px;
-	font-weight: 500 !important;
-	font-size: 18px;
-	line-height: 27px;
+.intro-subTitle {
+	margin-top: 16px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400 !important;
 	color: #595959;
 }
 
-
 @media (min-width: 0px) and (max-width: 992px) {
 	.intro-section {
-		flex-direction: column-reverse;
+		flex-direction: column;
 	}
 
 	.intro-right-section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		margin-left: 0px;
 	}
 
 	.intro-title,
 	.intro-subTitle {
+		width: 100%;
 		text-align: center;
 	}
 
 	.introImg {
 		width: 300px;
-		margin-top: 120px;
 		margin-left: 0;
-	
+		margin-bottom: 24px;
 	}
 }

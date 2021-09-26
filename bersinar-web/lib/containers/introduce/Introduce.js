@@ -9,18 +9,28 @@ var _react = _interopRequireDefault(require("react"));
 
 require("./Introduce.css");
 
+var _infoImg = _interopRequireDefault(require("../../assets/images/infoImg.png"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const introduce = () => {
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: "container"
+    className: "intro column"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "intro row"
+    className: "intro-section container d-flex justify-content-between align-items-center"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "col-lg-6"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "col-lg-6"
-  })));
+    className: "col-md-5"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "introImg",
+    src: _infoImg.default,
+    alt: "Info"
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "intro-right-section"
+  }, /*#__PURE__*/_react.default.createElement("h1", {
+    className: "intro-title"
+  }, "Bersinar hadir dengan menyediakan kelas persiapan UTBK dan ujian mandiri gratis."), /*#__PURE__*/_react.default.createElement("p", {
+    className: "intro-subTitle"
+  }, "Sejak Desember 2020, Bersinar telah membantu lebih dari 10.000 calon mahasiswa dari seluruh kelas yang telah dilaksanakan."))));
 };
 
 var _default = introduce;

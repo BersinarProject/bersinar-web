@@ -6,7 +6,6 @@
 .btn-donate-navbar {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-left: 14px;
 	padding: 10px !important;
 	border-radius: 5px;
 	background-color: #95be5b !important;
@@ -44,10 +43,10 @@
 	background-color: #e78231 !important;
 }
 
-.btn-start:active{
-    background-color: #C8681C !important;
-    outline: none;
-    box-shadow: 0 0 0 5px rgba(200, 104, 28, 0.3) !important;
+.btn-start:active {
+	background-color: #c8681c !important;
+	outline: none;
+	box-shadow: 0 0 0 5px rgba(200, 104, 28, 0.3) !important;
 }
 
 .btn-more {
@@ -105,11 +104,10 @@
 	background-color: #6b8e39 !important;
 }
 
-
+/* faq */
 .btn-faq {
 	margin-top: 12px;
 	margin-bottom: 20px;
-	margin-right: -90px;
 	padding: 10px !important;
 	border-radius: 5px;
 	background-color: #fe933e !important;
@@ -121,8 +119,8 @@
 	background-color: #e78231 !important;
 }
 
-.btn-faq:active{
-    background-color: #C8681C !important;
-    outline: none;
-    box-shadow: 0 0 0 5px rgba(200, 104, 28, 0.3) !important;
+.btn-faq:active {
+	background-color: #c8681c !important;
+	outline: none;
+	box-shadow: 0 0 0 5px rgba(200, 104, 28, 0.3) !important;
 }
