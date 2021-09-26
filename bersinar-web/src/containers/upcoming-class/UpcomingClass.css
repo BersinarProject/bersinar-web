@@ -1,3 +1,9 @@
+
+.upcoming-class {
+	margin-top: 120px;
+	background-color: #fffdf7;
+}
+
 .upcoming-class-title {
 	border-bottom: 5px solid #fcf771;
 	font-size: 32px;
@@ -11,5 +17,6 @@
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
+	text-align: center;
 	color: #595959;
 }

@@ -2,38 +2,42 @@
 	outline: none !important;
 }
 
-.btn-donate {
+/* navbar */
+.btn-donate-navbar {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 14px;
+	padding: 10px !important;
+	border-radius: 5px;
 	background-color: #95be5b !important;
 	color: white !important;
-	border-radius: 5px;
 	box-shadow: 0px 4px 20px #95be5b !important;
-	margin-top: 10px;
-	margin-right: 121px;
-	margin-bottom: 10px;
-	margin-left: 12px;
-	padding: 10px 30px 10px 30px !important;
 }
 
-.btn-donate:hover {
+.btn-donate-navbar:hover {
 	background-color: #7ea645 !important;
 }
 
+.btn-donate-navbar:focus {
+	outline: none;
+	box-shadow: 0 0 0 5px rgba(119, 156, 65, 0.4) !important;
+}
 
-.btn-donate:active {
+.btn-donate-navbar:active {
 	background-color: #6b8e39 !important;
 	outline: none;
 	box-shadow: 0 0 0 5px rgba(119, 156, 65, 0.4) !important;
 }
 
+/* start */
 .btn-start {
+	margin-top: 12px;
+	margin-bottom: 20px;
+	padding: 10px !important;
+	border-radius: 5px;
 	background-color: #fe933e !important;
 	color: white !important;
-	border-radius: 5px;
 	box-shadow: 0px 4px 20px #fe933e !important;
-	margin-top: 10px;
-	margin-right: 121px;
-	margin-bottom: 20px;
-	padding: 10px 30px 10px 30px !important;
 }
 
 .btn-start:hover {
@@ -56,11 +60,68 @@
 	padding: 10px 30px 10px 30px !important;
 }
 
-.btn-more:hover {
+/* youtube */
+.btn-youtube {
+	margin-bottom: 20px;
+	padding: 5px !important;
+	border-radius: 5px;
+	background-color: #ff0000 !important;
+	color: white !important;
+	box-shadow: 0px 2px 5px #ff0000 !important;
+}
+
+.btn-youtube:hover {
+	background-color: #bd0000 !important;
+}
+
+.btn-youtube:focus {
+	outline: none;
+	box-shadow: 0 0 0 5px rgba(200, 104, 28, 0.4) !important;
+}
+
+.btn-youtube:active {
+	background-color: #a00000 !important;
+}
+
+/* donate */
+.btn-donate-section {
+	padding: 5px !important;
+	border-radius: 5px;
+	background-color: #95be5b !important;
+	color: white !important;
+	box-shadow: 0px 4px 20px #95be5b !important;
+}
+
+.btn-donate-section:hover {
+	background-color: #7ea645 !important;
+}
+
+.btn-donate-section:focus {
+	outline: none;
+	box-shadow: 0 0 0 5px rgba(119, 156, 65, 0.4) !important;
+}
+
+.btn-donate-section:active {
+	background-color: #6b8e39 !important;
+}
+
+
+.btn-faq {
+	margin-top: 12px;
+	margin-bottom: 20px;
+	margin-right: -90px;
+	padding: 10px !important;
+	border-radius: 5px;
+	background-color: #fe933e !important;
+	color: white !important;
+	box-shadow: 0px 4px 20px #fe933e !important;
+}
+
+.btn-faq:hover {
 	background-color: #e78231 !important;
 }
 
-.btn-more:active{
+.btn-faq:active{
     background-color: #C8681C !important;
     outline: none;
     box-shadow: 0 0 0 5px rgba(200, 104, 28, 0.3) !important;

@@ -13,8 +13,8 @@ const Testimonials = () => {
 		},
 		{
 			id: 2,
-			quote: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dicta quasi voluptate atque animi doloribus autem expedita amet rerum iste."',
-			name: "Muhammad Razan Fawwaz",
+			quote: '"Berkat Bersinar, aku jadi tau mana amteri yang sudah atau belum aku kuasai. Selain itu, di sini aku nggak cuma sekadar diajarin, tapi juga diajak diskusi seru soal materi UTBK."',
+			name: "Pratiwi",
 			edu: "Teknik Informatika, Unsyiah 2020"
 		},
 		{

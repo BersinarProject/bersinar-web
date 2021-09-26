@@ -38,7 +38,7 @@ const UpcomingClass = () => {
     tutor: "Ahnaf"
   }]);
   return /*#__PURE__*/_react.React.createElement("div", {
-    className: "upcoming-class mt-5"
+    className: "upcoming-class"
   }, /*#__PURE__*/_react.React.createElement("div", {
     className: "upcoming-class-top-section d-flex flex-column justify-content-center align-items-center"
   }, /*#__PURE__*/_react.React.createElement("h1", {

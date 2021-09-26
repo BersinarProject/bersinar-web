@@ -19,9 +19,15 @@ var _UpcomingClass = _interopRequireDefault(require("../containers/upcoming-clas
 
 var _Testimonials = _interopRequireDefault(require("../containers/testimonials/Testimonials"));
 
+var _YoutubeSection = _interopRequireDefault(require("../containers/youtube-section/YoutubeSection"));
+
+var _Donate = _interopRequireDefault(require("../containers/donate-section/Donate"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const LandingPage = () => /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Navbar.default, null), /*#__PURE__*/_react.default.createElement(_Hero.default, null), /*#__PURE__*/_react.default.createElement(_Counter.default, null), /*#__PURE__*/_react.default.createElement(_Introduce.default, null), /*#__PURE__*/_react.default.createElement(_UpcomingClass.default, null), /*#__PURE__*/_react.default.createElement(_Testimonials.default, null));
+const LandingPage = () => {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Navbar.default, null), /*#__PURE__*/_react.default.createElement(_Hero.default, null), /*#__PURE__*/_react.default.createElement(_Counter.default, null), /*#__PURE__*/_react.default.createElement(_Introduce.default, null), /*#__PURE__*/_react.default.createElement(_UpcomingClass.default, null), /*#__PURE__*/_react.default.createElement(_Testimonials.default, null), /*#__PURE__*/_react.default.createElement(_YoutubeSection.default, null), /*#__PURE__*/_react.default.createElement(_Donate.default, null));
+};
 
 var _default = LandingPage;
 exports.default = _default;
