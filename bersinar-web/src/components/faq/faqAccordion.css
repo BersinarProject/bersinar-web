@@ -1,0 +1,67 @@
+.faq-accordion{
+    margin-top: 100px !important;
+    width: 60% !important;
+    margin-bottom: 50px !important;
+
+}
+.faq-title{
+    font-size: 30px;
+    text-align: center;
+    font-weigt: 800 !important;
+    margin-bottom: 50px;
+}
+
+.faq-image{
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.accordion{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: black;
+    border-radius: 10px !important;
+}
+
+.accordion-button{
+    background-color: #F7BF6A !important;
+    outline: none;
+    color: black;
+    box-shadow: 0px 4px 20px 0.1px #FDD69B !important;
+    
+}
+
+.accordion-button:focus {
+    z-index: 3;
+	outline: none;
+	box-shadow: 0 0 0 5px rgba(200, 104, 28, 0.3) !important;
+}
+
+.accordion-button:not(.collapsed) {
+   color: black !important;
+}
+
+.accordion-button:after { 
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion-body{
+    background-color: #FFEACA !important;
+    font-weight: 400 !important;
+}
+
+
+@media (min-width: 0px) and (max-width: 992px) {
+    .faq-accordion{
+        margin-top: 100px !important;
+        width: 100% !important;
+    }
+
+    .faq-image{
+        width: 60%;
+    }
+    
+}

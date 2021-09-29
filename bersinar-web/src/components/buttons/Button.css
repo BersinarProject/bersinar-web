@@ -37,6 +37,9 @@
 	background-color: #fe933e !important;
 	color: white !important;
 	box-shadow: 0px 4px 20px #fe933e !important;
+
+	animation: fadeInUp;
+	animation-duration: 3s;
 }
 
 .btn-start:hover {
@@ -104,23 +107,3 @@
 	background-color: #6b8e39 !important;
 }
 
-/* faq */
-.btn-faq {
-	margin-top: 12px;
-	margin-bottom: 20px;
-	padding: 10px !important;
-	border-radius: 5px;
-	background-color: #fe933e !important;
-	color: white !important;
-	box-shadow: 0px 4px 20px #fe933e !important;
-}
-
-.btn-faq:hover {
-	background-color: #e78231 !important;
-}
-
-.btn-faq:active {
-	background-color: #c8681c !important;
-	outline: none;
-	box-shadow: 0 0 0 5px rgba(200, 104, 28, 0.3) !important;
-}
