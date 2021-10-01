@@ -30,12 +30,19 @@ const navbar = () => {
 							<NavLink className="item nav-link" to="/our-class">
 								Our Class
 							</NavLink>
-							<NavLink
-								className="btn-donate-navbar btn btn-shadow px-3"
-								to="/"
+							<div
+								id="trbtn-overlay-container-0"
+								className="trbtn-overlay-container inline"
 							>
-								Donate
-							</NavLink>
+								<a
+									className="trbtn btn-donate-navbar btn btn-shadow px-3"
+									href="https://trakteer.id/BersinarProject/tip/embed/modal"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Donate
+								</a>
+							</div>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>

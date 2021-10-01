@@ -1,10 +1,11 @@
 import React from "react";
-
+import "react-reveal";
+import "animate.css";
 import "./footer.css";
 import logo from "../../assets/images/brandLogo.png";
 import logotext from "../../assets/images/logoText.png";
 
-const footer = () => {
+const Footer = () => {
 	return (
 		<div className="footer">
 			<div className="container">
@@ -99,7 +100,7 @@ const footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="col-md-6">
+					<div className="col-md-6 py-4">
 						<ul>
 							<li className="">
 								<img
@@ -132,4 +133,4 @@ const footer = () => {
 	);
 };
 
-export default footer;
+export default Footer;

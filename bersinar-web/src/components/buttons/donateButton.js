@@ -1,0 +1,1 @@
+function() {var trbtnId = trbtnOverlay.init('Dukung Saya di Trakteer','#be1e2d','https://trakteer.id/BersinarProject/tip/embed/modal','https://cdn.trakteer.id/images/embed/trbtn-icon.png','40','inline');trbtnOverlay.draw(trbtnId);})();
