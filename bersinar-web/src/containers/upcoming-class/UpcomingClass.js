@@ -14,7 +14,7 @@ class upcomingClass extends React.Component {
 	}
 
 	componentDidMount() {
-		const apiUrl = "https://api.good4u.tech/classes?type=3";
+		const apiUrl = "https://api.good4u.tech/classes?type=l";
 
 		axios
 			.get(apiUrl)

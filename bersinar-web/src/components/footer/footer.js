@@ -2,7 +2,7 @@ import React from "react";
 import "react-reveal";
 import "animate.css";
 
-import "./Footer.css";
+import "./footer.css";
 import logo from "../../assets/images/brandLogo.png";
 import logotext from "../../assets/images/logoText.png";
 
