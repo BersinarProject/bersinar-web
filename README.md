@@ -1,17 +1,18 @@
-# Front End
+# Frontend Bersinar Project
 
-Bersinar Front End Web
+## Description
 
-## Check
+Frontend repository for bersinarproject
 
-#### Installation
-* CRA (done)
-* Bootstrap 5 (done)
-* eslint (done)
-* babel (done)
-* prettier (done)
+## Owner
 
+Bersinar Engineering, Frontend Team
 
-#### Pages
+## Contact
 
-#### Components
+| Name                           | Email                                 |
+| :----------------------------: |:-------------------------------------:|
+| Muhammad Razan Fawwaz          | razanfawwaz@bersinarproject.com       |
+| Muhammad Arief Fadhlan         | arieffadhlan@bersinarproject.com      |
+| Ramji Renanda Sitorus          | ramjirenanda@bersinarproject.com      |
+| Muh. Nur Iskandar Dzulqarnain  | iskandardz@bersinarproject.com        |
