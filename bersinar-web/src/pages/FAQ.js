@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/navbar/Navbar";
-import Footer from "../components/footer/Footer";
+import Footer from "../components/footer/footer";
 import FaqAccordion from "../components/faq/faqAccordion";
 
 const Faq = () => {

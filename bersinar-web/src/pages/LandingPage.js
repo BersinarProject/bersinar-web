@@ -8,7 +8,7 @@ import Testimonials from "../containers/testimonials/Testimonials";
 import YoutubeSection from "../containers/youtube-section/YoutubeSection";
 import DonateSection from "../containers/donate-section/DonateSection";
 import FaqBox from "../components/faq-box/faqBox";
-import Footer from "../components/footer/Footer";
+import Footer from "../components/footer/footer";
 
 const LandingPage = () => {
 	return (

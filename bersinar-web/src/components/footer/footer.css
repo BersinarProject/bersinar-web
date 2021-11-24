@@ -35,10 +35,17 @@ li.footer-link {
 	padding-top: 5px;
 	padding-bottom: 8px;
 }
-
+li.a.svg.footer-link{
+	color: #121212 !important;
+}
 .footer-link:hover {
 	font-weight: 600 !important;
 	color: #3d3d3d;
+}
+
+svg#icon{
+	color: #3d3d3d !important;
+
 }
 
 .footer-logo {
