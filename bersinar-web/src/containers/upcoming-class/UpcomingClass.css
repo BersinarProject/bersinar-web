@@ -1,21 +1,62 @@
 .upcoming-class {
 	margin-top: 120px;
-	background-color: #FFFDF1;
 }
 
-.upcoming-class-title {
-	border-bottom: 5px solid #fcf771;
-	font-size: 32px;
-	font-weight: 600 !important;
-	line-height: 40px;
-	color: #121212;
+.upcoming-class-header-title,
+.upcoming-class-footer-title {
+	font-weight: 800 !important;
+	line-height: 44px;
+	color: #574e5a;
 }
 
-.upcoming-class-subTitle {
-	margin-bottom: 48px;
-	font-size: 16px;
-	font-weight: 400 !important;
-	line-height: 24px;
+.upcoming-class-header-title {
+	font-size: 48px;
+}
+
+.upcoming-class-footer-title {
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+
+.upcoming-class-header-subTitle,
+.upcoming-class-footer-subTitle {
+	margin-top: 20px;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 500 !important;
+	line-height: 32px;
 	text-align: center;
 	color: #595959;
+}
+
+.upcoming-class-header-subTitle {
+	margin-bottom: 40px;
+}
+
+.upcoming-class-footer-subTitle {
+	margin-bottom: 10px;
+}
+
+.upcoming-class-footer-button,
+.upcoming-class-footer-button:active {
+	outline: none;
+	box-shadow: none !important;
+}
+
+.upcoming-class-footer-button:hover {
+	background: #e8ded5 !important;
+	border: 2px solid #e58538 !important;
+	color: #e58538 !important;
+}
+
+.upcoming-class-footer-button {
+	height: 172px;
+	height: 52px;
+	margin-top: 10px;
+	padding: 12.5px 30px !important;
+	border: 2px solid #706275 !important;
+	border-radius: 10px !important;
+	background-color: transparent !important;
+	font-size: 18px !important;
+	color: #574e5a !important;
 }

@@ -1,23 +1,18 @@
-.landing-page {
-	background-color: #FFFDF1 !important;
-}
 .hero {
 	background: linear-gradient(
-		111.49deg,
-		#ffcd82 0%,
-		#fcfa71 99.45%
-	) !important;
+		180deg,
+		#fff283 27.98%,
+		rgba(255, 244, 154, 0) 91.57%
+	);
 	padding-bottom: 250px;
 }
 
 .hero-title {
-	margin-top: 80px;
+	margin-top: 48px;
 	margin-bottom: 24px;
 	font-size: 64px;
-	font-weight: 600 !important;
+	font-weight: 700 !important;
 	line-height: 72px;
-	color: #121212;
-
 	animation: fadeInUp;
 	animation-duration: 3s;
 }
@@ -33,9 +28,8 @@
 }
 
 .hero-image {
-	width: 440px;
+	width: 380px;
 	margin-right: 40px;
-	
 
 	animation: fadeInUp !important;
 	animation-duration: 3s !important;
@@ -43,10 +37,10 @@
 	transition: 1s;
 }
 
-.hero-image:hover{
+/* .hero-image:hover {
 	width: 445px;
 	transition: 1s;
-}
+} */
 
 @media (min-width: 0px) and (max-width: 992px) {
 	.hero-section {
@@ -70,10 +64,5 @@
 		margin-top: 120px;
 		margin-right: 0;
 		transition: 1s;
-}
-
-.hero-image:hover{
-	width: 350px;
-	transition: 1s;
-}
+	}
 }

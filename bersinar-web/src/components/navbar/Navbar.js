@@ -8,7 +8,7 @@ import logo from "../../assets/images/brandLogo.png";
 const navbar = () => {
 	return (
 		<div className="app">
-			<Navbar bg="light" expand="lg">
+			<Navbar expand="lg">
 				<Container>
 					<NavLink to="/" className="navbar-brand">
 						<img className="logo" src={logo} alt="Bersinar Logo" />

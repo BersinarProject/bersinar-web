@@ -37,7 +37,7 @@
 
 .upcoming-class-card-countdown-text,
 .upcoming-class-card-countdown-timer {
-	color: #fe933e;
+	color: #54c280;
 }
 
 .upcoming-class-card-countdown-text {
@@ -58,12 +58,16 @@
 }
 
 .upcoming-class-card-button:hover {
-	background-color: #e58538 !important;
+	background-color: #47a56d !important;
 }
 
 .upcoming-class-card-button {
 	height: 52px;
 	margin-top: 20px;
-	background-color: #fe933e !important;
+	background-color: #54c280 !important;
 	font-size: 18px !important;
+}
+
+.upcoming-class-card-button-icon {
+	margin-right: 14px;
 }
