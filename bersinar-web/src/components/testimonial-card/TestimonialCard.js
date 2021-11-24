@@ -6,34 +6,29 @@ import cardImage1 from "../../assets/images/starwars.jpg";
 
 const card = (props) => {
 	return (
-		<div className="testimonials-card container d-flex flex-wrap justify-content-evenly align-items-center">
+		<div className="testimonials-card d-flex flex-wrap justify-content-center align-items-center">
 			{props.dataTestimonialCard.map((testimonialCard) => {
 				return (
-					<Card
-						key={testimonialCard.id}
-						className="testimonial-card border-0 shadow mb-5"
-						style={{ width: "520px" }}
-					>
-						<Card.Body
-							style={{ padding: "0px" }}
-							className="testimonial-card-body d-flex align-items-center"
-						>
-							<img
-								src={cardImage1}
-								className="testimonial-card-img"
-								alt="Testimonial Avatar"
-							/>
-							<div className="testimonial-card-bio">
-								<Card.Text className="testimonial-quote">
-									{testimonialCard.quote}
-								</Card.Text>
-								<Card.Text className="testimonial-name mb-0 fw-bold">
-									{testimonialCard.name}
-								</Card.Text>
-								<Card.Text className="testimonial-edu">
-									{testimonialCard.edu}
-								</Card.Text>
+					<Card key={testimonialCard.id} className="testimonial-card">
+						<Card.Body className="p-0">
+							<div className="testimonial-card-profile d-flex">
+								<img
+									src={cardImage1}
+									className="testimonial-card-profile-img"
+									alt="Testimonial Avatar"
+								/>
+								<div className="testimonial-card-profile-bio d-flex flex-column">
+									<span className="testimonial-card-profile-bio-name">
+										{testimonialCard.name}
+									</span>
+									<span className="testimonial-card-profile-bio-edu">
+										{testimonialCard.edu}
+									</span>
+								</div>
 							</div>
+							<Card.Text className="testimonial-card-profile-quote">
+								{testimonialCard.quote}
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				);
