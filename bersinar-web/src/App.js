@@ -5,7 +5,7 @@ import "animate.css";
 import LandingPage from "./pages/LandingPage";
 import OurClass from "./pages/OurClass";
 import ScrollToTop from "./ScrollToTop";
-import Faq from "./pages/FAQ";
+import Faq from "./pages/faq/Faq";
 
 function App() {
 	return (
