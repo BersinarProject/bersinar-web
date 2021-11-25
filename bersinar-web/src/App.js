@@ -6,7 +6,7 @@ import LandingPage from "./pages/LandingPage";
 import OurClass from "./pages/OurClass";
 import "./components/buttons/Button.css";
 import ScrollToTop from "./ScrollToTop";
-import Faq from "./pages/FAQ";
+import Faq from "./pages/faq/Faq";
 
 function App() {
 	return (

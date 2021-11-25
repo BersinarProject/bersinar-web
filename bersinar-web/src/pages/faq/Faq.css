@@ -1,0 +1,79 @@
+.faq-header {
+	margin-top: 60px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.faq-header-left-section {
+	justify-content: start;
+	align-items: start;
+}
+
+.faq-header-left-section-title {
+	margin-bottom: 20px;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 70px;
+	letter-spacing: -1.4px;
+}
+
+.faq-header-left-section-subTitle {
+	font-family: "Poppins";
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 0.01em;
+}
+
+.faq-header-right-section-image {
+	width: 100%;
+	max-width: 430px;
+	max-height: 276px;
+	height: auto;
+}
+
+.faq-header-left-section-title,
+.faq-footer-title,
+.faq-footer-subTitle {
+	color: #574e5a;
+}
+
+.faq-footer-title {
+	font-size: 36px;
+	font-weight: 800;
+	line-height: 44px;
+}
+
+.faq-footer-subTitle {
+	margin-bottom: 180px;
+	margin-top: 10px;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 32px;
+}
+
+@media (max-width: 992px) {
+	.faq-header {
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.faq-header-left-section {
+		margin-top: 40px;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media (min-width: 576px) {
+	.faq-header-left-section {
+		width: 417px;
+	}
+
+	.faq-footer {
+		width: 720px !important;
+	}
+}
