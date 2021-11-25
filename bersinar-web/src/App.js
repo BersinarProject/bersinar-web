@@ -4,7 +4,6 @@ import "animate.css";
 
 import LandingPage from "./pages/LandingPage";
 import OurClass from "./pages/OurClass";
-import "./components/buttons/Button.css";
 import ScrollToTop from "./ScrollToTop";
 import Faq from "./pages/FAQ";
 

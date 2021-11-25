@@ -4,6 +4,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 import "./Navbar.css";
 import logo from "../../assets/images/brandLogo.png";
+import Donate from "../../assets/images/donate.svg";
 
 const navbar = () => {
 	return (
@@ -24,22 +25,27 @@ const navbar = () => {
 							>
 								Home
 							</NavLink>
-							<NavLink className="item nav-link" to="/about-us">
-								About Us
-							</NavLink>
 							<NavLink className="item nav-link" to="/our-class">
 								Our Class
 							</NavLink>
-							<div
-								id="trbtn-overlay-container-0"
-								className="trbtn-overlay-container inline"
-							>
+							<NavLink className="item nav-link" to="/events">
+								Our Events
+							</NavLink>
+							<NavLink className="item nav-link" to="/about-us">
+								About Us
+							</NavLink>
+							<div className="donate">
 								<a
-									className="trbtn btn-donate-navbar btn btn-shadow px-3"
+									className="btn donate px-3 py-2"
 									href="https://trakteer.id/BersinarProject/tip/embed/modal"
 									target="_blank"
 									rel="noreferrer"
 								>
+									<img
+										src={Donate}
+										alt="Donate"
+										className="donate-icon"
+									/>
 									Donate
 								</a>
 							</div>

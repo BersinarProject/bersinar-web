@@ -7,7 +7,11 @@ import signalIcon from "../../assets/images/SignalIcon.svg";
 
 const LiveClassCard = ({ dataCard }) => {
 	return (
-		<Card key={dataCard.id} className="upcoming-class-card border-0 mb-5">
+		<Card
+			key={dataCard.id}
+			className="upcoming-class-card border-0 mb-5"
+			id="our-class"
+		>
 			<Card.Img
 				variant="top"
 				src={cardImage1}

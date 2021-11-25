@@ -9,3 +9,24 @@
 	font-family: "Nunito", "Poppins", sans-serif;
 	color: #121212;
 }
+
+::-webkit-scrollbar {
+	width: 11px;
+	border-radius: 10px !important;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #574E5A; 
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+  }
