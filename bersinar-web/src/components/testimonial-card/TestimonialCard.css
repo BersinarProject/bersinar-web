@@ -9,6 +9,11 @@
 	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
 }
 
+.testimonial-card:hover {
+	background: #fffbf9;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
 .testimonial-card-profile-img {
 	width: 52px;
 	height: 52px;

@@ -1,0 +1,92 @@
+.faq-section-card {
+	margin-top: 120px;
+	margin-bottom: 180px;
+	padding: 30px 60px;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+	border-radius: 10px !important;
+}
+
+.faq-section-card-content {
+	justify-content: space-between;
+}
+
+.faq-section-card-content-title {
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 44px;
+	color: #595959;
+	margin: 20px 0px;
+}
+
+.faq-section-card-content-subTitle {
+	margin-bottom: 20px;
+	font-family: "Poppins";
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 32px;
+	color: #595959;
+}
+
+.faq-section-card-content-button {
+	width: 180px;
+	height: 52px;
+	margin-bottom: 20px;
+	border-radius: 10px !important;
+	background: #53b7dd !important;
+	font-weight: 700 !important;
+	font-size: 18px !important;
+	color: #fff !important;
+}
+
+.faq-section-card-content-button:hover {
+	background: #479cbc !important;
+}
+
+.faq-section-card-content-button img {
+	margin-right: 14px;
+}
+
+@media (min-width: 1200px) {
+	.faq-section {
+		width: 100%;
+		max-width: 1000px !important;
+	}
+
+	.container {
+		padding: 0 !important;
+	}
+}
+
+@media (max-width: 992px) {
+	.faq-section-card-content {
+		flex-direction: column-reverse;
+		justify-content: center;
+	}
+
+	.faq-section-card-content-text {
+		margin-top: 40px;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media (max-width: 500px) {
+	.faq-section-card {
+		padding: 15px 30px;
+	}
+
+	.faq-section-card-content-title {
+		font-size: 32px;
+		line-height: 28px;
+	}
+
+	.faq-section-card-content-subTitle {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.faq-section-card-content-image img {
+		width: 150px !important;
+	}
+}

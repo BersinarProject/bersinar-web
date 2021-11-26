@@ -4,7 +4,7 @@ import "./Faq.css";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/footer";
 import FaqAccordion from "../../components/faq-accordion/faqAccordion";
-import starwars from "../../assets/images/starwars.jpg";
+import FAQIllustration from "../../assets/images/FAQIllustration.png";
 
 const Faq = () => {
 	return (
@@ -22,7 +22,7 @@ const Faq = () => {
 				</div>
 				<div className="faq-header-right-section">
 					<img
-						src={starwars}
+						src={FAQIllustration}
 						alt="FAQ Illustration"
 						className="faq-header-right-section-image"
 					/>
