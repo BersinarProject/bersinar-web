@@ -1,42 +1,59 @@
 .youtube-section {
-	margin-top: 120px;
+	padding-top: 120px;
+	background-color: #FDFCF6;
 }
 
 .youtube-title {
-	font-size: 32px;
-	font-weight: 600 !important;
-	line-height: 40px;
+	font-family:"Nunito";
+	font-size: 48px;
+	font-weight: 800 !important;
+	line-height: 44px;
+	color: #574e5a;
 }
 
 .youtube-description {
+	font-family: "Poppins";
 	margin-top: 2px;
-	font-size: 16px;
-	line-height: 24px;
-	font-weight: 400 !important;
-	color: #595959;
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 500 !important;
+	color: #574e5a;
 }
 
 .btn-youtube {
-	padding: 10px 20px;
-	border-radius: 10px;
-	background-color: #ff0000;
-	color: white;
+	font-family: "Nunito";
+	font-weight: 700;
+	font-size: 18px;
+	padding: 10.5px 30px!important;
+	color: #FB7A7A !important;
+	border: 2px solid #FB7A7A !important;
+	box-sizing: border-box !important;
+	border-radius: 10px !important;
+	text-decoration: none;
 }
 
-.btn-youtube-link {
-	font-size: 16px;
-	line-height: 24px;
+.btn-youtube:hover{
+	background-color: #E8DBDB !important;
+}
+
+.btn-youtube:active{
+	background: #E8DBDB !important;
+	border-radius: 10px !important;
+}
+
+.youtube-icon{
+	padding-right: 10px; 
 }
 
 .youtube-image {
-	width: 350px;
-	height: 350px;
+	width: 380px;
+	height: 380px;
 	border-radius: 20%;
 }
 
 @media (min-width: 0px) and (max-width: 992px) {
 	.youtube-section {
-		flex-direction: column-reverse;
+		flex-direction: column-reverse !important;
 	}
 
 	.youtube-image {

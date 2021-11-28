@@ -39,8 +39,8 @@ class upcomingClass extends React.Component {
 
 	render() {
 		return (
-			<div className="upcoming-class container">
-				<div className="upcoming-class-header d-flex flex-column justify-content-center align-items-center">
+			<div className="upcoming-class">
+				<div className="container upcoming-class-header d-flex flex-column justify-content-center align-items-center">
 					<h1 className="upcoming-class-header-title text-center">
 						Telusuri Kelas-kelas Kami
 					</h1>
