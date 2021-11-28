@@ -77,3 +77,25 @@
 		width: 720px !important;
 	}
 }
+
+@media (max-width: 500px) {
+	.faq-header-left-section-title {
+		font-size: 40px;
+		line-height: 48px;
+	}
+
+	.faq-header-left-section-subTitle {
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	.faq-footer-title {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.faq-footer-subTitle {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}

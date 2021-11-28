@@ -38,6 +38,12 @@
 	color: #fff !important;
 }
 
+.faq-section-card-content-button,
+.faq-section-card-content-button:active {
+	outline: none;
+	box-shadow: none !important;
+}
+
 .faq-section-card-content-button:hover {
 	background: #479cbc !important;
 }
@@ -84,6 +90,10 @@
 	.faq-section-card-content-subTitle {
 		font-size: 16px;
 		line-height: 24px;
+	}
+
+	.faq-section-card-content-button {
+		font-size: 16px !important;
 	}
 
 	.faq-section-card-content-image img {

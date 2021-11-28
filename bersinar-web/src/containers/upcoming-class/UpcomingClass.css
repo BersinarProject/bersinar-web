@@ -60,3 +60,29 @@
 	font-size: 18px !important;
 	color: #574e5a !important;
 }
+
+@media (max-width: 500px) {
+	.upcoming-class-header-title {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.upcoming-class-header-subTitle {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.upcoming-class-footer-title {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.upcoming-class-footer-subTitle {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.upcoming-class-footer-button {
+		font-size: 16px !important;
+	}
+}
