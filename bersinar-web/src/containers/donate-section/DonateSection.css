@@ -1,30 +1,52 @@
 .donate-section {
-	margin-top: 120px;
+	padding-top: 120px;
+	background-color: #FDFCF6;
 }
 
 .donate-section-img {
-	width: 350px;
-	height: 350px;
+	width: 430px;
 	border-radius: 20%;
 }
 
 .donate-title {
-	font-size: 32px;
-	font-weight: 600 !important;
-	line-height: 40px;
+	font-family:"Nunito";
+	font-size: 48px;
+	font-weight: 800 !important;
+	line-height: 44px;
+	color: #574e5a;
 }
 
 .donate-description {
+	font-family: "Poppins";
 	margin-top: 2px;
-	font-size: 16px;
-	line-height: 24px;
-	font-weight: 400 !important;
-	color: #595959;
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 500 !important;
+	color: #574e5a;
 }
 
-.btn-donate-link {
-	font-size: 16px;
-	line-height: 24px;
+.btn-donate {
+	font-family: "Nunito";
+	font-weight: 700;
+	font-size: 18px;
+	padding: 10.5px 30px!important;
+	color: #54C280 !important;
+	border: 2px solid #54C280 !important;
+	box-sizing: border-box !important;
+	border-radius: 10px !important;
+	text-decoration: none;
+}
+.btn-donate:hover{
+	background-color: #D7E1DC !important;
+}
+
+.btn-donate:active{
+	background: #D7E1DC !important;
+	border-radius: 10px !important;
+}
+
+.donate-icon{
+	padding-right: 10px; 
 }
 
 @media (min-width: 0px) and (max-width: 992px) {

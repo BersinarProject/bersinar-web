@@ -1,27 +1,30 @@
 import React from "react";
 
 import "./YoutubeSection.css";
-import starwars from "../../assets/images/starwars.jpg";
+import youtube from "../../assets/images/youtube.svg";
+import playIcon from "../../assets/images/play.svg";
 
 const YoutubeSection = () => {
 	return (
-		<div className="youtube-section container d-flex flex-wrap justify-content-around align-items-center">
-			<div className="youtube-text col-md-6">
-				<h1 className="youtube-title">Available on YouTube!</h1>
-				<p className="youtube-description">
-					Setelah kelas Zoom selesai, kami akan menayangkannya di
-					YouTube agar bisa ditonton kapanpun!
-				</p>
-				<button type="button" className="btn btn-youtube px-3">
-					<a
-						href="https://www.youtube.com/c/BersinarProject"
-						className="btn-youtube-link text-decoration-none text-white"
-					>
+		<div className="youtube-section">
+			<div className="container d-flex flex-wrap justify-content-around align-items-center">
+				<div className="youtube-text col-md-6">
+					<h1 className="youtube-title">Available on YouTube!</h1>
+					<p className="youtube-description py-2">
+						Setelah kelas Zoom selesai, kami akan menayangkannya di
+						YouTube agar bisa ditonton kapanpun!
+					</p>
+					<a href="/#" className="btn-youtube">
+						<img
+							src={playIcon}
+							alt="play icon"
+							className="youtube-icon"
+						/>
 						Youtube
 					</a>
-				</button>
+				</div>
+				<img src={youtube} alt="youtube" className="youtube-image" />
 			</div>
-			<img src={starwars} alt="starwars" className="youtube-image" />
 		</div>
 	);
 };
