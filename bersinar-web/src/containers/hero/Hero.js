@@ -15,7 +15,9 @@ const hero = () => {
 					<p className="hero-subTitle">
 						Platform kolaborasi pelajar Indonesia untuk meraih mimpi
 						dan{" "}
-						<b className="hero-subTitle-tag">#BersinarBersama</b>
+						<span className="hero-subTitle-tag">
+							#BersinarBersama
+						</span>
 					</p>
 					<NavLink className="mulai-belajar-button btn" to="/">
 						<img

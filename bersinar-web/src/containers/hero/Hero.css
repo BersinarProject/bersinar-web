@@ -1,4 +1,5 @@
 .hero {
+	margin-top: 100px;
 	padding-top: 60px;
 	padding-bottom: 133px;
 }
@@ -26,15 +27,15 @@
 	animation-duration: 3s; */
 }
 
-.hero-subTitle-tag {
-	font-family: "Poppins";
+span {
+	font-family: "Poppins" !important;
 	font-weight: 700 !important;
 	color: #595959;
 }
 
 .hero-image {
-	width: 600px;
-	margin-right: 10px;
+	width: 700px;
+	margin-left: 45px;
 	/* animation: fadeInUp !important;
 	animation-duration: 3s !important; */
 	/* transition: 1s; */
@@ -63,6 +64,8 @@
 .mulai-belajar-button:hover {
 	background-color: #e58538 !important;
 }
+
+
 
 @media (max-width: 992px) {
 	.hero-section {
