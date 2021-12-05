@@ -15,6 +15,13 @@ class upcomingClass extends React.Component {
 	}
 
 	componentDidMount() {
+		/* global Swiper */
+		this.swiper = new Swiper(".upcoming-class-swiper", {
+			slidesPerView: "auto",
+			loop: true,
+			cssMode: true
+		});
+
 		const apiUrl =
 			"https://mocki.io/v1/ad2ddd3e-f443-48ae-838d-6231b62c4428";
 
@@ -45,11 +52,16 @@ class upcomingClass extends React.Component {
 						Telusuri Kelas-kelas Kami
 					</h1>
 					<h2 className="upcoming-class-header-subTitle">
-						Kelas-kelas Bersinar yang akan diadakan selanjutnya
+						Berikut ini jadwal kelas Bersinar yang akan datang.
+						Jangan sampai lupa ya, Sob!
 					</h2>
 				</div>
-				<div className="upcoming-class-cards container d-flex flex-wrap justify-content-center align-items-center">
-					{this.renderItems()}
+				<div className="upcoming-class-cards container d-flex justify-content-center align-items-center">
+					<div className="swiper upcoming-class-swiper">
+						<div className="swiper-wrapper">
+							{this.renderItems()}
+						</div>
+					</div>
 				</div>
 				<div className="upcoming-class-footer d-flex flex-column justify-content-center align-items-center">
 					<h1 className="upcoming-class-footer-title text-center">

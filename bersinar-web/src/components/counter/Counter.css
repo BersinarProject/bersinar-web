@@ -1,38 +1,85 @@
-.countDetail,
-.countBox {
-	padding: 5px 30px 5px 30px !important;
-	text-align: center;
-	background-color: #fffdf7;
+.counter {
+	margin-top: 20px;
 }
 
-
-.counter-title{
-	font-family: "Nunito";
-	font-weight: 800 !important;
+.counter-header-title {
+	margin-bottom: 20px;
 	font-size: 48px;
-	color: #574E5A;
+	font-weight: 800 !important;
+	line-height: 44px;
+	color: #574e5a;
 }
 
-.counter-subTitle{
-	font-weight: 600 !important;
+.counter-header-subTitle {
+	margin-bottom: 40px;
+	font-family: "Poppins";
 	font-size: 20px;
+	font-weight: 500 !important;
+	line-height: 32px;
+	letter-spacing: 0.01em;
 	color: #595959;
 }
 
-.number {
-	font-family: "Nunito";
-	margin-top: 25px;
-	font-size: 64px;
-	font-weight: 900 !important;
-	line-height: 58px;
-	color: #574E5A;
+.countDetails {
+	justify-content: space-between;
 }
 
-.textDetail {
-	font-family: Poppins;
-	margin-bottom: 22px;
+.countDetail {
+	margin-bottom: 28px;
+	text-align: center;
+}
+
+.countDetail-number {
+	margin-bottom: 8px;
+	font-size: 64px;
+	font-weight: 900 !important;
+	line-height: 70px;
+	color: #574e5a;
+}
+
+.countDetail-text {
+	font-family: "Poppins";
 	font-size: 28px;
 	font-weight: 600 !important;
 	line-height: 36px;
-	color: #574E5A;
+	color: #574e5a;
+}
+
+@media (max-width: 425px) {
+	.counter-header-title,
+	.counter-header-subTitle {
+		display: none;
+	}
+
+	.countDetails {
+		padding-left: 77px;
+		padding-right: 77px;
+	}
+
+	.countDetail:nth-child(1) {
+		padding-right: 50px;
+	}
+
+	.countDetail-number {
+		font-size: 34px;
+		line-height: 46px;
+	}
+
+	.countDetail-text {
+		font-size: 10px;
+		line-height: 17px;
+	}
+}
+
+@media (max-width: 400px) {
+	.countDetail:nth-child(1) {
+		padding-right: 0px;
+	}
+}
+
+@media (max-width: 360px) {
+	.countDetails {
+		flex-direction: column;
+		justify-content: center;
+	}
 }

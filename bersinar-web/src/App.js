@@ -4,8 +4,9 @@ import "animate.css";
 
 import LandingPage from "./pages/LandingPage";
 import OurClass from "./pages/OurClass";
-import ScrollToTop from "./ScrollToTop";
+import AboutUs from "./pages/about-us/AboutUs";
 import Faq from "./pages/faq/Faq";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
 	return (
@@ -18,6 +19,9 @@ function App() {
 					</Route>
 					<Route path="/our-class">
 						<OurClass />
+					</Route>
+					<Route path="/about-us">
+						<AboutUs />
 					</Route>
 					<Route path="/faq">
 						<Faq />

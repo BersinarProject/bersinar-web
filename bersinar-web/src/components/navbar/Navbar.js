@@ -3,40 +3,44 @@ import { NavLink } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 import "./Navbar.css";
-import logo from "../../assets/images/brandLogo.png";
+import bersinarLogo from "../../assets/images/landing-page/BersinarLogo.png";
 import Donate from "../../assets/images/donate.svg";
 
 const navbar = () => {
 	return (
-		<div className="app">
-			<Navbar expand="lg">
+		<div className="navbar-component">
+			<Navbar fixed="top" expand="lg">
 				<Container>
 					<NavLink to="/" className="navbar-brand">
-						<img className="logo" src={logo} alt="Bersinar Logo" />
+						<img
+							className="navbar-logo"
+							src={bersinarLogo}
+							alt="Bersinar Logo"
+						/>
 					</NavLink>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="ms-auto d-flex justify-content-center align-items-center">
 							<NavLink
 								exact
-								className="item nav-link"
+								className="nav-link item"
 								aria-current="page"
 								to="/"
 							>
-								Home
+								Beranda
 							</NavLink>
-							<NavLink className="item nav-link" to="/our-class">
-								Our Class
+							<NavLink className="nav-link item" to="/our-class">
+								Jadwal Kelas
 							</NavLink>
-							<NavLink className="item nav-link" to="/events">
+							<NavLink className="nav-link item" to="/events">
 								Our Events
 							</NavLink>
-							<NavLink className="item nav-link" to="/about-us">
-								About Us
+							<NavLink className="nav-link item" to="/about-us">
+								Tentang Kami
 							</NavLink>
 							<div className="donate">
 								<a
-									className="btn donate px-3 py-2"
+									className="donate-button btn d-flex align-items-center"
 									href="https://trakteer.id/BersinarProject/tip/embed/modal"
 									target="_blank"
 									rel="noreferrer"
@@ -44,9 +48,11 @@ const navbar = () => {
 									<img
 										src={Donate}
 										alt="Donate"
-										className="donate-icon"
+										className="donate-button-icon"
 									/>
-									Donate
+									<span className="donate-button-text">
+										Donasi
+									</span>
 								</a>
 							</div>
 						</Nav>

@@ -6,21 +6,28 @@ import playIcon from "../../assets/images/play.svg";
 
 const YoutubeSection = () => {
 	return (
-		<div className="youtube-section">
-			<div className="container d-flex flex-wrap justify-content-around align-items-center">
+		<div className="youtube-section container">
+			<div className="youtube-section-content d-flex flex-wrap align-items-center">
 				<div className="youtube-text col-md-6">
-					<h1 className="youtube-title">Available on YouTube!</h1>
-					<p className="youtube-description py-2">
-						Setelah kelas Zoom selesai, kami akan menayangkannya di
-						YouTube agar bisa ditonton kapanpun!
+					<h1 className="youtube-text-title">
+						Tersedia juga di Youtube
+					</h1>
+					<p className="youtube-text-description">
+						Kamu ketinggalan kelas Zoom Bersinar? Jangan khawatir,
+						Sober! Kami akan menayangkannya di Youtube agar bisa
+						ditonton kapanpun, jangan lupa subscribe channel kami,
+						ya!
 					</p>
-					<a href="/#" className="btn-youtube">
+					<a
+						href="https://www.youtube.com/c/BersinarProject/videos"
+						className="btn-youtube d-flex align-item-center text-decoration-none"
+					>
 						<img
 							src={playIcon}
 							alt="play icon"
-							className="youtube-icon"
+							className="btn-youtube-icon"
 						/>
-						Youtube
+						<span className="btn-youtube-text">Youtube</span>
 					</a>
 				</div>
 				<img src={youtube} alt="youtube" className="youtube-image" />

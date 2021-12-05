@@ -53,6 +53,8 @@
 
 .accordion-button.collapsed::after,
 .accordion-button:not(.collapsed)::after {
+	margin-top: 5px !important;
+	margin-left: 14px !important;
 	height: 16px;
 	background-image: url("../../assets/images/ArrowIcon.svg") !important;
 }
@@ -75,4 +77,10 @@
 	font-weight: 500;
 	line-height: 22px;
 	color: #7d6b50;
+}
+
+@media (max-width: 425px) {
+	.faq-accordion {
+		margin-top: 80px;
+	}
 }

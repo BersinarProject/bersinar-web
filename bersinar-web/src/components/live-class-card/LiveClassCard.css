@@ -1,10 +1,10 @@
-.upcoming-class-card,
-.upcoming-class-card-image,
-.upcoming-class-card-button {
+.live-class-card,
+.live-class-card-image,
+.live-class-card-button {
 	border-radius: 10px !important;
 }
 
-.upcoming-class-card {
+.live-class-card {
 	width: 250px;
 	padding: 15px;
 	display: flex;
@@ -15,60 +15,65 @@
 	font-family: "Nunito" !important;
 }
 
-.upcoming-class-card-image {
+.live-class-card-image {
 	width: 220px;
 	height: 150px;
 	margin: 15px 0;
 }
 
-.upcoming-class-card-course-code {
+.live-class-card-course-code {
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 24px;
 	color: #634c2a;
 }
 
-.upcoming-class-card-subject-description {
+.live-class-card-subject-description {
 	margin-top: 5px;
 	font-size: 12px;
 	line-height: 16px;
 	color: #7d6b50;
 }
 
-.upcoming-class-card-countdown-text,
-.upcoming-class-card-countdown-timer {
+.live-class-card-countdown-text,
+.live-class-card-countdown-timer {
 	color: #54c280;
 }
 
-.upcoming-class-card-countdown-text {
+.live-class-card-countdown-text {
 	font-size: 10px;
 	line-height: 16px;
 }
 
-.upcoming-class-card-countdown-timer {
+.live-class-card-countdown-timer {
 	font-size: 24px;
 	font-weight: 800 !important;
 	line-height: 24px;
 }
 
-.upcoming-class-card-button,
-.upcoming-class-card-button:active {
+.live-class-card-button,
+.live-class-card-button:active {
 	outline: none;
 	box-shadow: none !important;
 }
 
-.upcoming-class-card-button:hover {
+.live-class-card-button:hover {
 	background-color: #47a56d !important;
 }
 
-.upcoming-class-card-button {
+.live-class-card-button {
 	height: 52px;
 	margin-top: 20px;
 	background-color: #54c280 !important;
 	font-size: 18px !important;
-	
 }
 
-.upcoming-class-card-button-icon {
+.live-class-card-button-icon {
 	margin-right: 14px;
+}
+
+@media (max-width: 425px) {
+	.live-class-card {
+		margin: 0 15px 25px 15px;
+	}
 }

@@ -6,7 +6,7 @@ import Footer from "../../components/footer/footer";
 import FaqAccordion from "../../components/faq-accordion/faqAccordion";
 import FAQIllustration from "../../assets/images/FAQIllustration.png";
 
-const Faq = () => {
+export default function Faq() {
 	return (
 		<div className="faq-page">
 			<Navbar />
@@ -42,6 +42,4 @@ const Faq = () => {
 			<Footer />
 		</div>
 	);
-};
-
-export default Faq;
+}

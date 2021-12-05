@@ -12,7 +12,7 @@ const faqAccordion = () => {
 						id="panelsStayOpenheadingOne"
 					>
 						<button
-							className="accordion-button d-flex justify-content-between align-items-center"
+							className="accordion-button d-flex justify-content-between align-items-start"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseOne"
@@ -44,7 +44,7 @@ const faqAccordion = () => {
 						id="panelsStayOpen-headingTwo"
 					>
 						<button
-							className="accordion-button d-flex justify-content-between align-items-center"
+							className="accordion-button d-flex justify-content-between align-items-start"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseTwo"
@@ -74,7 +74,7 @@ const faqAccordion = () => {
 						id="panelsStayOpenheadingThree"
 					>
 						<button
-							className="accordion-button d-flex justify-content-between align-items-center"
+							className="accordion-button d-flex justify-content-between align-items-start"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseThree"
@@ -107,7 +107,7 @@ const faqAccordion = () => {
 						id="panelsStayOpenheadingFour"
 					>
 						<button
-							className="accordion-button d-flex justify-content-between align-items-center"
+							className="accordion-button d-flex justify-content-between align-items-start"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseFour"
@@ -139,7 +139,7 @@ const faqAccordion = () => {
 						id="panelsStayOpenheadingFive"
 					>
 						<button
-							className="accordion-button d-flex justify-content-between align-items-center"
+							className="accordion-button d-flex justify-content-between align-items-start"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseFive"
@@ -172,7 +172,7 @@ const faqAccordion = () => {
 						id="panelsStayOpenheadingSix"
 					>
 						<button
-							className="accordion-button d-flex justify-content-between align-items-center"
+							className="accordion-button d-flex justify-content-between align-items-start"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseSix"

@@ -1,29 +1,19 @@
-.faq-page{
-	background-color: #FDFCF6 !important;
-}
-
-
-.faq-section-card {
+.faq-section {
 	margin-top: 120px;
-	margin-bottom: 180px;
-	padding: 30px 60px;
-	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-	border-radius: 10px !important;
+	margin-bottom: 220px;
+	background-color: #fdfcf6 !important;
 }
 
-.faq-section-card-content {
-	justify-content: space-between;
-}
-
-.faq-section-card-content-title {
+.faq-section-content-title {
+	margin-bottom: 20px;
 	font-size: 48px;
 	font-weight: 800;
 	line-height: 44px;
 	color: #595959;
-	margin: 20px 0px;
+	margin-top: 40px;
 }
 
-.faq-section-card-content-subTitle {
+.faq-section-content-subTitle {
 	margin-bottom: 20px;
 	font-family: "Poppins";
 	font-size: 24px;
@@ -32,10 +22,9 @@
 	color: #595959;
 }
 
-.faq-section-card-content-button {
+.faq-section-content-button {
 	width: 180px;
 	height: 52px;
-	margin-bottom: 20px;
 	border-radius: 10px !important;
 	background: #53b7dd !important;
 	font-weight: 700 !important;
@@ -43,17 +32,17 @@
 	color: #fff !important;
 }
 
-.faq-section-card-content-button,
-.faq-section-card-content-button:active {
+.faq-section-content-button,
+.faq-section-content-button:active {
 	outline: none;
 	box-shadow: none !important;
 }
 
-.faq-section-card-content-button:hover {
+.faq-section-content-button:hover {
 	background: #479cbc !important;
 }
 
-.faq-section-card-content-button img {
+.faq-section-content-button img {
 	margin-right: 14px;
 }
 
@@ -68,40 +57,25 @@
 	}
 }
 
-@media (max-width: 992px) {
-	.faq-section-card-content {
-		flex-direction: column-reverse;
-		justify-content: center;
+@media (max-width: 425px) {
+	.faq-section {
+		margin-top: 80px;
+		margin-bottom: 80px;
 	}
 
-	.faq-section-card-content-text {
-		margin-top: 40px;
-		text-align: center;
-		justify-content: center;
-		align-items: center;
-	}
-}
-
-@media (max-width: 500px) {
-	.faq-section-card {
-		padding: 15px 30px;
+	.faq-section-content-image img {
+		width: 178px;
+		height: 184px;
 	}
 
-	.faq-section-card-content-title {
-		font-size: 32px;
-		line-height: 28px;
+	.faq-section-content-title {
+		margin-bottom: 8px;
+		font-size: 24px;
+		line-height: 32px;
 	}
 
-	.faq-section-card-content-subTitle {
-		font-size: 16px;
-		line-height: 24px;
-	}
-
-	.faq-section-card-content-button {
-		font-size: 16px !important;
-	}
-
-	.faq-section-card-content-image img {
-		width: 150px !important;
+	.faq-section-content-subTitle {
+		font-size: 14px;
+		line-height: 21px;
 	}
 }

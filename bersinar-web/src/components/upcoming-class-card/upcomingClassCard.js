@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Card } from "react-bootstrap";
 
-import "./upcomingClassCard.css";
+import "./UpcomingClassCard.css";
 import cardImage1 from "../../assets/images/starwars.jpg";
 
 const UpcomingClasscard = ({ dataCard }) => {

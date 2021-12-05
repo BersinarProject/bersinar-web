@@ -11,6 +11,7 @@
 }
 
 .upcoming-class-header-title {
+	margin-bottom: 20px;
 	font-size: 48px;
 }
 
@@ -21,7 +22,6 @@
 
 .upcoming-class-header-subTitle,
 .upcoming-class-footer-subTitle {
-	margin-top: 20px;
 	font-family: "Poppins";
 	font-size: 20px;
 	font-weight: 500 !important;
@@ -35,7 +35,7 @@
 }
 
 .upcoming-class-footer-subTitle {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .upcoming-class-footer-button,
@@ -53,7 +53,6 @@
 .upcoming-class-footer-button {
 	height: 172px;
 	height: 52px;
-	margin-top: 10px;
 	padding: 12.5px 30px !important;
 	border: 2px solid #706275 !important;
 	border-radius: 10px !important;
@@ -62,28 +61,25 @@
 	color: #574e5a !important;
 }
 
-@media (max-width: 500px) {
-	.upcoming-class-header-title {
-		font-size: 32px;
-		line-height: 40px;
+@media (max-width: 425px) {
+	.upcoming-class {
+		padding-top: 52px;
 	}
 
-	.upcoming-class-header-subTitle {
-		font-size: 16px;
-		line-height: 24px;
-	}
-
+	.upcoming-class-header-title,
 	.upcoming-class-footer-title {
-		font-size: 32px;
-		line-height: 40px;
+		margin-bottom: 6px;
+		font-size: 24px;
+		line-height: 33px;
+	}
+
+	.upcoming-class-header-subTitle,
+	.upcoming-class-footer-subTitle {
+		font-size: 14px;
+		line-height: 21px;
 	}
 
 	.upcoming-class-footer-subTitle {
-		font-size: 16px;
-		line-height: 24px;
-	}
-
-	.upcoming-class-footer-button {
-		font-size: 16px !important;
+		margin-bottom: 24px;
 	}
 }

@@ -9,38 +9,38 @@ const LiveClassCard = ({ dataCard }) => {
 	return (
 		<Card
 			key={dataCard.id}
-			className="upcoming-class-card border-0 mb-5"
+			className="live-class-card swiper-slide border-0 mb-5"
 			id="our-class"
 		>
 			<Card.Img
 				variant="top"
 				src={cardImage1}
-				className="upcoming-class-card-image"
+				className="live-class-card-image"
 			/>
 			<Card.Body className="w-100 p-0">
-				<Card.Text className="upcoming-class-card-course-code mb-0">
+				<Card.Text className="live-class-card-course-code mb-0">
 					{dataCard.courseCode}
 				</Card.Text>
-				<Card.Text className="upcoming-class-card-subject-description">
+				<Card.Text className="live-class-card-subject-description">
 					Additional Message
 				</Card.Text>
-				<div className="upcoming-class-card-countdown d-flex justify-content-between align-items-center">
-					<span className="upcoming-class-card-countdown-text">
+				<div className="live-class-card-countdown d-flex justify-content-between align-items-center">
+					<span className="live-class-card-countdown-text">
 						Kelas sudah dimulai
 					</span>
-					<span className="upcoming-class-card-countdown-timer">
+					<span className="live-class-card-countdown-timer">
 						19.30
 					</span>
 				</div>
 				<a
 					href="https://telkomsel.zoom.us/j/2478385437?pwd=UWdhakYxWUpZdHlrV08wWGc1bG9Hdz09#success"
-					className="upcoming-class-card-button w-100 d-flex justify-content-center align-items-center btn text-white fw-bold"
+					className="live-class-card-button w-100 d-flex justify-content-center align-items-center btn text-white fw-bold"
 					role="button"
 				>
 					<img
 						src={signalIcon}
 						alt="Signal Icon"
-						className="upcoming-class-card-button-icon"
+						className="live-class-card-button-icon"
 					/>
 					Join Live
 				</a>
