@@ -18,7 +18,7 @@ class upcomingClass extends React.Component {
 		/* global Swiper */
 		this.swiper = new Swiper(".upcoming-class-swiper", {
 			slidesPerView: "auto",
-			loop: true,
+			// loop: true,
 			cssMode: true
 		});
 

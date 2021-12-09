@@ -1,10 +1,17 @@
+.about-us-hero {
+	margin-top: -180px;
+	margin-bottom: 60px;
+	/* width: 800px; */
+}
+
 .what-is-bersinar {
-	margin-top: 80px;
-	margin-bottom: 171px;
+	padding: 60px 0;
 }
 
 .what-is-bersinar img {
-	margin-right: 200px;
+	width: 310px;
+	height: 310px;
+	margin-right: 100px;
 }
 
 .what-is-bersinar-title {
@@ -29,8 +36,13 @@
 	padding: 60px 0;
 }
 
+.president-speech-image img {
+	width: 455px;
+	margin-right: 83px;
+}
+
 .president-speech-title {
-	margin-bottom: 45px;
+	margin-bottom: 44px;
 	font-size: 48px;
 	font-weight: 800;
 	line-height: 44px;
@@ -56,9 +68,152 @@
 	color: #595959;
 }
 
-.president-speech-image img {
-	width: 350px;
-	margin-left: 263px;
+.visi-bersinar,
+.misi-bersinar,
+.bersinar-achievement {
+	padding: 60px 0;
+}
+
+.visi-bersinar-title,
+.misi-bersinar-title {
+	margin-bottom: 40px;
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 44px;
+	text-align: center;
+	color: #574e5a;
+}
+
+.visi-bersinar p {
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 32px;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #595959;
+}
+
+.misi-bersinar-content:not(:last-child) {
+	margin-bottom: 36px;
+}
+
+.misi-bersinar-content p {
+	margin-left: 26px;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 32px;
+	text-align: justify;
+	color: #484848;
+}
+
+.bersinar-achievement-contents {
+	margin-top: -130px;
+}
+
+.bersinar-achievement-image {
+	width: 385px;
+	margin-right: 80px;
+}
+
+.bersinar-achievement-title {
+	margin-bottom: 30px;
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 32px;
+	letter-spacing: 0.003em;
+	color: #484848;
+}
+
+.bersinar-achievement-text p {
+	font-family: "Poppins";
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 32px;
+	color: #484848;
+}
+
+.about-us-faq {
+	margin-top: -70px;
+	margin-bottom: 220px;
+	background-color: #fdfcf6 !important;
+}
+
+.about-us-faq-content-title {
+	margin-bottom: 20px;
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 44px;
+	color: #595959;
+	margin-top: 40px;
+}
+
+.about-us-faq-content-subTitle {
+	margin-bottom: 20px;
+	font-family: "Poppins";
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 32px;
+	color: #595959;
+}
+
+.about-us-faq-content-button {
+	width: 180px;
+	height: 52px;
+	border-radius: 10px !important;
+	background: #53b7dd !important;
+	font-weight: 700 !important;
+	font-size: 18px !important;
+	color: #fff !important;
+}
+
+.about-us-faq-content-button,
+.about-us-faq-content-button:active {
+	outline: none;
+	box-shadow: none !important;
+}
+
+.about-us-faq-content-button:hover {
+	background: #479cbc !important;
+}
+
+.about-us-faq-content-button img {
+	margin-right: 14px;
+}
+
+@media (min-width: 1200px) {
+	.about-us-faq {
+		width: 100%;
+		max-width: 1000px !important;
+	}
+
+	.container {
+		padding: 0 !important;
+	}
+}
+
+@media (max-width: 425px) {
+	.about-us-faq {
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+
+	.about-us-faq-content-image img {
+		width: 178px;
+		height: 184px;
+	}
+
+	.about-us-faq-content-title {
+		margin-bottom: 8px;
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.about-us-faq-content-subTitle {
+		font-size: 14px;
+		line-height: 21px;
+	}
 }
 
 .core-values{
