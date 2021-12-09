@@ -5,6 +5,8 @@ import "./AboutUs.css";
 import Navbar from "../../components/navbar/Navbar";
 import bersinarLogo from "../../assets/images/about-us/BersinarLogo.png";
 import presidenBersinar from "../../assets/images/about-us/PresidenBersinar.png";
+import Footer from "../../components/footer/footer";
+import coreIcon from "../../assets/images/coreIcon.svg";
 
 export default function AboutUs() {
 	return (
@@ -47,7 +49,75 @@ export default function AboutUs() {
 						</div>
 					</div>
 				</div>
+				<div className="core-values">
+					<div className="core-text">
+						<h1 className="core-title">Our Core Values</h1>
+						<h3 className="core-subTitle py-1">
+							Kultur Bersinar Project sangat penting untuk
+							berjalannya program Bersinar.
+						</h3>
+						<h3 className="core-subTitle">
+							Bersinar Project berdiri dengan lima pilar utama
+							untuk sukses.
+						</h3>
+					</div>
+					<div className="core-values-card">
+						<div className="row row-cols-3 d-flex justify-content-center">
+							<div className="values col-md-4">
+								<div className="values-card col-12">
+									<div className="col-4">
+										<img src={coreIcon} alt="" />
+									</div>
+									<div className="col-8 align-items-center">
+										<h3>Dare to Share</h3>
+									</div>
+								</div>
+							</div>
+							<div className="values col-md-4">
+								<div className="values-card col-12">
+									<div className="col-4">
+										<img src={coreIcon} alt="" />
+									</div>
+									<div className="col-8 align-items-center">
+										<h3>Sustainable Social Influence</h3>
+									</div>
+								</div>
+							</div>
+							<div className="values col-md-4">
+								<div className="values-card col-12">
+									<div className="col-4">
+										<img src={coreIcon} alt="" />
+									</div>
+									<div className="col-8 align-items-center">
+										<h3>Smart Work</h3>
+									</div>
+								</div>
+							</div>
+							<div className="values col-md-4">
+								<div className="values-card col-12">
+									<div className="col-4">
+										<img src={coreIcon} alt="" />
+									</div>
+									<div className="col-8 align-items-center">
+										<h3>Hospitality</h3>
+									</div>
+								</div>
+							</div>
+							<div className="values col-md-4">
+								<div className="values-card col-lg-12">
+									<div className="col-lg-4">
+										<img src={coreIcon} alt="" />
+									</div>
+									<div className="col-lg-8 align-items-center">
+										<h3>Purpose-driven</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</Container>
+			<Footer />
 		</div>
 	);
 }

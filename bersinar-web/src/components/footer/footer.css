@@ -60,6 +60,7 @@ svg#icon{
 }
 
 .footer-text {
+	width:347px;
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: normal;
@@ -79,7 +80,7 @@ ul{
 	margin-top: 8px;
 }
 
-b{
+.textBold{
 	font-family: Poppins !important;
 	font-weight: bold !important;
 	font-size: 14px !important;
