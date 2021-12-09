@@ -1,6 +1,5 @@
 .hero {
-	margin-top: 100px;
-	padding-top: 60px;
+	padding-top: 113px;
 	padding-bottom: 133px;
 }
 
@@ -64,8 +63,6 @@ span {
 .mulai-belajar-button:hover {
 	background-color: #e58538 !important;
 }
-
-
 
 @media (max-width: 992px) {
 	.hero-section {

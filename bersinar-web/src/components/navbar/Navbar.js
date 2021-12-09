@@ -3,24 +3,38 @@ import { NavLink } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 import "./Navbar.css";
-import bersinarLogo from "../../assets/images/landing-page/BersinarLogo.png";
+import bersinarLogoFull from "../../assets/images/bersinar-logo/bersinarLogoFull.svg";
+import bersinarLogoIcon from "../../assets/images/bersinar-logo/bersinarLogoIcon.svg";
 import Donate from "../../assets/images/donate.svg";
 
 const navbar = () => {
+	function isMobile() {
+		const mediaQuery = window.matchMedia("(max-width: 576px)");
+		return mediaQuery.matches;
+	}
+
 	return (
 		<div className="navbar-component">
-			<Navbar fixed="top" expand="lg">
+			<Navbar fixed="top" expand="xl">
 				<Container>
 					<NavLink to="/" className="navbar-brand">
-						<img
-							className="navbar-logo"
-							src={bersinarLogo}
-							alt="Bersinar Logo"
-						/>
+						{isMobile() ? (
+							<img
+								className="navbar-logo-icon"
+								src={bersinarLogoIcon}
+								alt="Bersinar Logo"
+							/>
+						) : (
+							<img
+								className="navbar-logo-full"
+								src={bersinarLogoFull}
+								alt="Bersinar Logo"
+							/>
+						)}
 					</NavLink>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
-						<Nav className="ms-auto d-flex justify-content-center align-items-center">
+						<Nav className="nav-links ms-auto d-flex justify-content-center align-items-center">
 							<NavLink
 								exact
 								className="nav-link item"

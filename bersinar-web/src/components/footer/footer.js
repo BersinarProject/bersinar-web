@@ -4,7 +4,7 @@ import React from "react";
 import "react-reveal";
 import "animate.css";
 
-import "./footer.css";
+import "./Footer.css";
 import logo from "../../assets/images/brandLogo.png";
 import logotext from "../../assets/images/logoText.png";
 
@@ -126,7 +126,8 @@ const Footer = () => {
 							</li>
 							<li>
 								<div className="footer-text">
-									Made with ❤️ while listening<b> Favorite Crime</b>
+									Made with ❤️ while listening
+									<b> Favorite Crime</b>
 								</div>
 							</li>
 						</ul>

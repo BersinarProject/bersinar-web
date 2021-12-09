@@ -1,6 +1,6 @@
 .testimonial-card {
 	width: 300px;
-	margin: 30px 25px 0 25px;
+	margin: 30px 25px 30px 25px;
 	padding: 14px;
 	display: flex;
 	flex-direction: column;
@@ -41,4 +41,11 @@
 .testimonial-card-profile-quote {
 	margin-top: 15px;
 	text-align: justify;
+}
+
+@media (max-width: 425px) {
+	.testimonial-card {
+		width: 247px;
+		margin: 30px 12px 30px 12px;
+	}
 }
