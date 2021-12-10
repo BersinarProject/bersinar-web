@@ -4,10 +4,11 @@ import { Container } from "react-bootstrap";
 
 import "./AboutUs.css";
 import Navbar from "../../components/navbar/Navbar";
-import Footer from "../../components/footer/Footer";
+import Footer from "../../components/footer/footer";
+
 import aboutUsHero from "../../assets/images/about-us/aboutUsHero.svg";
 import bersinarLogoIcon from "../../assets/images/bersinar-logo/bersinarLogoIcon.svg";
-import presidenBersinar from "../../assets/images/about-us/presidenBersinar.png";
+import presidenBersinar from "../../assets/images/about-us/PresidenBersinar.png";
 import misi1 from "../../assets/images/about-us/misi/misi-1.svg";
 import misi2 from "../../assets/images/about-us/misi/misi-2.svg";
 import misi3 from "../../assets/images/about-us/misi/misi-3.svg";
@@ -15,6 +16,7 @@ import misi4 from "../../assets/images/about-us/misi/misi-4.svg";
 import achievement from "../../assets/images/about-us/achievement.svg";
 import FAQIllustration from "../../assets/images/FAQIllustration.png";
 import FAQButtonIcon from "../../assets/images/FAQButtonIcon.svg";
+import coreIcon from "../../assets/images/coreIcon.svg";
 
 export default function AboutUs() {
 	return (
@@ -149,6 +151,73 @@ export default function AboutUs() {
 								<img src={FAQButtonIcon} alt="Signal Icon" />
 								FAQ Kami
 							</NavLink>
+						</div>
+					</div>
+				</div>
+				<div className="core-values">
+					<div className="core-text">
+						<h1 className="core-title">Our Core Values</h1>
+						<h3 className="core-subTitle py-1">
+							Kultur Bersinar Project sangat penting untuk
+							berjalannya program Bersinar.
+						</h3>
+						<h3 className="core-subTitle">
+							Bersinar Project berdiri dengan lima pilar utama
+							untuk sukses.
+						</h3>
+					</div>
+					<div className="core-values-card">
+						<div className="row row-cols-3 d-flex justify-content-center">
+							<div className="values col-md-4">
+								<div className="values-card col-12">
+									<div className="col-4">
+										<img src={coreIcon} alt="" />
+									</div>
+									<div className="col-8 align-items-center">
+										<h3>Dare to Share</h3>
+									</div>
+								</div>
+							</div>
+							<div className="values col-md-4">
+								<div className="values-card col-12">
+									<div className="col-4">
+										<img src={coreIcon} alt="" />
+									</div>
+									<div className="col-8 align-items-center">
+										<h3>Sustainable Social Influence</h3>
+									</div>
+								</div>
+							</div>
+							<div className="values col-md-4">
+								<div className="values-card col-12">
+									<div className="col-4">
+										<img src={coreIcon} alt="" />
+									</div>
+									<div className="col-8 align-items-center">
+										<h3>Smart Work</h3>
+									</div>
+								</div>
+							</div>
+							<div className="values col-md-4">
+								<div className="values-card col-12">
+									<div className="col-4">
+										<img src={coreIcon} alt="" />
+									</div>
+									<div className="col-8 align-items-center">
+										<h3>Hospitality</h3>
+									</div>
+								</div>
+							</div>
+							<div className="values col-md-4">
+								<div className="values-card col-lg-12">
+									<div className="col-lg-4">
+										<img src={coreIcon} alt="" />
+									</div>
+									<div className="col-lg-8 align-items-center">
+										<h3>Purpose-driven</h3>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

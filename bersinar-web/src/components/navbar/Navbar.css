@@ -52,6 +52,7 @@
 }
 
 .donate-button-text {
+	font-family: Nunito !important;
 	margin-top: 2px;
 	font-size: 20px;
 	font-weight: 700 !important;

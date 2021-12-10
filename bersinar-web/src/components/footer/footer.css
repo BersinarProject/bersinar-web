@@ -1,5 +1,5 @@
 .footer {
-	background: #EDCF80;
+	background: #edcf80;
 	padding-top: 100px !important;
 	padding-bottom: 80px;
 	border-radius: 60px 60px 0px 0px;
@@ -10,7 +10,7 @@
 	font-style: normal;
 	font-weight: 800;
 	font-size: 28px;
-	color: #634C2A;
+	color: #634c2a;
 }
 
 ul {
@@ -26,9 +26,7 @@ ul {
 	font-weight: 500 !important;
 	font-size: 20px;
 	line-height: 28px;
-	color: #634C2A;
-
-
+	color: #634c2a;
 }
 
 li.footer-link {
@@ -36,7 +34,7 @@ li.footer-link {
 	padding-top: 20px;
 	padding-bottom: 8px;
 }
-li.a.svg.footer-link{
+li.a.svg.footer-link {
 	color: #121212 !important;
 }
 .footer-link:hover {
@@ -44,9 +42,8 @@ li.a.svg.footer-link{
 	color: #3d3d3d;
 }
 
-svg#icon{
+svg#icon {
 	color: #3d3d3d !important;
-
 }
 
 .footer-logo-img {
@@ -60,28 +57,25 @@ svg#icon{
 }
 
 .footer-text {
+	width: 347px;
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	color: #634C2A;
+	color: #634c2a;
 }
 
-.footerLogo{
-	
-}
-
-.col{
+.col {
 	margin-right: -30px;
 }
 
-ul{
+ul {
 	margin-top: 8px;
 }
 
-b{
+.textBold {
 	font-family: Poppins !important;
 	font-weight: bold !important;
 	font-size: 14px !important;
-	color: #634C2A !important;
+	color: #634c2a !important;
 }

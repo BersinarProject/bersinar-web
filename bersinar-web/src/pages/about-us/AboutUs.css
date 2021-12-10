@@ -215,3 +215,58 @@
 		line-height: 21px;
 	}
 }
+
+.core-values{
+	padding: 60px 0;
+}
+
+h1.core-title{
+	font-family: Nunito;
+	font-weight: 800;
+	font-size: 48px;
+	color: #574E5A;
+	text-align: center;
+}
+
+.core-subTitle{
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 20px;
+	text-align: center;
+	color: #595959;
+}
+
+.core-values-card{
+	margin-top: 35px;
+}
+
+.values{
+	padding-top: 30px;
+}
+
+.values-card{
+	background: #FEFEFE;
+	box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 16px;
+	height: 130px !important;
+	margin-left: 40px;
+}
+
+.values-card img{
+	padding: 29px 15px 29px 40px;
+	margin-right: 30px !important;
+}
+
+.values-card h3{
+	margin-left: 80px;
+	text-align:center;
+	margin-top: -80px;
+	padding-left: 30px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600 !important;
+	font-size: 20px;
+	line-height: 28px;
+	color: #0B0B0B;
+	white-space: pre !important;
+}
