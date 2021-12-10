@@ -5,7 +5,7 @@ import "react-reveal";
 import "animate.css";
 
 import "./Footer.css";
-import logo from "../../assets/images/brandLogo.png";
+import logoFull from "../../assets/images/bersinar-logo/bersinarLogoFull.svg";
 import logotext from "../../assets/images/logoText.png";
 
 const Footer = () => {
@@ -113,7 +113,7 @@ const Footer = () => {
 							<li className="">
 								<img
 									className="footer-logo-img"
-									src={logo}
+									src={logoFull}
 									alt="Bersinar Logo"
 								/>
 							</li>

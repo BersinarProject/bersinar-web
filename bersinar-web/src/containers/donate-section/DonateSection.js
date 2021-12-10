@@ -1,8 +1,8 @@
 import React from "react";
 
 import "./DonateSection.css";
-import donate from "../../assets/images/donateHero.png";
-import donateIcon from "../../assets/images/donateIcon.svg";
+import donate from "../../assets/images/landing-page/donateIllustration.svg";
+import donateIcon from "../../assets/images/landing-page/donateIcon.svg";
 
 const Donate = () => {
 	return (
@@ -10,12 +10,11 @@ const Donate = () => {
 			<div className="donate-section-content d-flex flex-wrap align-items-center">
 				<img src={donate} alt="donate" className="donate-image" />
 				<div className="donate-text col-md-6">
-					<h1 className="donate-text-title">
-						Donate to Bersinar Project
-					</h1>
+					<h1 className="donate-text-title">Donasi untuk Bersinar</h1>
 					<p className="donate-text-description">
 						Dukung Bersinar agar dapat terus berkembang dan
-						menjangkau lebih banyak pelajar lainnya!
+						menjangkau lebih banyak pelajar lainnya dengan
+						berdonasi!
 					</p>
 					<a
 						href="https://trakteer.id/BersinarProject/tip/embed/modal"
@@ -26,7 +25,7 @@ const Donate = () => {
 							alt="donate icon"
 							className="btn-donate-icon"
 						/>
-						<span className="btn-donate-text">Donate</span>
+						<span className="btn-donate-text">Donasi di sini</span>
 					</a>
 				</div>
 			</div>

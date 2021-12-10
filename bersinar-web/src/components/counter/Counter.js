@@ -27,7 +27,7 @@ const counter = () => {
 					<h4 className="countDetail-text">Jam Materi</h4>
 				</div>
 				<div className="countDetail d-flex flex-column">
-					<h2 className="countDetail-number">10K</h2>
+					<h2 className="countDetail-number">10K+</h2>
 					<h4 className="countDetail-text">Total Peserta</h4>
 				</div>
 				<div className="countDetail d-flex flex-column">

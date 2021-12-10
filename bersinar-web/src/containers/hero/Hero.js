@@ -1,13 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Hero.css";
-import heroImg from "../../assets/images/mainHero.png";
+import landingPageHero from "../../assets/images/landing-page/landingPageHero.svg";
 import startIcon from "../../assets/images/startIcon.svg";
 
 const hero = () => {
 	return (
 		<div className="hero">
-			<div className="hero-section container d-flex justify-content-between align-items-center">
+			<div className="hero-section container d-flex justify-content-center align-items-center">
 				<div className="hero-left-section">
 					<h1 className="hero-title">
 						Mantepin UTBK-Mu dari Sekarang!
@@ -29,7 +29,11 @@ const hero = () => {
 					</NavLink>
 				</div>
 				<div className="hero-right-section">
-					<img className="hero-image" src={heroImg} alt="Hero" />
+					<img
+						className="hero-image"
+						src={landingPageHero}
+						alt="Hero"
+					/>
 				</div>
 			</div>
 		</div>

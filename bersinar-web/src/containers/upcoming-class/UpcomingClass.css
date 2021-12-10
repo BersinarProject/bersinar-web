@@ -15,6 +15,10 @@
 	font-size: 48px;
 }
 
+.upcoming-class-gaada-kelas {
+	width: 296px;
+}
+
 .upcoming-class-footer-title {
 	font-size: 36px;
 	margin-bottom: 0px;
@@ -61,6 +65,13 @@
 	color: #574e5a !important;
 }
 
+@media (min-width: 425px) and (max-width: 992px) {
+	.upcoming-class {
+		padding-top: 120px;
+		background-color: #fffdf7;
+	}
+}
+
 @media (max-width: 425px) {
 	.upcoming-class {
 		padding-top: 52px;
@@ -71,6 +82,10 @@
 		margin-bottom: 6px;
 		font-size: 24px;
 		line-height: 33px;
+	}
+
+	.upcoming-class-gaada-kelas {
+		width: 175px;
 	}
 
 	.upcoming-class-header-subTitle,

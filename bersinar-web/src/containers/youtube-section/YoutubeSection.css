@@ -41,6 +41,7 @@
 }
 
 .btn-youtube-text {
+	font-family: "Nunito" !important;
 	font-size: 18px;
 	font-weight: 700;
 	color: #fb7a7a;

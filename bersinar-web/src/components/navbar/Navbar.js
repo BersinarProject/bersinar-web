@@ -46,9 +46,9 @@ const navbar = () => {
 							<NavLink className="nav-link item" to="/our-class">
 								Jadwal Kelas
 							</NavLink>
-							<NavLink className="nav-link item" to="/events">
+							{/* <NavLink className="nav-link item" to="/events">
 								Our Events
-							</NavLink>
+							</NavLink> */}
 							<NavLink className="nav-link item" to="/about-us">
 								Tentang Kami
 							</NavLink>

@@ -31,7 +31,7 @@
 }
 
 .btn-donate {
-	width: 165px;
+	width: 218px;
 	padding: 12.5px 30px;
 	border: 2px solid #54c280 !important;
 	border-radius: 10px;
@@ -47,6 +47,7 @@
 }
 
 .btn-donate-text {
+	font-family: "Nunito" !important;
 	font-size: 18px;
 	font-weight: 700;
 	color: #54c280;

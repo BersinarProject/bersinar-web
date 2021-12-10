@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import axios from "axios";
 
 // import UpcomingClassCard from "../../components/upcoming-class-card/UpcomingClassCard";
 import LiveClassCard from "../../components/live-class-card/LiveClassCard";
+import gaadaKelas from "../../assets/images/landing-page/gaadaKelas.svg";
 import "./UpcomingClass.css";
 
 class upcomingClass extends React.Component {
@@ -51,19 +52,25 @@ class upcomingClass extends React.Component {
 					<h1 className="upcoming-class-header-title text-center">
 						Telusuri Kelas-kelas Kami
 					</h1>
-					<h2 className="upcoming-class-header-subTitle">
-						Berikut ini jadwal kelas Bersinar yang akan datang.
-						Jangan sampai lupa ya, Sob!
+					<h2 className="upcoming-class-header-subTitle col-md-8">
+						Maaf, Sob! Kelas yang kamu cari tidak tersedia. Saat ini
+						belum ada jadwal kelas yang akan diadakan, harap tunggu
+						ya!
 					</h2>
 				</div>
 				<div className="upcoming-class-cards container d-flex justify-content-center align-items-center">
-					<div className="swiper upcoming-class-swiper">
+					<img
+						src={gaadaKelas}
+						alt="Kelas tidak tersedia"
+						className="upcoming-class-gaada-kelas"
+					/>
+					{/* <div className="swiper upcoming-class-swiper">
 						<div className="swiper-wrapper">
 							{this.renderItems()}
 						</div>
-					</div>
+					</div> */}
 				</div>
-				<div className="upcoming-class-footer d-flex flex-column justify-content-center align-items-center">
+				{/* <div className="upcoming-class-footer d-flex flex-column justify-content-center align-items-center">
 					<h1 className="upcoming-class-footer-title text-center">
 						Tidak menemukan kelasmu?
 					</h1>
@@ -76,7 +83,7 @@ class upcomingClass extends React.Component {
 					>
 						Kelas lainnya
 					</Link>
-				</div>
+				</div> */}
 			</div>
 		);
 	}

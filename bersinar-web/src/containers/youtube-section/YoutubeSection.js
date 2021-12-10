@@ -1,8 +1,8 @@
 import React from "react";
 
 import "./YoutubeSection.css";
-import youtube from "../../assets/images/youtube.svg";
-import playIcon from "../../assets/images/play.svg";
+import youtube from "../../assets/images/landing-page/youtubeIllustrstion.svg";
+import playIcon from "../../assets/images/landing-page/youtubePlayIcon.svg";
 
 const YoutubeSection = () => {
 	return (

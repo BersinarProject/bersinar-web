@@ -5,8 +5,8 @@
 }
 
 .navbar-logo-icon {
-	width: 70px;
-	height: 70px;
+	width: 36px;
+	height: 36px;
 }
 
 .navbar-logo-full {
@@ -16,6 +16,10 @@
 
 .nav-link {
 	padding: 0 !important;
+}
+
+.nav-link.active {
+	font-weight: 700 !important;
 }
 
 .item {
@@ -59,6 +63,10 @@
 }
 
 @media (min-width: 0px) and (max-width: 1200px) {
+	.navbar {
+		padding: 14px 0 !important;
+	}
+
 	.container {
 		padding: 0 24px !important;
 	}
@@ -70,7 +78,7 @@
 	}
 
 	.nav-links {
-		margin-top: 60px;
+		margin-top: 40px;
 	}
 
 	.navbar-toggler,
@@ -81,11 +89,12 @@
 	}
 
 	.navbar-toggler-icon {
+		width: 25px !important;
 		background-image: url("../../assets/images/landing-page/NavbarCollapseIcon.svg") !important;
 	}
 
 	.item {
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 	}
 
 	.item:not(:last-child) {
