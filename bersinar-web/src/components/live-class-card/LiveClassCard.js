@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 
 import "./LiveClassCard.css";
-import cardImage1 from "../../assets/images/starwars.jpg";
+import cardImage1 from "../../assets/images/donate.svg";
 import signalIcon from "../../assets/images/SignalIcon.svg";
 
 const LiveClassCard = ({ dataCard }) => {
