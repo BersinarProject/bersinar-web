@@ -47,7 +47,8 @@ svg#icon {
 }
 
 .footer-logo-img {
-	width: 70px;
+	width: 125%;
+	margin-left: -15px;
 }
 
 .footer-logo-text {
@@ -57,14 +58,20 @@ svg#icon {
 }
 
 .footer-text {
+	padding-top: 10px;
 	width: 347px;
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 15px;
 	color: #634c2a;
 }
 
+.footer-text-bold{
+	font-family: Poppins;
+	font-weight: bold;
+	color: #634c2a;
+}
 .col {
 	margin-right: -30px;
 }

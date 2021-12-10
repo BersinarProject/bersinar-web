@@ -167,8 +167,8 @@ export default function AboutUs() {
 						</h3>
 					</div>
 					<div className="core-values-card">
-						<div className="row row-cols-3 d-flex justify-content-center">
-							<div className="values col-md-4">
+						<div className="row row-cols-md-3 row-cols-sm-2 d-flex justify-content-center">
+							<div className="values col-md-4 col-sm-3">
 								<div className="values-card col-12">
 									<div className="col-4">
 										<img src={coreIcon} alt="" />
@@ -178,7 +178,7 @@ export default function AboutUs() {
 									</div>
 								</div>
 							</div>
-							<div className="values col-md-4">
+							<div className="values col-md-4 col-sm-3">
 								<div className="values-card col-12">
 									<div className="col-4">
 										<img src={coreIcon} alt="" />
@@ -188,7 +188,7 @@ export default function AboutUs() {
 									</div>
 								</div>
 							</div>
-							<div className="values col-md-4">
+							<div className="values col-md-4 col-sm-3">
 								<div className="values-card col-12">
 									<div className="col-4">
 										<img src={coreIcon} alt="" />
@@ -198,7 +198,7 @@ export default function AboutUs() {
 									</div>
 								</div>
 							</div>
-							<div className="values col-md-4">
+							<div className="values col-md-4 col-sm-3">
 								<div className="values-card col-12">
 									<div className="col-4">
 										<img src={coreIcon} alt="" />
@@ -208,7 +208,7 @@ export default function AboutUs() {
 									</div>
 								</div>
 							</div>
-							<div className="values col-md-4">
+							<div className="values col-md-4 col-sm-3">
 								<div className="values-card col-lg-12">
 									<div className="col-lg-4">
 										<img src={coreIcon} alt="" />

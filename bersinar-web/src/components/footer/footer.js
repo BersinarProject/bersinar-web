@@ -5,8 +5,8 @@ import "react-reveal";
 import "animate.css";
 
 import "./footer.css";
+import { NavLink } from "react-router-dom";
 import logoFull from "../../assets/images/bersinar-logo/bersinarLogoFull.svg";
-import logotext from "../../assets/images/logoText.png";
 
 const Footer = () => {
 	return (
@@ -14,32 +14,32 @@ const Footer = () => {
 			<div className="container">
 				<div className="row row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-5">
 					<div className="col">
-						<h1 className="footer-title">Navigation</h1>
+						<h1 className="footer-title">Navigasi</h1>
 						<ul className="py-2">
 							<li className="footer-link">
-								<a className="footer-link" href="/">
-									Home
-								</a>
+								<NavLink  className="footer-link" to="/">
+									Beranda
+								</NavLink>
+							</li>
+							<li className="footer-link">
+								<NavLink className="footer-link" to="/our-class">
+									Jadwal Kelas
+								</NavLink>
+							</li>
+							<li className="footer-link">
+								<NavLink className="footer-link" to="/about-us">
+									Tentang Kami
+								</NavLink>
 							</li>
 							<li className="footer-link">
 								<a className="footer-link" href="/">
-									About Us
-								</a>
-							</li>
-							<li className="footer-link">
-								<a className="footer-link" href="/">
-									Our Class
-								</a>
-							</li>
-							<li className="footer-link">
-								<a className="footer-link" href="/">
-									Donate
+									Donasi
 								</a>
 							</li>
 						</ul>
 					</div>
 					<div className="col">
-						<h1 className="footer-title">Class</h1>
+						<h1 className="footer-title">Kelas</h1>
 						<ul className="py-2">
 							<li className="footer-link">
 								<a className="footer-link" href="/">
@@ -59,7 +59,7 @@ const Footer = () => {
 						</ul>
 					</div>
 					<div className="col">
-						<h1 className="footer-title">Follow Us</h1>
+						<h1 className="footer-title">Media Sosial</h1>
 						<ul className="py-2">
 							<li className="footer-link">
 								<a className="footer-link" href="/">
@@ -89,7 +89,7 @@ const Footer = () => {
 						</ul>
 					</div>
 					<div className="col">
-						<h1 className="footer-title">Useful Link</h1>
+						<h1 className="footer-title">Tautan</h1>
 						<ul className="py-2">
 							<li className="footer-link">
 								<a className="footer-link" href="/">
@@ -103,7 +103,7 @@ const Footer = () => {
 							</li>
 							<li className="footer-link">
 								<a className="footer-link" href="/">
-									Google Calendar Bersinar
+									Kalender
 								</a>
 							</li>
 						</ul>
@@ -117,17 +117,10 @@ const Footer = () => {
 									alt="Bersinar Logo"
 								/>
 							</li>
-							<li className="">
-								<img
-									className="footer-logo-text"
-									src={logotext}
-									alt="Bersinar Logo"
-								/>
-							</li>
 							<li>
 								<div className="footer-text">
 									Made with ❤️ while listening
-									<b> Favorite Crime</b>
+									<b className="footer-text-bold"> Favorite Crime</b>
 								</div>
 							</li>
 						</ul>
