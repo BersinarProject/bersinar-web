@@ -4,7 +4,7 @@ import React from "react";
 import "react-reveal";
 import "animate.css";
 
-import "./Footer.css";
+import "./footer.css";
 import logoFull from "../../assets/images/bersinar-logo/bersinarLogoFull.svg";
 import logotext from "../../assets/images/logoText.png";
 
