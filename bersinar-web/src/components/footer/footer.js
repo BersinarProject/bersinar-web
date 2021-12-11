@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import "react-reveal";
 import "animate.css";

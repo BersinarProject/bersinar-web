@@ -1,0 +1,28 @@
+.our-class-contents {
+	padding: 80px 0 180px 0;
+}
+
+.our-class-gaada-kelas {
+	width: 296px;
+	margin-bottom: 40px;
+}
+
+.our-class-info {
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 500 !important;
+	line-height: 32px;
+	text-align: center;
+	color: #595959;
+}
+
+@media (max-width: 576px) {
+	.our-class-gaada-kelas {
+		width: 175px;
+	}
+
+	.our-class-info {
+		font-size: 14px;
+		line-height: 21px;
+	}
+}
