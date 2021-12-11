@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 
 import "./TestimonialCard.css";
-import cardImage1 from "../../assets/images/starwars.jpg";
+import cardImage1 from "../../assets/images/donate.svg";
 
 const card = ({ dataTestimonialCard }) => {
 	return (
