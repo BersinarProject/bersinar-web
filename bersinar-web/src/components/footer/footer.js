@@ -35,7 +35,7 @@ const Footer = () => {
 								</NavLink>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link" href="/">
+								<a className="footer-link" target="_blank" rel="noreferrer" href="https://trakteer.id/BersinarProject/">
 									Donasi
 								</a>
 							</li>
@@ -45,19 +45,19 @@ const Footer = () => {
 						<h1 className="footer-title">Kelas</h1>
 						<ul className="py-2">
 							<li className="footer-link">
-								<a className="footer-link" href="/">
+								<NavLink className="footer-link" to="/our-class">
 									Saintek
-								</a>
+								</NavLink>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link" href="/">
+								<NavLink className="footer-link" to="/our-class">
 									Soshum
-								</a>
+								</NavLink>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link" href="/">
+								<NavLink className="footer-link" to="/our-class">
 									TPS
-								</a>
+								</NavLink>
 							</li>
 						</ul>
 					</div>
@@ -65,27 +65,27 @@ const Footer = () => {
 						<h1 className="footer-title">Media Sosial</h1>
 						<ul className="py-2">
 							<li className="footer-link">
-								<a className="footer-link" href="/">
+								<a className="footer-link"  target="_blank" rel="noreferrer" href="https://instagram.com/bersinarproject">
 									Instagram
 								</a>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link" href="/">
+								<a className="footer-link"  target="_blank" rel="noreferrer" href="https://twitter.com/bersinarproject">
 									Twitter
 								</a>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link" href="/">
+								<a className="footer-link"  target="_blank" rel="noreferrer" href="https://youtube.com/bersinarproject">
 									YouTube
 								</a>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link" href="/">
+								<a className="footer-link" target="_blank" rel="noreferrer"  href="https://www.linkedin.com/company/bersinar">
 									LinkedIn
 								</a>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link" href="/">
+								<a className="footer-link" target="_blank" rel="noreferrer" href="https://tiktok.com/@bersinarproject">
 									TikTok
 								</a>
 							</li>
@@ -95,19 +95,19 @@ const Footer = () => {
 						<h1 className="footer-title">Tautan</h1>
 						<ul className="py-2">
 							<li className="footer-link">
-								<a className="footer-link" href="/">
+								<a className="footer-link" target="_blank" rel="noreferrer" href="https://bit.ly/MateriBersinar">
 									Materi Bersinar
 								</a>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link" href="/">
+								<a className="footer-link" target="_blank" rel="noreferrer" href="https://bit.ly/SoalBersinar">
 									Soal Bersinar
 								</a>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link" href="/">
+								<NavLink className="footer-link" to="/our-class">
 									Kalender
-								</a>
+								</NavLink>
 							</li>
 						</ul>
 					</div>

@@ -17,7 +17,7 @@ const Donate = () => {
 						berdonasi!
 					</p>
 					<a
-						href="https://trakteer.id/BersinarProject/tip/embed/modal"
+						href="https://trakteer.id/BersinarProject/"
 						className="btn-donate d-flex align-item-center text-decoration-none"
 					>
 						<img

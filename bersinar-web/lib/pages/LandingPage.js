@@ -25,7 +25,7 @@ var _DonateSection = _interopRequireDefault(require("../containers/donate-sectio
 
 var _faqBox = _interopRequireDefault(require("../components/faq-box/faqBox"));
 
-var _footer = _interopRequireDefault(require("../components/footer/footer"));
+var _footer = _interopRequireDefault(require("../components/footer/Footer"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
