@@ -11,29 +11,37 @@ var _reactRouterDom = require("react-router-dom");
 
 require("./Hero.css");
 
-var _Hero2 = _interopRequireDefault(require("../../assets/images/Hero.png"));
+var _landingPageHero = _interopRequireDefault(require("../../assets/images/landing-page/landingPageHero.svg"));
+
+var _startIcon = _interopRequireDefault(require("../../assets/images/startIcon.svg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const hero = () => {
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: "hero column"
+    className: "hero"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "hero-section container d-flex justify-content-between align-items-center"
+    className: "hero-section container d-flex justify-content-center align-items-center"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "hero-left-section"
   }, /*#__PURE__*/_react.default.createElement("h1", {
-    className: "hero-title col-xl-9"
-  }, "Mantepin UTBK Kamu dari Sekarang!"), /*#__PURE__*/_react.default.createElement("p", {
-    className: "hero-subTitle col-xl-7"
-  }, "Platform kolaborasi pelajar Indonesia untuk meraih mimpi dan #BersinarBersama"), /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
-    className: "btn btn-start btn-shadow px-3",
+    className: "hero-title"
+  }, "Mantepin UTBK-Mu dari Sekarang!"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "hero-subTitle"
+  }, "Platform kolaborasi pelajar Indonesia untuk meraih mimpi dan", " ", /*#__PURE__*/_react.default.createElement("span", {
+    className: "hero-subTitle-tag"
+  }, "#BersinarBersama")), /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
+    className: "mulai-belajar-button btn",
     to: "/"
-  }, "Mulai Belajar")), /*#__PURE__*/_react.default.createElement("div", {
-    className: ""
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "mulai-belajar-button-icon",
+    src: _startIcon.default,
+    alt: "Mulai Belajar"
+  }), "Mulai Belajar")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "hero-right-section"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "hero-image",
-    src: _Hero2.default,
+    src: _landingPageHero.default,
     alt: "Hero"
   }))));
 };

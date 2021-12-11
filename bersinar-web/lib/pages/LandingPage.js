@@ -13,8 +13,6 @@ var _Hero = _interopRequireDefault(require("../containers/hero/Hero"));
 
 var _Counter = _interopRequireDefault(require("../components/counter/Counter"));
 
-var _Introduce = _interopRequireDefault(require("../containers/introduce/Introduce"));
-
 var _UpcomingClass = _interopRequireDefault(require("../containers/upcoming-class/UpcomingClass"));
 
 var _Testimonials = _interopRequireDefault(require("../containers/testimonials/Testimonials"));
@@ -23,16 +21,16 @@ var _YoutubeSection = _interopRequireDefault(require("../containers/youtube-sect
 
 var _DonateSection = _interopRequireDefault(require("../containers/donate-section/DonateSection"));
 
-var _faqBox = _interopRequireDefault(require("../components/faq-box/faqBox"));
+var _FAQSection = _interopRequireDefault(require("../containers/faq-section/FAQSection"));
 
-var _footer = _interopRequireDefault(require("../components/footer/Footer"));
+var _Footer = _interopRequireDefault(require("../components/footer/Footer"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const LandingPage = () => {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "landing-page"
-  }, /*#__PURE__*/_react.default.createElement(_Navbar.default, null), /*#__PURE__*/_react.default.createElement(_Hero.default, null), /*#__PURE__*/_react.default.createElement(_Counter.default, null), /*#__PURE__*/_react.default.createElement(_Introduce.default, null), /*#__PURE__*/_react.default.createElement(_UpcomingClass.default, null), /*#__PURE__*/_react.default.createElement(_Testimonials.default, null), /*#__PURE__*/_react.default.createElement(_YoutubeSection.default, null), /*#__PURE__*/_react.default.createElement(_DonateSection.default, null), /*#__PURE__*/_react.default.createElement(_faqBox.default, null), /*#__PURE__*/_react.default.createElement(_footer.default, null));
+  }, /*#__PURE__*/_react.default.createElement(_Navbar.default, null), /*#__PURE__*/_react.default.createElement(_Hero.default, null), /*#__PURE__*/_react.default.createElement(_Counter.default, null), /*#__PURE__*/_react.default.createElement(_UpcomingClass.default, null), /*#__PURE__*/_react.default.createElement(_YoutubeSection.default, null), /*#__PURE__*/_react.default.createElement(_DonateSection.default, null), /*#__PURE__*/_react.default.createElement(_Testimonials.default, null), /*#__PURE__*/_react.default.createElement(_FAQSection.default, null), /*#__PURE__*/_react.default.createElement(_Footer.default, null));
 };
 
 var _default = LandingPage;

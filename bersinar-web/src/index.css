@@ -13,6 +13,7 @@
 body {
 	padding-top: 130px;
 	background-color: #fdfcf6 !important;
+	zoom: 0.875;
 }
 
 ::-webkit-scrollbar {

@@ -8,7 +8,7 @@ import Footer from "../../components/footer/Footer";
 
 import aboutUsHero from "../../assets/images/about-us/aboutUsHero.svg";
 import bersinarLogoIcon from "../../assets/images/bersinar-logo/bersinarLogoIcon.svg";
-import presidenBersinar from "../../assets/images/about-us/PresidenBersinar.png";
+import presidenBersinar from "../../assets/images/about-us/presidenBersinar.png";
 import misi1 from "../../assets/images/about-us/misi/misi-1.svg";
 import misi2 from "../../assets/images/about-us/misi/misi-2.svg";
 import misi3 from "../../assets/images/about-us/misi/misi-3.svg";
