@@ -17,14 +17,14 @@ const FAQSection = () => {
 						Punya pertanyaan?
 					</h2>
 					<h4 className="faq-section-content-subTitle text-center">
-						Cek jawaban FAQ Kami!
+						Cek jawaban FAQ kami!
 					</h4>
 					<NavLink
 						className="faq-section-content-button btn d-flex justify-content-center align-items-center"
 						to="/faq"
 					>
 						<img src={FAQButtonIcon} alt="Signal Icon" />
-						FAQ Kami
+						FAQ kami
 					</NavLink>
 				</div>
 			</div>

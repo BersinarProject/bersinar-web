@@ -91,9 +91,9 @@ class Testimonials extends React.Component {
 					<h1 className="testimonial-header-title mb-3">
 						Apa kata mereka?
 					</h1>
-					<h2 className="testimonial-header-subTitle">
-						Kata Sober dan Minshine Saat Belajar Bareng di Bersinar
-						Project.
+					<h2 className="testimonial-header-subTitle col-md-6">
+						Masih ragu untuk ikut kelas Bersinar? Yuk, baca kesan &
+						pesan dari Sobat Bersinar!
 					</h2>
 				</div>
 				<div className="testimonial-cards container d-flex justify-content-center align-items-center">

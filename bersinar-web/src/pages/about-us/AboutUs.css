@@ -11,7 +11,7 @@
 .what-is-bersinar img {
 	width: 310px;
 	height: 310px;
-	margin-right: 100px;
+	margin-left: 100px;
 }
 
 .what-is-bersinar-title {
@@ -66,6 +66,61 @@
 	letter-spacing: 0.01em;
 	text-align: justify;
 	color: #595959;
+}
+
+.core-values {
+	padding: 60px 0;
+}
+
+h1.core-title {
+	font-family: Nunito;
+	font-weight: 800;
+	font-size: 48px;
+	color: #574e5a;
+	text-align: center;
+}
+
+.core-subTitle {
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 20px;
+	text-align: center;
+	color: #595959;
+}
+
+.core-values-card {
+	margin-top: 35px;
+}
+
+.values {
+	padding-top: 30px;
+}
+
+.values-card {
+	background: #fefefe;
+	box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 16px;
+	height: 130px !important;
+	margin-left: 40px;
+}
+
+.values-card img {
+	padding: 29px 15px 29px 40px;
+	margin-right: 30px !important;
+}
+
+.values-card h3 {
+	margin-left: 80px;
+	text-align: center;
+	margin-top: -80px;
+	padding-left: 30px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600 !important;
+	font-size: 20px;
+	line-height: 28px;
+	color: #0b0b0b;
+	white-space: pre !important;
 }
 
 .visi-bersinar,
@@ -128,16 +183,88 @@
 
 .bersinar-achievement-text p {
 	font-family: "Poppins";
-	font-size: 25px;
-	font-weight: 600;
+	font-size: 20px;
+	font-weight: 500;
 	line-height: 32px;
 	color: #484848;
 }
 
+.about-us-tribute {
+	padding: 60px 0;
+}
+
+.about-us-tribute-header img {
+	height: 333px;
+	margin-top: -142px;
+}
+
+.about-us-tribute-header-title {
+	margin-top: -35px;
+	font-size: 64px;
+	font-weight: 800;
+	line-height: 87px;
+	letter-spacing: 0.003em;
+	color: #484848;
+}
+
+.about-us-tribute-founder {
+	padding: 60px 0;
+}
+
+.about-us-tribute-vice-president {
+	padding-top: 60px;
+}
+
+.about-us-tribute-founder img,
+.about-us-tribute-vice-president img {
+	width: 455px;
+	height: 504px;
+}
+
+.about-us-tribute-founder img {
+	margin-right: 83px;
+}
+
+.about-us-tribute-vice-president img {
+	margin-left: 83px;
+}
+
+.about-us-tribute-founder-text h2,
+.about-us-tribute-vice-president-text h2 {
+	margin-bottom: 40px;
+	font-size: 42px;
+	font-weight: 800;
+	line-height: 44px;
+	color: #574e5a;
+}
+
+.about-us-tribute-founder-text h3,
+.about-us-tribute-vice-president-text h3 {
+	margin-bottom: 20px;
+	font-family: "Poppins";
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 40px;
+	color: #484848;
+}
+
+.about-us-tribute-founder-text p,
+.about-us-tribute-vice-president-text p {
+	font-family: "Poppins";
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 36px;
+	text-align: justify;
+	color: #595959;
+}
+
 .about-us-faq {
-	margin-top: -70px;
-	margin-bottom: 220px;
+	padding: 60px 0 180px 0;
 	background-color: #fdfcf6 !important;
+}
+
+.about-us-faq-content-image img {
+	width: 256px;
 }
 
 .about-us-faq-content-title {
@@ -182,17 +309,6 @@
 	margin-right: 14px;
 }
 
-@media (min-width: 1200px) {
-	.about-us-faq {
-		width: 100%;
-		max-width: 1000px !important;
-	}
-
-	.container {
-		padding: 0 !important;
-	}
-}
-
 @media (max-width: 425px) {
 	.about-us-faq {
 		margin-top: 80px;
@@ -214,59 +330,4 @@
 		font-size: 14px;
 		line-height: 21px;
 	}
-}
-
-.core-values{
-	padding: 60px 0;
-}
-
-h1.core-title{
-	font-family: Nunito;
-	font-weight: 800;
-	font-size: 48px;
-	color: #574E5A;
-	text-align: center;
-}
-
-.core-subTitle{
-	font-family: Poppins;
-	font-weight: 500;
-	font-size: 20px;
-	text-align: center;
-	color: #595959;
-}
-
-.core-values-card{
-	margin-top: 35px;
-}
-
-.values{
-	padding-top: 30px;
-}
-
-.values-card{
-	background: #FEFEFE;
-	box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
-	border-radius: 16px;
-	height: 130px !important;
-	margin-left: 40px;
-}
-
-.values-card img{
-	padding: 29px 15px 29px 40px;
-	margin-right: 30px !important;
-}
-
-.values-card h3{
-	margin-left: 80px;
-	text-align:center;
-	margin-top: -80px;
-	padding-left: 30px;
-	font-family: Poppins;
-	font-style: normal;
-	font-weight: 600 !important;
-	font-size: 20px;
-	line-height: 28px;
-	color: #0B0B0B;
-	white-space: pre !important;
 }

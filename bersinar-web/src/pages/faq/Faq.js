@@ -10,23 +10,17 @@ export default function Faq() {
 	return (
 		<div className="faq-page">
 			<Navbar />
-			<div className="faq-header container d-flex">
-				<div className="faq-header-left-section d-flex flex-column">
-					<h1 className="faq-header-left-section-title">
-						Pelajari FAQ Kami
-					</h1>
-					<h2 className="faq-header-left-section-subTitle">
-						Pelajari Bersinar lebih lanjut melalui beberapa
-						pertanyaan berikut
-					</h2>
-				</div>
-				<div className="faq-header-right-section">
-					<img
-						src={FAQIllustration}
-						alt="FAQ Illustration"
-						className="faq-header-right-section-image"
-					/>
-				</div>
+			<div className="faq-header container d-flex flex-column justify-content-center align-items-center">
+				<img
+					src={FAQIllustration}
+					alt="FAQ Illustration"
+					className="faq-header-image"
+				/>
+				<h1 className="faq-header-title">Pelajari FAQ Kami</h1>
+				<h2 className="faq-header-subTitle text-center col-md-4">
+					Pelajari Bersinar lebih lanjut melalui beberapa pertanyaan
+					berikut
+				</h2>
 			</div>
 			<FaqAccordion />
 			<div className="faq-footer container d-flex flex-column justify-content-center align-items-center">
@@ -36,7 +30,7 @@ export default function Faq() {
 				<h2 className="faq-footer-subTitle text-center">
 					Jika Kamu tidak menemukan jawaban atas pertanyaan Kamu. Kamu
 					bisa menghubungi Kami melalui kontak yang tersedia bagian
-					paling bawah di halaman website ini
+					paling bawah di halaman website ini.
 				</h2>
 			</div>
 			<Footer />

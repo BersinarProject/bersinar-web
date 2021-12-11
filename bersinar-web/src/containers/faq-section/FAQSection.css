@@ -4,6 +4,10 @@
 	background-color: #fdfcf6 !important;
 }
 
+.faq-section-content-image img {
+	width: 256px;
+}
+
 .faq-section-content-title {
 	margin-bottom: 20px;
 	font-size: 48px;
