@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "animate.css";
 
 import LandingPage from "./pages/LandingPage";
-import OurClass from "./pages/OurClass";
+import OurClass from "./pages/our-class/OurClass";
 import AboutUs from "./pages/about-us/AboutUs";
 import Faq from "./pages/faq/Faq";
 import ScrollToTop from "./ScrollToTop";

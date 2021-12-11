@@ -1,11 +1,15 @@
 .about-us-hero {
-	margin-top: -180px;
+	margin-top: -200px;
 	margin-bottom: 60px;
-	/* width: 800px; */
+	width: 1200px;
 }
 
 .what-is-bersinar {
 	padding: 60px 0;
+}
+
+.what-is-bersinar-contents {
+	width: 50%;
 }
 
 .what-is-bersinar img {
@@ -25,8 +29,8 @@
 
 .what-is-bersinar-subTitle {
 	font-family: "Poppins";
-	font-weight: 500;
 	font-size: 20px;
+	font-weight: 500;
 	line-height: 32px;
 	letter-spacing: 0.01em;
 	color: #595959;
@@ -34,6 +38,11 @@
 
 .president-speech {
 	padding: 60px 0;
+}
+
+.president-speech-contents {
+	justify-content: space-between;
+	align-items: start;
 }
 
 .president-speech-image img {
@@ -60,8 +69,8 @@
 
 .president-speech-text h3 {
 	font-family: "Poppins";
-	font-weight: 500;
 	font-size: 20px;
+	font-weight: 500;
 	line-height: 32px;
 	letter-spacing: 0.01em;
 	text-align: justify;
@@ -176,7 +185,7 @@ h1.core-title {
 	margin-bottom: 30px;
 	font-size: 48px;
 	font-weight: 800;
-	line-height: 32px;
+	line-height: 50px;
 	letter-spacing: 0.003em;
 	color: #484848;
 }
@@ -309,10 +318,260 @@ h1.core-title {
 	margin-right: 14px;
 }
 
+@media (max-width: 992px) {
+	.about-us-hero {
+		margin-top: -80px;
+	}
+
+	.what-is-bersinar {
+		flex-direction: column-reverse;
+	}
+
+	.what-is-bersinar-contents {
+		width: 100%;
+		text-align: center;
+	}
+
+	.what-is-bersinar img {
+		margin-left: 0;
+		margin-bottom: 40px;
+	}
+
+	.president-speech-contents {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.president-speech-image img {
+		margin-right: 0px;
+		margin-bottom: 40px;
+	}
+
+	.president-speech-text {
+		text-align: center;
+	}
+
+	.bersinar-achievement-contents {
+		flex-direction: column;
+	}
+
+	.bersinar-achievement-image {
+		margin-right: 0px;
+	}
+
+	.bersinar-achievement-title {
+		margin-top: -80px;
+	}
+
+	.bersinar-achievement-text {
+		text-align: center;
+	}
+
+	.about-us-tribute {
+		padding-top: 120px;
+		padding-bottom: 60px;
+	}
+
+	.about-us-tribute-founder,
+	.about-us-tribute-vice-president {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.about-us-tribute-founder img,
+	.about-us-tribute-vice-president img {
+		width: 400px;
+		height: 400px;
+	}
+
+	.about-us-tribute-founder {
+		flex-direction: column;
+	}
+
+	.about-us-tribute-vice-president {
+		flex-direction: column-reverse;
+	}
+
+	.about-us-tribute-founder img {
+		margin-right: 0px;
+		margin-bottom: 40px;
+	}
+
+	.about-us-tribute-vice-president img {
+		margin-left: 0px;
+		margin-bottom: 40px;
+	}
+
+	.about-us-tribute-founder-text,
+	.about-us-tribute-vice-president-text {
+		text-align: center;
+	}
+
+	.about-us-tribute-founder-text h2,
+	.about-us-tribute-vice-president-text h2 {
+		margin-bottom: 16px;
+	}
+}
+
+@media (max-width: 576px) {
+	.what-is-bersinar img {
+		display: none;
+	}
+
+	.what-is-bersinar-title {
+		margin-top: -110px;
+		font-size: 48px;
+		line-height: 50px;
+	}
+
+	.what-is-bersinar-subTitle {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.president-speech-image img {
+		width: 300px;
+	}
+
+	.president-speech-title {
+		font-size: 36px;
+	}
+
+	.president-speech-text h2 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.president-speech-text h3 {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.visi-bersinar-title,
+	.misi-bersinar-title {
+		font-size: 36px;
+	}
+
+	.visi-bersinar-title {
+		margin-bottom: 20px;
+	}
+
+	.visi-bersinar p,
+	.misi-bersinar-content p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.misi-bersinar-content p {
+		text-align: left;
+	}
+
+	.about-us-tribute-founder img,
+	.about-us-tribute-vice-president img {
+		width: 300px;
+		height: 300px;
+	}
+}
+
 @media (max-width: 425px) {
+	.about-us-hero {
+		margin-top: -20px;
+		width: 400px;
+	}
+
+	.president-speech-title {
+		margin-bottom: 20px;
+		font-size: 24px;
+		line-height: 33px;
+	}
+
+	.president-speech-text h2 {
+		margin-bottom: 16px;
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.president-speech-text h3 {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.president-speech,
+	.visi-bersinar,
+	.misi-bersinar {
+		padding: 30px 0;
+	}
+
+	.visi-bersinar-title,
+	.misi-bersinar-title,
+	.bersinar-achievement-title,
+	.about-us-tribute-founder-text h2,
+	.about-us-tribute-vice-president-text h2 {
+		font-size: 24px;
+		line-height: 33px;
+	}
+
+	.misi-bersinar-title {
+		margin-bottom: 20px;
+	}
+
+	.visi-bersinar p,
+	.misi-bersinar-content p,
+	.bersinar-achievement-text p,
+	.about-us-tribute-founder-text p,
+	.about-us-tribute-vice-president-text p {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.bersinar-achievement-title,
+	.about-us-tribute-founder-text h2,
+	.about-us-tribute-vice-president-text h2 {
+		margin-bottom: 8px;
+	}
+
+	.bersinar-achievement-image {
+		width: 300px;
+	}
+
+	.bersinar-achievement-contents {
+		margin-top: -100px;
+	}
+
+	.about-us-tribute {
+		padding-top: 80px;
+		padding-bottom: 40px;
+	}
+
+	.about-us-tribute-header-title {
+		margin-top: -15px;
+		font-size: 48px;
+		line-height: 50px;
+	}
+
+	.about-us-tribute-founder {
+		padding: 30px 0;
+	}
+
+	.about-us-tribute-vice-president {
+		padding-top: 30px;
+	}
+
+	.about-us-tribute-founder img,
+	.about-us-tribute-vice-president img {
+		width: 230px;
+		height: 230px;
+	}
+
+	.about-us-tribute-founder-text h3,
+	.about-us-tribute-vice-president-text h3 {
+		font-size: 18px;
+		line-height: 26px;
+	}
+
 	.about-us-faq {
-		margin-top: 80px;
-		margin-bottom: 80px;
+		padding: 40px 0 140px 0;
 	}
 
 	.about-us-faq-content-image img {
