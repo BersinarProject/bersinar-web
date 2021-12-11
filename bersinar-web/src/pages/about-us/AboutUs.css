@@ -1,7 +1,7 @@
 .about-us-hero {
-	margin-top: -200px;
+	margin-top: 50px;
 	margin-bottom: 60px;
-	width: 1200px;
+	width: 33%;
 }
 
 .what-is-bersinar {
@@ -113,9 +113,21 @@ h1.core-title {
 	margin-left: 40px;
 }
 
-.values-card img {
-	padding: 29px 15px 29px 40px;
-	margin-right: 30px !important;
+.values-card h3{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px !important;
+	line-height: 28px;
+	color: #574E5A;
+}
+
+.sw{
+	margin-top: 4px;
+	margin-left: 30px;
+}
+.swt{
+	margin-left: 20px;
 }
 
 .values-card h3 {
@@ -350,6 +362,10 @@ h1.core-title {
 
 	.president-speech-text {
 		text-align: center;
+	}
+
+	.ssi{
+		display: none;
 	}
 
 	.bersinar-achievement-contents {

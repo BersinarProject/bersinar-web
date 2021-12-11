@@ -6,9 +6,13 @@ import "./AboutUs.css";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 
-import aboutUsHero from "../../assets/images/about-us/aboutUsHero.svg";
+import aboutUsHero from "../../assets/images/about-us/aboutUs.svg";
 import bersinarLogoIcon from "../../assets/images/bersinar-logo/bersinarLogoIcon.svg";
 import presidenBersinar from "../../assets/images/about-us/PresidenBersinar.png";
+import SmartWork from "../../assets/images/about-us/values/smartWork.svg";
+import Hospitality from "../../assets/images/about-us/values/hospitality.svg";
+import Dts from "../../assets/images/about-us/values/daretoShare.svg";
+import Influence from "../../assets/images/about-us/values/socialInfluence.svg";
 import misi1 from "../../assets/images/about-us/misi/misi-1.svg";
 import misi2 from "../../assets/images/about-us/misi/misi-2.svg";
 import misi3 from "../../assets/images/about-us/misi/misi-3.svg";
@@ -16,11 +20,12 @@ import misi4 from "../../assets/images/about-us/misi/misi-4.svg";
 import achievement from "../../assets/images/about-us/achievement.svg";
 import FAQIllustration from "../../assets/images/FAQIllustration.png";
 import FAQButtonIcon from "../../assets/images/FAQButtonIcon.svg";
-// import coreIcon from "../../assets/images/coreIcon.svg";
+import coreIcon from "../../assets/images/coreIcon.svg";
 import aboutUsTribute from "../../assets/images/about-us/tribute.svg";
 import vicePresidentPertama from "../../assets/images/about-us/vicePresidentPertama.png";
 
 export default function AboutUs() {
+	const ssi = "Sustainable\nSocial\nInfluence";
 	return (
 		<div className="about-us">
 			<Navbar />
@@ -92,7 +97,7 @@ export default function AboutUs() {
 						</div>
 					</div>
 				</div>
-				{/* <div className="core-values">
+				<div className="core-values">
 					<div className="core-text">
 						<h1 className="core-title">Our Core Values</h1>
 						<h3 className="core-subTitle py-1">
@@ -105,41 +110,21 @@ export default function AboutUs() {
 						</h3>
 					</div>
 					<div className="core-values-card">
-						<div className="row row-cols-3 d-flex justify-content-center">
+						<div className="row d-flex justify-content-center">
 							<div className="values col-md-4">
-								<div className="values-card col-12">
-									<div className="col-4">
-										<img src={coreIcon} alt="" />
+								<div className="values-card container">
+									<div className="col-4 sw">
+										<img src={SmartWork} alt="" />
 									</div>
-									<div className="col-8 align-items-center">
-										<h3>Dare to Share</h3>
+									<div className="col-8 swt">
+										<h3>SmartWork</h3>
 									</div>
 								</div>
 							</div>
 							<div className="values col-md-4">
-								<div className="values-card col-12">
-									<div className="col-4">
-										<img src={coreIcon} alt="" />
-									</div>
-									<div className="col-8 align-items-center">
-										<h3>Sustainable Social Influence</h3>
-									</div>
-								</div>
-							</div>
-							<div className="values col-md-4">
-								<div className="values-card col-12">
-									<div className="col-4">
-										<img src={coreIcon} alt="" />
-									</div>
-									<div className="col-8 align-items-center">
-										<h3>Smart Work</h3>
-									</div>
-								</div>
-							</div>
-							<div className="values col-md-4">
-								<div className="values-card col-12">
-									<div className="col-4">
-										<img src={coreIcon} alt="" />
+								<div className="values-card container">
+									<div className="col-4 hy">
+										<img src={Hospitality} alt="" />
 									</div>
 									<div className="col-8 align-items-center">
 										<h3>Hospitality</h3>
@@ -147,18 +132,38 @@ export default function AboutUs() {
 								</div>
 							</div>
 							<div className="values col-md-4">
-								<div className="values-card col-lg-12">
-									<div className="col-lg-4">
+								<div className="values-card container">
+									<div className="col-4 pd">
 										<img src={coreIcon} alt="" />
 									</div>
+									<div className="col-8 align-items-center">
+										<h3>Purpose-Driven</h3>
+									</div>
+								</div>
+							</div>
+							<div className="values col-md-4">
+								<div className="values-card container">
+									<div className="col-4 dt">
+										<img src={Dts} alt="" />
+									</div>
+									<div className="col-8 align-items-center">
+										<h3>Dare to Share</h3>
+									</div>
+								</div>
+							</div>
+							<div className="values col-md-4">
+								<div className="values-card col">
+									<div className="col-lg-4 if">
+										<img src={Influence} alt="" />
+									</div>
 									<div className="col-lg-8 align-items-center">
-										<h3>Purpose-driven</h3>
+										<h3 className="text-wrap ssi">{ssi}</h3>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div> */}
+				</div>
 				<div className="visi-bersinar d-flex flex-column justify-content-center align-items-center">
 					<h1 className="visi-bersinar-title">Visi Bersinar</h1>
 					<p className="col-md-9">
