@@ -7,125 +7,156 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-require("./footer.css");
+require("react-reveal");
 
-var _brandLogo = _interopRequireDefault(require("../../assets/images/brandLogo.png"));
+var _reactBootstrap = require("react-bootstrap");
 
-var _logoText = _interopRequireDefault(require("../../assets/images/logoText.png"));
+require("animate.css");
+
+require("./Footer.css");
+
+var _reactRouterDom = require("react-router-dom");
+
+var _bersinarLogoFull = _interopRequireDefault(require("../../assets/images/bersinar-logo/bersinarLogoFull.svg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const footer = () => {
+const Footer = () => {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "footer"
+  }, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Container, null, /*#__PURE__*/_react.default.createElement("div", {
+    className: "footer-contents d-flex flex-wrap"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "container"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "row flex justify-content-between"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "col-md-2 d-flex flex-column"
+    className: "footer-content"
   }, /*#__PURE__*/_react.default.createElement("h1", {
     className: "footer-title"
-  }, "Navigation"), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", {
+  }, "Navigasi"), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "py-2"
+  }, /*#__PURE__*/_react.default.createElement("li", {
+    className: "footer-link"
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
+    className: "footer-link",
+    to: "/"
+  }, "Beranda")), /*#__PURE__*/_react.default.createElement("li", {
+    className: "footer-link"
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
+    className: "footer-link",
+    to: "/our-class"
+  }, "Jadwal Kelas")), /*#__PURE__*/_react.default.createElement("li", {
+    className: "footer-link"
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
+    className: "footer-link",
+    to: "/about-us"
+  }, "Tentang Kami")), /*#__PURE__*/_react.default.createElement("li", {
     className: "footer-link"
   }, /*#__PURE__*/_react.default.createElement("a", {
     className: "footer-link",
-    href: "/"
-  }, "Home")), /*#__PURE__*/_react.default.createElement("li", {
-    className: "footer-link"
-  }, /*#__PURE__*/_react.default.createElement("a", {
-    className: "footer-link",
-    href: "/"
-  }, "About Us")), /*#__PURE__*/_react.default.createElement("li", {
-    className: "footer-link"
-  }, /*#__PURE__*/_react.default.createElement("a", {
-    className: "footer-link",
-    href: "/"
-  }, "Our Class")), /*#__PURE__*/_react.default.createElement("li", {
-    className: "footer-link"
-  }, /*#__PURE__*/_react.default.createElement("a", {
-    className: "footer-link",
-    href: "/"
-  }, "Donate")))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "col-md-2 d-flex flex-column"
+    target: "_blank",
+    rel: "noreferrer",
+    href: "https://trakteer.id/BersinarProject/"
+  }, "Donasi")))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "footer-content"
   }, /*#__PURE__*/_react.default.createElement("h1", {
     className: "footer-title"
-  }, "Class"), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", {
+  }, "Kelas"), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "py-2"
+  }, /*#__PURE__*/_react.default.createElement("li", {
     className: "footer-link"
-  }, /*#__PURE__*/_react.default.createElement("a", {
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
     className: "footer-link",
-    href: "/"
+    to: "/our-class"
   }, "Saintek")), /*#__PURE__*/_react.default.createElement("li", {
     className: "footer-link"
-  }, /*#__PURE__*/_react.default.createElement("a", {
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
     className: "footer-link",
-    href: "/"
+    to: "/our-class"
   }, "Soshum")), /*#__PURE__*/_react.default.createElement("li", {
     className: "footer-link"
-  }, /*#__PURE__*/_react.default.createElement("a", {
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
     className: "footer-link",
-    href: "/"
+    to: "/our-class"
   }, "TPS")))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "col-md-2 d-flex flex-column"
+    className: "footer-content"
   }, /*#__PURE__*/_react.default.createElement("h1", {
     className: "footer-title"
-  }, "Follow Us"), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", {
+  }, "Media Sosial"), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "py-2"
+  }, /*#__PURE__*/_react.default.createElement("li", {
     className: "footer-link"
   }, /*#__PURE__*/_react.default.createElement("a", {
     className: "footer-link",
-    href: "/"
+    target: "_blank",
+    rel: "noreferrer",
+    href: "https://instagram.com/bersinarproject"
   }, "Instagram")), /*#__PURE__*/_react.default.createElement("li", {
     className: "footer-link"
   }, /*#__PURE__*/_react.default.createElement("a", {
     className: "footer-link",
-    href: "/"
+    target: "_blank",
+    rel: "noreferrer",
+    href: "https://twitter.com/bersinarproject"
   }, "Twitter")), /*#__PURE__*/_react.default.createElement("li", {
     className: "footer-link"
   }, /*#__PURE__*/_react.default.createElement("a", {
     className: "footer-link",
-    href: "/"
+    target: "_blank",
+    rel: "noreferrer",
+    href: "https://youtube.com/bersinarproject"
   }, "YouTube")), /*#__PURE__*/_react.default.createElement("li", {
     className: "footer-link"
   }, /*#__PURE__*/_react.default.createElement("a", {
     className: "footer-link",
-    href: "/"
-  }, "LinkedIn")))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "col-md-2 d-flex flex-column"
-  }, /*#__PURE__*/_react.default.createElement("h1", {
-    className: "footer-title"
-  }, "Useful Link"), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", {
+    target: "_blank",
+    rel: "noreferrer",
+    href: "https://www.linkedin.com/company/bersinar"
+  }, "LinkedIn")), /*#__PURE__*/_react.default.createElement("li", {
     className: "footer-link"
   }, /*#__PURE__*/_react.default.createElement("a", {
     className: "footer-link",
-    href: "/"
+    target: "_blank",
+    rel: "noreferrer",
+    href: "https://tiktok.com/@bersinarproject"
+  }, "TikTok")))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "footer-content"
+  }, /*#__PURE__*/_react.default.createElement("h1", {
+    className: "footer-title"
+  }, "Tautan"), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "py-2"
+  }, /*#__PURE__*/_react.default.createElement("li", {
+    className: "footer-link"
+  }, /*#__PURE__*/_react.default.createElement("a", {
+    className: "footer-link",
+    target: "_blank",
+    rel: "noreferrer",
+    href: "https://bit.ly/MateriBersinar"
   }, "Materi Bersinar")), /*#__PURE__*/_react.default.createElement("li", {
     className: "footer-link"
   }, /*#__PURE__*/_react.default.createElement("a", {
     className: "footer-link",
-    href: "/"
+    target: "_blank",
+    rel: "noreferrer",
+    href: "https://bit.ly/SoalBersinar"
   }, "Soal Bersinar")), /*#__PURE__*/_react.default.createElement("li", {
     className: "footer-link"
-  }, /*#__PURE__*/_react.default.createElement("a", {
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
     className: "footer-link",
-    href: "/"
-  }, "Google Calendar Bersinar")))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "col-md-6"
+    to: "/our-class"
+  }, "Kalender")))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "footer-content"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "footerLogo"
   }, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", {
     className: ""
   }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "footer-logo",
-    src: _brandLogo.default,
-    alt: "Bersinar Logo"
-  })), /*#__PURE__*/_react.default.createElement("li", {
-    className: ""
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "footer-logotext",
-    src: _logoText.default,
+    className: "footer-logo-img",
+    src: _bersinarLogoFull.default,
     alt: "Bersinar Logo"
   })), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("div", {
     className: "footer-text"
-  }, "Made with \u2764\uFE0F while listening", /*#__PURE__*/_react.default.createElement("span", null, " ", /*#__PURE__*/_react.default.createElement("br", null), " Favorite Crime"))))))));
+  }, "Made with \u2764\uFE0F while listening", /*#__PURE__*/_react.default.createElement("b", {
+    className: "footer-text-bold"
+  }, " ", "Favorite Crime")))))))));
 };
 
-var _default = footer;
+var _default = Footer;
 exports.default = _default;

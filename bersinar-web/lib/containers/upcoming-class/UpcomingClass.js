@@ -5,55 +5,77 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-require("core-js/modules/web.dom-collections.iterator.js");
+var _react = _interopRequireDefault(require("react"));
 
-var _react = require("react");
+var _axios = _interopRequireDefault(require("axios"));
 
-var _reactRouterDom = require("react-router-dom");
+var _LiveClassCard = _interopRequireDefault(require("../../components/live-class-card/LiveClassCard"));
 
-var _upcomingClassCard = _interopRequireDefault(require("../../components/upcoming-class-card/upcomingClassCard"));
+var _gaadaKelas = _interopRequireDefault(require("../../assets/images/landing-page/gaadaKelas.svg"));
 
 require("./UpcomingClass.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const UpcomingClass = () => {
-  const [getDataUpcomingClassCard] = (0, _react.useState)([{
-    id: 1,
-    category: "Saintek",
-    tagLine: "#MenyinariFisika",
-    title: "Belajar Fisika Kuantum Bareng Razan",
-    tutor: "Razan"
-  }, {
-    id: 2,
-    category: "Soshum",
-    tagLine: "#MenyinariEkonomi",
-    title: "Belajar Dasar Ekonomi Bareng Yasmin",
-    tutor: "Yasmin"
-  }, {
-    id: 3,
-    category: "TPS",
-    tagLine: "#MenyinariEnglish",
-    title: "Tenses and Conjunction with Ahnaf",
-    tutor: "Ahnaf"
-  }]);
-  return /*#__PURE__*/_react.React.createElement("div", {
-    className: "upcoming-class"
-  }, /*#__PURE__*/_react.React.createElement("div", {
-    className: "upcoming-class-header d-flex flex-column justify-content-center align-items-center"
-  }, /*#__PURE__*/_react.React.createElement("h1", {
-    className: "upcoming-class-title mb-3"
-  }, "Upcoming Classes"), /*#__PURE__*/_react.React.createElement("h2", {
-    className: "upcoming-class-subTitle"
-  }, "Kelas-kelas Bersinar yang akan diadakan selanjutnya")), /*#__PURE__*/_react.React.createElement(_upcomingClassCard.default, {
-    dataUpcomingClassCard: getDataUpcomingClassCard
-  }), /*#__PURE__*/_react.React.createElement("div", {
-    className: "btn d-flex justify-content-center align-items-center"
-  }, /*#__PURE__*/_react.React.createElement(_reactRouterDom.Link, {
-    to: "/our-class",
-    className: "btn-more btn btn-shadow px-4"
-  }, "More Class")));
-};
+// import { Link } from "react-router-dom";
+// import UpcomingClassCard from "../../components/upcoming-class-card/UpcomingClassCard";
+class upcomingClass extends _react.default.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      dataCards: []
+    };
+  }
 
-var _default = UpcomingClass;
+  componentDidMount() {
+    /* global Swiper */
+    this.swiper = new Swiper(".upcoming-class-swiper", {
+      slidesPerView: "auto",
+      // loop: true,
+      cssMode: true
+    });
+    const apiUrl = "https://mocki.io/v1/ad2ddd3e-f443-48ae-838d-6231b62c4428";
+
+    _axios.default.get(apiUrl).then(response => {
+      this.setState({
+        dataCards: response.data.classes
+      });
+    }).catch(error => {
+      return error;
+    });
+  }
+
+  renderItems() {
+    const {
+      dataCards
+    } = this.state;
+    return dataCards.map(dataCard => {
+      return /*#__PURE__*/_react.default.createElement(_LiveClassCard.default, {
+        key: dataCard.id,
+        dataCard: dataCard
+      });
+    });
+  }
+
+  render() {
+    return /*#__PURE__*/_react.default.createElement("div", {
+      className: "upcoming-class"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "container upcoming-class-header d-flex flex-column justify-content-center align-items-center"
+    }, /*#__PURE__*/_react.default.createElement("h1", {
+      className: "upcoming-class-header-title text-center"
+    }, "Telusuri Kelas-kelas Kami"), /*#__PURE__*/_react.default.createElement("h2", {
+      className: "upcoming-class-header-subTitle col-md-8"
+    }, "Maaf, Sob! Kelas yang kamu cari tidak tersedia. Saat ini belum ada jadwal kelas yang akan diadakan, harap tunggu ya!")), /*#__PURE__*/_react.default.createElement("div", {
+      className: "upcoming-class-cards container d-flex justify-content-center align-items-center"
+    }, /*#__PURE__*/_react.default.createElement("img", {
+      src: _gaadaKelas.default,
+      alt: "Kelas tidak tersedia",
+      className: "upcoming-class-gaada-kelas"
+    })));
+  }
+
+}
+
+var _default = upcomingClass;
 exports.default = _default;

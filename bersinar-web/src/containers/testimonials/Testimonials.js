@@ -11,7 +11,7 @@ class Testimonials extends React.Component {
 			dataTestimonialCards: [
 				{
 					id: 1,
-					quote: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dicta quasi voluptate atque animi doloribus autem expedita amet rerum iste."',
+					quote: '“Seneng banget bisa ketemu Bersinar, ketemu orang-orang keren yang sangat memotivasi bahwa mimpi itu bisa dijadikan kenyataan. Ada satu ucapan tutor Bersinar yang menurutku bener-bener jadi pegangan buat aku pas lagi belajar yaitu quality over quantity, bener-bener berefek untuk aku yang saat liat `Berapa soal ya yang aku kerjain?`"',
 					name: "Ahmad Zakiyudin",
 					edu: "ITS 2020"
 				},

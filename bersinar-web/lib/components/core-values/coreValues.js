@@ -7,11 +7,11 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-require("./Counter.css");
+require("./coreValues.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const counter = () => {
+const coreValues = () => {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "counter container"
   }, /*#__PURE__*/_react.default.createElement("div", {
@@ -20,9 +20,9 @@ const counter = () => {
     className: "counter-header col-md-7"
   }, /*#__PURE__*/_react.default.createElement("h1", {
     className: "counter-header-title text-center"
-  }, "Pencapaian Kami"), /*#__PURE__*/_react.default.createElement("h2", {
+  }, "Our Core Values"), /*#__PURE__*/_react.default.createElement("h2", {
     className: "counter-header-subTitle text-center"
-  }, "Sejak Desember 2020, Bersinar telah menjangkau ribuan pelajar di seluruh Indonesia melalui kelas-kelas gratis yang telah dilaksanakan!"))), /*#__PURE__*/_react.default.createElement("div", {
+  }, "Kultur Bersinar Project sangat penting untuk berjalannya program Bersinar. Bersinar Project berdiri dengan lima pilar utama untuk sukses."))), /*#__PURE__*/_react.default.createElement("div", {
     className: "countDetails d-flex flex-wrap align-items-center"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "countDetail d-flex flex-column"
@@ -40,7 +40,7 @@ const counter = () => {
     className: "countDetail d-flex flex-column"
   }, /*#__PURE__*/_react.default.createElement("h2", {
     className: "countDetail-number"
-  }, "10Rb+"), /*#__PURE__*/_react.default.createElement("h4", {
+  }, "10K"), /*#__PURE__*/_react.default.createElement("h4", {
     className: "countDetail-text"
   }, "Total Peserta")), /*#__PURE__*/_react.default.createElement("div", {
     className: "countDetail d-flex flex-column"
@@ -51,5 +51,5 @@ const counter = () => {
   }, "Total Kepuasan"))));
 };
 
-var _default = counter;
+var _default = coreValues;
 exports.default = _default;

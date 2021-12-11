@@ -1,5 +1,5 @@
 .about-us-hero {
-	margin-top: 50px;
+	margin-top: 80px;
 	margin-bottom: 60px;
 	width: 33%;
 }
@@ -239,7 +239,7 @@ h1.core-title {
 .about-us-tribute-founder img,
 .about-us-tribute-vice-president img {
 	width: 455px;
-	height: 504px;
+	height: 455px;
 }
 
 .about-us-tribute-founder img {
@@ -328,6 +328,12 @@ h1.core-title {
 
 .about-us-faq-content-button img {
 	margin-right: 14px;
+}
+
+@media (max-width: 1200px) {
+	.misi-bersinar-content p {
+		text-align: left;
+	}
 }
 
 @media (max-width: 992px) {
@@ -477,10 +483,6 @@ h1.core-title {
 	.misi-bersinar-content p {
 		font-size: 16px;
 		line-height: 24px;
-	}
-
-	.misi-bersinar-content p {
-		text-align: left;
 	}
 
 	.about-us-tribute-founder img,
