@@ -33,7 +33,12 @@ const Footer = () => {
 								</NavLink>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link" target="_blank" rel="noreferrer" href="https://trakteer.id/BersinarProject/">
+								<a
+									className="footer-link"
+									target="_blank"
+									rel="noreferrer"
+									href="https://trakteer.id/BersinarProject/"
+								>
 									Donasi
 								</a>
 							</li>
@@ -43,17 +48,26 @@ const Footer = () => {
 						<h1 className="footer-title">Kelas</h1>
 						<ul className="py-2">
 							<li className="footer-link">
-								<NavLink className="footer-link" to="/our-class">
+								<NavLink
+									className="footer-link"
+									to="/our-class"
+								>
 									Saintek
 								</NavLink>
 							</li>
 							<li className="footer-link">
-								<NavLink className="footer-link" to="/our-class">
+								<NavLink
+									className="footer-link"
+									to="/our-class"
+								>
 									Soshum
 								</NavLink>
 							</li>
 							<li className="footer-link">
-								<NavLink className="footer-link" to="/our-class">
+								<NavLink
+									className="footer-link"
+									to="/our-class"
+								>
 									TPS
 								</NavLink>
 							</li>
@@ -63,27 +77,52 @@ const Footer = () => {
 						<h1 className="footer-title">Media Sosial</h1>
 						<ul className="py-2">
 							<li className="footer-link">
-								<a className="footer-link"  target="_blank" rel="noreferrer" href="https://instagram.com/bersinarproject">
+								<a
+									className="footer-link"
+									target="_blank"
+									rel="noreferrer"
+									href="https://instagram.com/bersinarproject"
+								>
 									Instagram
 								</a>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link"  target="_blank" rel="noreferrer" href="https://twitter.com/bersinarproject">
+								<a
+									className="footer-link"
+									target="_blank"
+									rel="noreferrer"
+									href="https://twitter.com/bersinarproject"
+								>
 									Twitter
 								</a>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link"  target="_blank" rel="noreferrer" href="https://youtube.com/bersinarproject">
+								<a
+									className="footer-link"
+									target="_blank"
+									rel="noreferrer"
+									href="https://youtube.com/bersinarproject"
+								>
 									YouTube
 								</a>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link" target="_blank" rel="noreferrer"  href="https://www.linkedin.com/company/bersinar">
+								<a
+									className="footer-link"
+									target="_blank"
+									rel="noreferrer"
+									href="https://www.linkedin.com/company/bersinar"
+								>
 									LinkedIn
 								</a>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link" target="_blank" rel="noreferrer" href="https://tiktok.com/@bersinarproject">
+								<a
+									className="footer-link"
+									target="_blank"
+									rel="noreferrer"
+									href="https://tiktok.com/@bersinarproject"
+								>
 									TikTok
 								</a>
 							</li>
@@ -93,17 +132,30 @@ const Footer = () => {
 						<h1 className="footer-title">Tautan</h1>
 						<ul className="py-2">
 							<li className="footer-link">
-								<a className="footer-link" target="_blank" rel="noreferrer" href="https://bit.ly/MateriBersinar">
+								<a
+									className="footer-link"
+									target="_blank"
+									rel="noreferrer"
+									href="https://bit.ly/MateriBersinar"
+								>
 									Materi Bersinar
 								</a>
 							</li>
 							<li className="footer-link">
-								<a className="footer-link" target="_blank" rel="noreferrer" href="https://bit.ly/SoalBersinar">
+								<a
+									className="footer-link"
+									target="_blank"
+									rel="noreferrer"
+									href="https://bit.ly/SoalBersinar"
+								>
 									Soal Bersinar
 								</a>
 							</li>
 							<li className="footer-link">
-								<NavLink className="footer-link" to="/our-class">
+								<NavLink
+									className="footer-link"
+									to="/our-class"
+								>
 									Kalender
 								</NavLink>
 							</li>
