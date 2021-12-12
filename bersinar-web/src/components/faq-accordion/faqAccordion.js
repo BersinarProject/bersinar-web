@@ -19,7 +19,7 @@ const faqAccordion = () => {
 							aria-expanded="true"
 							aria-controls="panelsStayOpen-collapseOne"
 						>
-							Apa itu Bersinar Project?
+							Apa itu Bersinar?
 						</button>
 					</h2>
 					<div
@@ -29,10 +29,10 @@ const faqAccordion = () => {
 					>
 						<div className="accordion-body">
 							<div className="accordion-body-text container p-0">
-								&quot;Bersinar Project adalah sebuah platform
-								edukasi yang menyediakan kelas-kelas gratis
-								khusus persiapan UTBK dan ujian mandiri masuk
-								perguruan tinggi.&quot;
+								&quot;Bersinar adalah sebuah platform edukasi
+								yang menyediakan kelas-kelas gratis khusus
+								persiapan UTBK dan ujian mandiri masuk perguruan
+								tinggi.&quot;
 							</div>
 						</div>
 					</div>
@@ -158,8 +158,8 @@ const faqAccordion = () => {
 						<div className="accordion-body">
 							<div className="accordion-body-text container p-0">
 								&quot;Jangan khawatir, Sober! Kamu masih bisa
-								menonton rekaman ulangnya di Youtube Bersinar
-								Project, jadi jangan lupa di-subscribe biar ga
+								menonton rekaman ulangnya di Youtube Bersinar,
+								jadi jangan lupa di-subscribe biar ga
 								ketinggalan video terbaru Bersinar!&quot;
 							</div>
 						</div>

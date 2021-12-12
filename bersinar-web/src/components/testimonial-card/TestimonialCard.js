@@ -2,7 +2,6 @@ import React from "react";
 import { Card } from "react-bootstrap";
 
 import "./TestimonialCard.css";
-import cardImage1 from "../../assets/images/ArrowIcon.svg";
 
 const card = ({ dataTestimonialCard }) => {
 	return (
@@ -13,7 +12,7 @@ const card = ({ dataTestimonialCard }) => {
 			<Card.Body className="p-0">
 				<div className="testimonial-card-profile d-flex">
 					<img
-						src={cardImage1}
+						src={dataTestimonialCard.img}
 						className="testimonial-card-profile-img"
 						alt="Testimonial Avatar"
 					/>

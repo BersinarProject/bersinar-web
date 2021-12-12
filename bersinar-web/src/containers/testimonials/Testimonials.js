@@ -3,6 +3,9 @@ import React from "react";
 import TestimonialCard from "../../components/testimonial-card/TestimonialCard";
 import "./Testimonials.css";
 import starIcon from "../../assets/images/StarIcon.svg";
+import Pratiwi from "../../assets/images/landing-page/pratiwi.png";
+import Ziyah from "../../assets/images/landing-page/ziyah.png";
+import Angel from "../../assets/images/landing-page/angel.png";
 
 class Testimonials extends React.Component {
 	constructor(props) {
@@ -13,19 +16,22 @@ class Testimonials extends React.Component {
 					id: 1,
 					quote: '"Ada satu ucapan tutor Bersinar yang menurutku bener-bener jadi pegangan, yaitu "Quality over quantity", bener-bener berefek untuk aku sampai sekarang"',
 					name: "Ziyah",
-					edu: "Psikologi Undip"
+					edu: "Psikologi Undip",
+					img: Ziyah
 				},
 				{
 					id: 2,
-					quote: '"Berkat Bersinar, skorku bisa tembus 700++ pada UTBK kemarin."',
+					quote: '"Di Bersinar aku nggak cuma sekadar diajarin, tapi juga diajak diskusi seru soal materi UTBK. Berkat Bersinar juga, skorku bahkan bisa tembus 700++ pada UTBK kemarin."',
 					name: "Pratiwi",
-					edu: "Ilmu Politik UGM"
+					edu: "Ilmu Politik UGM",
+					img: Pratiwi
 				},
 				{
 					id: 3,
 					quote: '"Penyampaian tutor yang mudah dicerna dan lingkungan yang produktif tapi tetap asik membantu saya memperoleh skor UTBK yang cukup memuaskan dan bisa mencapai mimpi saya lewat jalur SBMPTN kemarin”',
 					name: "Angel",
-					edu: "Kedokteran Undip"
+					edu: "Kedokteran Undip",
+					img: Angel
 				}
 			]
 		};

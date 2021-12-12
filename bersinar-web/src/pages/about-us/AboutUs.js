@@ -17,9 +17,9 @@ import misi1 from "../../assets/images/about-us/misi/misi-1.svg";
 import misi2 from "../../assets/images/about-us/misi/misi-2.svg";
 import misi3 from "../../assets/images/about-us/misi/misi-3.svg";
 import misi4 from "../../assets/images/about-us/misi/misi-4.svg";
-import program1 from "../../assets/images/about-us/programs/program1.png";
+import program3 from "../../assets/images/about-us/programs/program1.png";
 import program2 from "../../assets/images/about-us/programs/program2.png";
-import program3 from "../../assets/images/about-us/programs/program3.png";
+import program1 from "../../assets/images/about-us/programs/program3.png";
 import achievement from "../../assets/images/about-us/achievement.svg";
 import FAQIllustration from "../../assets/images/FAQIllustration.png";
 import FAQButtonIcon from "../../assets/images/FAQButtonIcon.svg";
@@ -43,10 +43,10 @@ export default function AboutUs() {
 				<div className="what-is-bersinar d-flex justify-content-center align-items-center">
 					<div className="what-is-bersinar-contents d-flex flex-column flex-wrap">
 						<h1 className="what-is-bersinar-title">
-							Apa itu Bersinar Project?
+							Apa itu Bersinar?
 						</h1>
 						<h2 className="what-is-bersinar-subTitle">
-							Bersinar Project adalah sebuah platform edukasi yang
+							Bersinar adalah sebuah platform edukasi yang
 							menyediakan kelas-kelas gratis khusus persiapan UTBK
 							dan ujian mandiri masuk perguruan tinggi.
 						</h2>
@@ -58,7 +58,7 @@ export default function AboutUs() {
 						<div className="president-speech-image">
 							<img
 								src={presidenBersinar}
-								alt="Presiden Bersinar Project"
+								alt="Presiden Bersinar"
 							/>
 						</div>
 						<div className="president-speech-text">
@@ -199,13 +199,14 @@ export default function AboutUs() {
 								className="our-program-content-image"
 							/>
 							<h3 className="our-program-content-title">
-								FWB - Making Friends with Bersinar
+								#BersinarMengajar - Kelas Gratis Harian
 							</h3>
-							<p>
-								Kelompok belajar dan mentoring yang dibimbing
-								oleh para mentor Bersinar. Tempat ini jadi ajang
-								Sobat Bersinar untuk mencari teman, belajar
-								bersama, dan saling berbagi cerita.
+							<p className="py-4">
+								Kelas harian yang membahas beragam pelajaran
+								untuk mempersiapkan UTBK dan ujian mandiri
+								lainnya. Kelas ini difasilitasi dengan
+								tutor-tutor Bersinar yang seru, asyik, dan
+								berkualitas.
 							</p>
 						</div>
 						<div className="our-program-content d-flex flex-column">
@@ -218,10 +219,11 @@ export default function AboutUs() {
 								#NGABERS - Ngambis Bareng Bersinar
 							</h3>
 							<p>
-								Kelas daring gratis bersama dengan tutor-tutor
-								Bersinar yang diadakan setelah UTBK. Program
-								belajar ini merupakan program persiapan khusus
-								UTUL UGM dan SIMAK UI.
+								Program intensif ujian mandiri 4 bulan dengan
+								menempatkan peserta bersama dengan tutor-tutor
+								Bersinar di dalam satu wadah. Program ini
+								dikhususkan untuk UTUL UGM dan SIMAK UI dan
+								diadakan secara gratis.
 							</p>
 						</div>
 						<div className="our-program-content d-flex flex-column">
@@ -231,13 +233,13 @@ export default function AboutUs() {
 								className="our-program-content-image"
 							/>
 							<h3 className="our-program-content-title">
-								Ngambis Bareng Bersinar
+								FWB - Making Friends with Bersinar
 							</h3>
 							<p>
-								Kelas daring gratis bersama dengan tutor-tutor
-								Bersinar yang diadakan setelah UTBK. Program
-								belajar ini merupakan program persiapan khusus
-								UTUL UGM dan SIMAK UI.
+								Kelompok belajar dan mentoring yang dibimbing
+								oleh para mentor Bersinar. Tempat ini jadi ajang
+								Sobat Bersinar untuk mencari teman, belajar
+								bersama, dan saling berbagi cerita.
 							</p>
 						</div>
 					</div>

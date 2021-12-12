@@ -19,15 +19,15 @@ const counter = () => {
 			</div>
 			<div className="countDetails d-flex flex-wrap align-items-center">
 				<div className="countDetail d-flex flex-column">
-					<h2 className="countDetail-number">100</h2>
+					<h2 className="countDetail-number">200+</h2>
 					<h3 className="countDetail-text">Total Kelas</h3>
 				</div>
 				<div className="countDetail d-flex flex-column">
-					<h2 className="countDetail-number">100+</h2>
-					<h3 className="countDetail-text">Jam Materi</h3>
+					<h2 className="countDetail-number">300+</h2>
+					<h3 className="countDetail-text">Jam Kelas</h3>
 				</div>
 				<div className="countDetail d-flex flex-column">
-					<h2 className="countDetail-number">10Rb+</h2>
+					<h2 className="countDetail-number">15Rb+</h2>
 					<h3 className="countDetail-text">Total Peserta</h3>
 				</div>
 				<div className="countDetail d-flex flex-column">
