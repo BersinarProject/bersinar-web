@@ -24,6 +24,7 @@ import FAQIllustration from "../../assets/images/FAQIllustration.png";
 import FAQButtonIcon from "../../assets/images/FAQButtonIcon.svg";
 import coreIcon from "../../assets/images/coreIcon.svg";
 import aboutUsTribute from "../../assets/images/about-us/tribute.svg";
+import founderBersinar from "../../assets/images/about-us/founderBersinar.png";
 import vicePresidentPertama from "../../assets/images/about-us/vicePresidentPertama.png";
 
 export default function AboutUs() {
@@ -296,10 +297,7 @@ export default function AboutUs() {
 						</h1>
 					</div>
 					<div className="about-us-tribute-founder d-flex">
-						<img
-							src={vicePresidentPertama}
-							alt="Muhammad Rai Adli"
-						/>
+						<img src={founderBersinar} alt="Muhammad Rai Adli" />
 						<div className="about-us-tribute-founder-text">
 							<h2>Founder Bersinar</h2>
 							<h3>Muhammad Rai Adli</h3>

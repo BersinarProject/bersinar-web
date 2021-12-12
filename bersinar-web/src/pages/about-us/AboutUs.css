@@ -1,7 +1,7 @@
 .about-us-hero {
-	margin-top: 80px;
+	margin-top: -200px;
 	margin-bottom: 60px;
-	width: 33%;
+	width: 1200px;
 }
 
 .what-is-bersinar {
@@ -618,6 +618,7 @@
 	.about-us-tribute-vice-president img {
 		width: 300px;
 		height: 300px;
+		margin-bottom: 20px;
 	}
 }
 
