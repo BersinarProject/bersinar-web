@@ -73,8 +73,7 @@ span {
 
 @media (max-width: 992px) {
 	.hero {
-		margin-top: -130px;
-		padding-top: 80px;
+		padding-top: 120px;
 	}
 
 	.hero-image {
@@ -99,11 +98,6 @@ span {
 }
 
 @media (max-width: 700px) {
-	.hero {
-		margin-top: -90px;
-		padding-top: 40px;
-	}
-
 	.hero-image {
 		width: 500px;
 		/* transition: 1s; */
@@ -112,8 +106,7 @@ span {
 
 @media (max-width: 500px) {
 	.hero {
-		margin-top: -60px;
-		padding-top: 40px;
+		padding-top: 80px;
 	}
 
 	.hero-image {

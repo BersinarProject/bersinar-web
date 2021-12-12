@@ -11,7 +11,7 @@ var _reactRouterDom = require("react-router-dom");
 
 require("./Hero.css");
 
-var _landingPageHero = _interopRequireDefault(require("../../assets/images/landing-page/landingPageHero.svg"));
+var _landingPageHero = _interopRequireDefault(require("../../assets/images/landing-page/landingPageHero.png"));
 
 var _startIcon = _interopRequireDefault(require("../../assets/images/startIcon.svg"));
 
@@ -32,7 +32,7 @@ const hero = () => {
     className: "hero-subTitle-tag"
   }, "#BersinarBersama")), /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
     className: "mulai-belajar-button btn",
-    to: "/"
+    to: "/our-class"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "mulai-belajar-button-icon",
     src: _startIcon.default,

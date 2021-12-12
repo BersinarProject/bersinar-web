@@ -29,7 +29,7 @@ const faqAccordion = () => {
     "data-bs-target": "#panelsStayOpen-collapseOne",
     "aria-expanded": "true",
     "aria-controls": "panelsStayOpen-collapseOne"
-  }, "Apa itu Bersinar Project?")), /*#__PURE__*/_react.default.createElement("div", {
+  }, "Apa itu Bersinar?")), /*#__PURE__*/_react.default.createElement("div", {
     id: "panelsStayOpen-collapseOne",
     className: "accordion-collapse collapse show",
     "aria-labelledby": "panelsStayOpen-headingOne"
@@ -37,7 +37,7 @@ const faqAccordion = () => {
     className: "accordion-body"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "accordion-body-text container p-0"
-  }, "\"Bersinar Project adalah sebuah platform edukasi yang menyediakan kelas-kelas gratis khusus persiapan UTBK dan ujian mandiri masuk perguruan tinggi.\"")))), /*#__PURE__*/_react.default.createElement("div", {
+  }, "\"Bersinar adalah sebuah platform edukasi yang menyediakan kelas-kelas gratis khusus persiapan UTBK dan ujian mandiri masuk perguruan tinggi.\"")))), /*#__PURE__*/_react.default.createElement("div", {
     className: "accordion-item"
   }, /*#__PURE__*/_react.default.createElement("h2", {
     className: "accordion-header",
@@ -117,7 +117,7 @@ const faqAccordion = () => {
     className: "accordion-body"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "accordion-body-text container p-0"
-  }, "\"Jangan khawatir, Sober! Kamu masih bisa menonton rekaman ulangnya di Youtube Bersinar Project, jadi jangan lupa di-subscribe biar ga ketinggalan video terbaru Bersinar!\"")))), /*#__PURE__*/_react.default.createElement("div", {
+  }, "\"Jangan khawatir, Sober! Kamu masih bisa menonton rekaman ulangnya di Youtube Bersinar, jadi jangan lupa di-subscribe biar ga ketinggalan video terbaru Bersinar!\"")))), /*#__PURE__*/_react.default.createElement("div", {
     className: "accordion-item"
   }, /*#__PURE__*/_react.default.createElement("h2", {
     className: "accordion-header",

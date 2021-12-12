@@ -13,6 +13,12 @@ require("./Testimonials.css");
 
 var _StarIcon = _interopRequireDefault(require("../../assets/images/StarIcon.svg"));
 
+var _pratiwi = _interopRequireDefault(require("../../assets/images/landing-page/pratiwi.png"));
+
+var _ziyah = _interopRequireDefault(require("../../assets/images/landing-page/ziyah.png"));
+
+var _angel = _interopRequireDefault(require("../../assets/images/landing-page/angel.png"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 class Testimonials extends _react.default.Component {
@@ -23,17 +29,20 @@ class Testimonials extends _react.default.Component {
         id: 1,
         quote: '"Ada satu ucapan tutor Bersinar yang menurutku bener-bener jadi pegangan, yaitu "Quality over quantity", bener-bener berefek untuk aku sampai sekarang"',
         name: "Ziyah",
-        edu: "Psikologi Undip"
+        edu: "Psikologi Undip",
+        img: _ziyah.default
       }, {
         id: 2,
-        quote: '"Berkat Bersinar, skorku bisa tembus 700++ pada UTBK kemarin."',
+        quote: '"Di Bersinar aku nggak cuma sekadar diajarin, tapi juga diajak diskusi seru soal materi UTBK. Berkat Bersinar juga, skorku bahkan bisa tembus 700++ pada UTBK kemarin."',
         name: "Pratiwi",
-        edu: "Ilmu Politik UGM"
+        edu: "Ilmu Politik UGM",
+        img: _pratiwi.default
       }, {
         id: 3,
         quote: '"Penyampaian tutor yang mudah dicerna dan lingkungan yang produktif tapi tetap asik membantu saya memperoleh skor UTBK yang cukup memuaskan dan bisa mencapai mimpi saya lewat jalur SBMPTN kemarin”',
         name: "Angel",
-        edu: "Kedokteran Undip"
+        edu: "Kedokteran Undip",
+        img: _angel.default
       }]
     };
   }

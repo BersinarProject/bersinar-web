@@ -201,7 +201,7 @@ export default function AboutUs() {
 							<h3 className="our-program-content-title">
 								#BersinarMengajar - Kelas Gratis Harian
 							</h3>
-							<p className="py-4">
+							<p>
 								Kelas harian yang membahas beragam pelajaran
 								untuk mempersiapkan UTBK dan ujian mandiri
 								lainnya. Kelas ini difasilitasi dengan

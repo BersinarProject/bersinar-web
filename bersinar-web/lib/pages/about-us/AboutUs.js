@@ -21,7 +21,7 @@ var _aboutUsHero = _interopRequireDefault(require("../../assets/images/about-us/
 
 var _bersinarLogoIcon = _interopRequireDefault(require("../../assets/images/bersinar-logo/bersinarLogoIcon.svg"));
 
-var _presidenBersinar = _interopRequireDefault(require("../../assets/images/about-us/presidenBersinar.png"));
+var _PresidenBersinar = _interopRequireDefault(require("../../assets/images/about-us/PresidenBersinar.png"));
 
 var _smartWork = _interopRequireDefault(require("../../assets/images/about-us/values/smartWork.svg"));
 
@@ -42,6 +42,8 @@ var _misi4 = _interopRequireDefault(require("../../assets/images/about-us/misi/m
 var _program = _interopRequireDefault(require("../../assets/images/about-us/programs/program1.png"));
 
 var _program2 = _interopRequireDefault(require("../../assets/images/about-us/programs/program2.png"));
+
+var _program3 = _interopRequireDefault(require("../../assets/images/about-us/programs/program3.png"));
 
 var _achievement = _interopRequireDefault(require("../../assets/images/about-us/achievement.svg"));
 
@@ -74,9 +76,9 @@ function AboutUs() {
     className: "what-is-bersinar-contents d-flex flex-column flex-wrap"
   }, /*#__PURE__*/_react.default.createElement("h1", {
     className: "what-is-bersinar-title"
-  }, "Apa itu Bersinar Project?"), /*#__PURE__*/_react.default.createElement("h2", {
+  }, "Apa itu Bersinar?"), /*#__PURE__*/_react.default.createElement("h2", {
     className: "what-is-bersinar-subTitle"
-  }, "Bersinar Project adalah sebuah platform edukasi yang menyediakan kelas-kelas gratis khusus persiapan UTBK dan ujian mandiri masuk perguruan tinggi.")), /*#__PURE__*/_react.default.createElement("img", {
+  }, "Bersinar adalah sebuah platform edukasi yang menyediakan kelas-kelas gratis khusus persiapan UTBK dan ujian mandiri masuk perguruan tinggi.")), /*#__PURE__*/_react.default.createElement("img", {
     src: _bersinarLogoIcon.default,
     alt: "Logo Bersinar"
   })), /*#__PURE__*/_react.default.createElement("div", {
@@ -86,8 +88,8 @@ function AboutUs() {
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "president-speech-image"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _presidenBersinar.default,
-    alt: "Presiden Bersinar Project"
+    src: _PresidenBersinar.default,
+    alt: "Presiden Bersinar"
   })), /*#__PURE__*/_react.default.createElement("div", {
     className: "president-speech-text"
   }, /*#__PURE__*/_react.default.createElement("h1", {
@@ -171,16 +173,16 @@ function AboutUs() {
   }, "Program Kami"), /*#__PURE__*/_react.default.createElement("h2", {
     className: "our-program-subTitle col-md-6"
   }, "Kami menyediakan berbagai program pendidikan yang dapat diakses oleh seluruh pelajar Indonesia."), /*#__PURE__*/_react.default.createElement("div", {
-    className: "our-program-contents d-flex"
+    className: "our-program-contents d-flex flex-wrap justify-content-center"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "our-program-content d-flex flex-column"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _program.default,
+    src: _program3.default,
     alt: "FWB",
     className: "our-program-content-image"
   }), /*#__PURE__*/_react.default.createElement("h3", {
     className: "our-program-content-title"
-  }, "Making Friends with Bersinar"), /*#__PURE__*/_react.default.createElement("p", null, "Kelompok belajar dan mentoring yang dibimbing oleh para mentor Bersinar. Tempat ini jadi ajang Sobat Bersinar untuk mencari teman, belajar bersama, dan saling berbagi cerita.")), /*#__PURE__*/_react.default.createElement("div", {
+  }, "#BersinarMengajar - Kelas Gratis Harian"), /*#__PURE__*/_react.default.createElement("p", null, "Kelas harian yang membahas beragam pelajaran untuk mempersiapkan UTBK dan ujian mandiri lainnya. Kelas ini difasilitasi dengan tutor-tutor Bersinar yang seru, asyik, dan berkualitas.")), /*#__PURE__*/_react.default.createElement("div", {
     className: "our-program-content d-flex flex-column"
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: _program2.default,
@@ -188,7 +190,15 @@ function AboutUs() {
     className: "our-program-content-image"
   }), /*#__PURE__*/_react.default.createElement("h3", {
     className: "our-program-content-title"
-  }, "Ngambis Bareng Bersinar"), /*#__PURE__*/_react.default.createElement("p", null, "Kelas daring gratis bersama dengan tutor-tutor Bersinar yang diadakan setelah UTBK. Program belajar ini merupakan program persiapan khusus UTUL UGM dan SIMAK UI.")))), /*#__PURE__*/_react.default.createElement("div", {
+  }, "#NGABERS - Ngambis Bareng Bersinar"), /*#__PURE__*/_react.default.createElement("p", null, "Program intensif ujian mandiri 4 bulan dengan menempatkan peserta bersama dengan tutor-tutor Bersinar di dalam satu wadah. Program ini dikhususkan untuk UTUL UGM dan SIMAK UI dan diadakan secara gratis.")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "our-program-content d-flex flex-column"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _program.default,
+    alt: "Ngabers",
+    className: "our-program-content-image"
+  }), /*#__PURE__*/_react.default.createElement("h3", {
+    className: "our-program-content-title"
+  }, "FWB - Making Friends with Bersinar"), /*#__PURE__*/_react.default.createElement("p", null, "Kelompok belajar dan mentoring yang dibimbing oleh para mentor Bersinar. Tempat ini jadi ajang Sobat Bersinar untuk mencari teman, belajar bersama, dan saling berbagi cerita.")))), /*#__PURE__*/_react.default.createElement("div", {
     className: "visi-bersinar d-flex flex-column justify-content-center align-items-center"
   }, /*#__PURE__*/_react.default.createElement("h1", {
     className: "visi-bersinar-title"

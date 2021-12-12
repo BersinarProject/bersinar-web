@@ -11,8 +11,6 @@ var _reactBootstrap = require("react-bootstrap");
 
 require("./TestimonialCard.css");
 
-var _ArrowIcon = _interopRequireDefault(require("../../assets/images/ArrowIcon.svg"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const card = _ref => {
@@ -27,7 +25,7 @@ const card = _ref => {
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "testimonial-card-profile d-flex"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _ArrowIcon.default,
+    src: dataTestimonialCard.img,
     className: "testimonial-card-profile-img",
     alt: "Testimonial Avatar"
   }), /*#__PURE__*/_react.default.createElement("div", {
