@@ -137,6 +137,58 @@
 	color: #574e5a;
 }
 
+.our-program {
+	padding: 60px 0;
+}
+
+.our-program-title {
+	margin-bottom: 20px;
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 36px;
+	text-align: center;
+	color: #484848;
+}
+
+.our-program-subTitle {
+	margin-bottom: 80px;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 32px;
+	text-align: center;
+	color: #574e5a;
+}
+
+.our-program-content {
+	width: 500px;
+}
+
+.our-program-content:first-child {
+	margin-right: 90px;
+}
+
+.our-program-content-image {
+	width: 500px;
+	margin-bottom: 40px;
+}
+
+.our-program-content-title {
+	margin-bottom: 20px;
+	font-size: 36px;
+	font-weight: 800;
+	line-height: 44px;
+	color: #574e5a;
+}
+
+.our-program-content p {
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 32px;
+	color: #574e5a;
+}
+
 .visi-bersinar,
 .misi-bersinar,
 .bersinar-achievement {
@@ -336,6 +388,14 @@
 	.misi-bersinar-content p {
 		text-align: left;
 	}
+
+	.our-program-content {
+		width: 350px;
+	}
+
+	.our-program-content-image {
+		width: 350px;
+	}
 }
 
 @media (max-width: 992px) {
@@ -381,6 +441,14 @@
 
 	.values:nth-child(2) {
 		padding-top: 24px;
+	}
+
+	.our-program-content {
+		width: 280px;
+	}
+
+	.our-program-content-image {
+		width: 280px;
 	}
 
 	.bersinar-achievement-contents {
@@ -445,6 +513,30 @@
 	}
 }
 
+@media (max-width: 768px) {
+	.our-program-contents {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.our-program-content {
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.our-program-content:first-child {
+		margin-right: 0px;
+		margin-bottom: 40px;
+	}
+
+	.our-program-content-title,
+	.our-program-content p {
+		text-align: center;
+	}
+}
+
 @media (max-width: 576px) {
 	.what-is-bersinar img {
 		display: none;
@@ -486,7 +578,8 @@
 	}
 
 	.visi-bersinar-title,
-	.misi-bersinar-title {
+	.misi-bersinar-title,
+	.our-program-title {
 		font-size: 36px;
 	}
 
@@ -496,9 +589,29 @@
 
 	.core-subTitle,
 	.visi-bersinar p,
-	.misi-bersinar-content p {
+	.misi-bersinar-content p,
+	.our-program-subTitle,
+	.our-program-content p {
 		font-size: 16px;
 		line-height: 24px;
+	}
+
+	.our-program-title {
+		margin-bottom: 8px;
+	}
+
+	.our-program-subTitle {
+		margin-bottom: 40px;
+	}
+
+	.our-program-content-image {
+		margin-bottom: 20px;
+	}
+
+	.our-program-content-title {
+		margin-bottom: 10px;
+		font-size: 28px;
+		line-height: 36px;
 	}
 
 	.about-us-tribute-founder img,
@@ -531,12 +644,15 @@
 		line-height: 21px;
 	}
 
-	.core-title {
+	.core-title,
+	.our-program-title {
 		font-size: 24px;
 		line-height: 33px;
 	}
 
-	.core-subTitle {
+	.core-subTitle,
+	.our-program-subTitle,
+	.our-program-content p {
 		font-size: 14px;
 		line-height: 21px;
 	}
@@ -580,6 +696,11 @@
 	.about-us-tribute-vice-president-text p {
 		font-size: 14px;
 		line-height: 21px;
+	}
+
+	.our-program-content-title {
+		font-size: 20px;
+		line-height: 28px;
 	}
 
 	.bersinar-achievement-title,

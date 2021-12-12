@@ -17,6 +17,8 @@ import misi1 from "../../assets/images/about-us/misi/misi-1.svg";
 import misi2 from "../../assets/images/about-us/misi/misi-2.svg";
 import misi3 from "../../assets/images/about-us/misi/misi-3.svg";
 import misi4 from "../../assets/images/about-us/misi/misi-4.svg";
+import program1 from "../../assets/images/about-us/programs/program1.png";
+import program2 from "../../assets/images/about-us/programs/program2.png";
 import achievement from "../../assets/images/about-us/achievement.svg";
 import FAQIllustration from "../../assets/images/FAQIllustration.png";
 import FAQButtonIcon from "../../assets/images/FAQButtonIcon.svg";
@@ -178,6 +180,47 @@ export default function AboutUs() {
 									</div>
 								</div>
 							</div>
+						</div>
+					</div>
+				</div>
+				<div className="our-program d-flex flex-column justify-content-center align-items-center">
+					<h1 className="our-program-title">Program Kami</h1>
+					<h2 className="our-program-subTitle col-md-6">
+						Kami menyediakan berbagai program pendidikan yang dapat
+						diakses oleh seluruh pelajar Indonesia.
+					</h2>
+					<div className="our-program-contents d-flex">
+						<div className="our-program-content d-flex flex-column">
+							<img
+								src={program1}
+								alt="FWB"
+								className="our-program-content-image"
+							/>
+							<h3 className="our-program-content-title">
+								Making Friends with Bersinar
+							</h3>
+							<p>
+								Kelompok belajar dan mentoring yang dibimbing
+								oleh para mentor Bersinar. Tempat ini jadi ajang
+								Sobat Bersinar untuk mencari teman, belajar
+								bersama, dan saling berbagi cerita.
+							</p>
+						</div>
+						<div className="our-program-content d-flex flex-column">
+							<img
+								src={program2}
+								alt="Ngabers"
+								className="our-program-content-image"
+							/>
+							<h3 className="our-program-content-title">
+								Ngambis Bareng Bersinar
+							</h3>
+							<p>
+								Kelas daring gratis bersama dengan tutor-tutor
+								Bersinar yang diadakan setelah UTBK. Program
+								belajar ini merupakan program persiapan khusus
+								UTUL UGM dan SIMAK UI.
+							</p>
 						</div>
 					</div>
 				</div>
