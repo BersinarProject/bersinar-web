@@ -25,7 +25,6 @@ import aboutUsTribute from "../../assets/images/about-us/tribute.svg";
 import vicePresidentPertama from "../../assets/images/about-us/vicePresidentPertama.png";
 
 export default function AboutUs() {
-	const ssi = "Sustainable\nSocial\nInfluence";
 	return (
 		<div className="about-us">
 			<Navbar />
@@ -98,66 +97,84 @@ export default function AboutUs() {
 					</div>
 				</div>
 				<div className="core-values">
-					<div className="core-text">
+					<div className="core-text d-flex flex-column justify-content-center align-items-center">
 						<h1 className="core-title">Our Core Values</h1>
-						<h3 className="core-subTitle py-1">
-							Kultur Bersinar Project sangat penting untuk
-							berjalannya program Bersinar.
-						</h3>
-						<h3 className="core-subTitle">
-							Bersinar Project berdiri dengan lima pilar utama
-							untuk sukses.
+						<h3 className="core-subTitle col-md-8">
+							Sebagai salah satu platform penyedia akses
+							pendidikan yang bisa dijangkau siapapun, kami
+							memiliki nilai-nilai (etos kerja/inti) yang kami
+							junjung.
 						</h3>
 					</div>
 					<div className="core-values-card">
-						<div className="row d-flex justify-content-center">
-							<div className="values col-md-4">
-								<div className="values-card container">
-									<div className="col-4 sw">
-										<img src={SmartWork} alt="" />
+						<div className="core-values-card-content d-flex flex-wrap">
+							<div className="values">
+								<div className="values-card d-flex justify-content-center align-items-center">
+									<div className="values-card-image">
+										<img
+											src={SmartWork}
+											alt="Smart Work"
+											className="values-card-image1"
+										/>
 									</div>
-									<div className="col-8 swt">
+									<div className="col-5">
 										<h3>SmartWork</h3>
 									</div>
 								</div>
 							</div>
-							<div className="values col-md-4">
-								<div className="values-card container">
-									<div className="col-4 hy">
-										<img src={Hospitality} alt="" />
+							<div className="values">
+								<div className="values-card d-flex justify-content-center align-items-center">
+									<div className="values-card-image">
+										<img
+											src={Hospitality}
+											alt="Hospitality"
+											className="values-card-image2"
+										/>
 									</div>
-									<div className="col-8 align-items-center">
+									<div className="col-5">
 										<h3>Hospitality</h3>
 									</div>
 								</div>
 							</div>
-							<div className="values col-md-4">
-								<div className="values-card container">
-									<div className="col-4 pd">
-										<img src={coreIcon} alt="" />
+							<div className="values">
+								<div className="values-card d-flex justify-content-center align-items-center">
+									<div className="values-card-image">
+										<img
+											src={coreIcon}
+											alt="Purpose Driven"
+											className="values-card-image3"
+										/>
 									</div>
-									<div className="col-8 align-items-center">
+									<div className="col-5">
 										<h3>Purpose-Driven</h3>
 									</div>
 								</div>
 							</div>
-							<div className="values col-md-4">
-								<div className="values-card container">
-									<div className="col-4 dt">
-										<img src={Dts} alt="" />
+							<div className="values">
+								<div className="values-card d-flex justify-content-center align-items-center">
+									<div className="values-card-image">
+										<img
+											src={Dts}
+											alt="Dare to Share"
+											className="values-card-image4"
+										/>
 									</div>
-									<div className="col-8 align-items-center">
+									<div className="col-5">
 										<h3>Dare to Share</h3>
 									</div>
 								</div>
 							</div>
-							<div className="values col-md-4">
-								<div className="values-card col">
-									<div className="col-lg-4 if">
-										<img src={Influence} alt="" />
+							<div className="values">
+								<div className="values-card d-flex justify-content-center align-items-center">
+									<div className="values-card-image">
+										<img
+											src={Influence}
+											alt="Influence"
+											className="values-card-image5"
+										/>
 									</div>
-									<div className="col-lg-8 align-items-center">
-										<h3 className="text-wrap ssi">{ssi}</h3>
+									<div className="col-5">
+										<h3>Sustainable Social Influence</h3>
 									</div>
 								</div>
 							</div>
