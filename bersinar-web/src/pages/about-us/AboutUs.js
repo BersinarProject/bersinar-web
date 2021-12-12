@@ -6,7 +6,7 @@ import "./AboutUs.css";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 
-import aboutUsHero from "../../assets/images/about-us/aboutUs.svg";
+import aboutUsHero from "../../assets/images/about-us/aboutUsHero.svg";
 import bersinarLogoIcon from "../../assets/images/bersinar-logo/bersinarLogoIcon.svg";
 import presidenBersinar from "../../assets/images/about-us/presidenBersinar.png";
 import SmartWork from "../../assets/images/about-us/values/smartWork.svg";
