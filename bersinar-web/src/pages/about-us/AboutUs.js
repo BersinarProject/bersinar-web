@@ -8,7 +8,7 @@ import Footer from "../../components/footer/Footer";
 
 import aboutUsHero from "../../assets/images/about-us/aboutUsHero.svg";
 import bersinarLogoIcon from "../../assets/images/bersinar-logo/bersinarLogoIcon.svg";
-import presidenBersinar from "../../assets/images/about-us/presidenBersinar.png";
+import presidenBersinar from "../../assets/images/about-us/PresidenBersinar.png";
 import SmartWork from "../../assets/images/about-us/values/smartWork.svg";
 import Hospitality from "../../assets/images/about-us/values/hospitality.svg";
 import Dts from "../../assets/images/about-us/values/daretoShare.svg";
@@ -198,7 +198,7 @@ export default function AboutUs() {
 								className="our-program-content-image"
 							/>
 							<h3 className="our-program-content-title">
-								Making Friends with Bersinar
+								FWB - Making Friends with Bersinar
 							</h3>
 							<p>
 								Kelompok belajar dan mentoring yang dibimbing
@@ -214,7 +214,7 @@ export default function AboutUs() {
 								className="our-program-content-image"
 							/>
 							<h3 className="our-program-content-title">
-								Ngambis Bareng Bersinar
+								#NGABERS - Ngambis Bareng Bersinar
 							</h3>
 							<p>
 								Kelas daring gratis bersama dengan tutor-tutor

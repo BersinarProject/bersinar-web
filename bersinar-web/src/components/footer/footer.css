@@ -108,6 +108,10 @@ ul {
 		padding-top: 40px !important;
 	}
 
+	.footer-title{
+		word-wrap: break-word !important;
+	}
+
 	.footer-link {
 		margin-right: 70px;
 		margin-bottom: 40px;
