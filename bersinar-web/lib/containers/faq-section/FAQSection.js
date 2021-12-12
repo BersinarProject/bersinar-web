@@ -31,7 +31,7 @@ const FAQSection = () => {
     className: "faq-section-content-text d-flex flex-column justify-content-center align-items-center"
   }, /*#__PURE__*/_react.default.createElement("h2", {
     className: "faq-section-content-title text-center"
-  }, "Punya pertanyaan?"), /*#__PURE__*/_react.default.createElement("h4", {
+  }, "Punya pertanyaan?"), /*#__PURE__*/_react.default.createElement("h3", {
     className: "faq-section-content-subTitle text-center"
   }, "Cek jawaban FAQ kami!"), /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
     className: "faq-section-content-button btn d-flex justify-content-center align-items-center",

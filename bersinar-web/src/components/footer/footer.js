@@ -14,7 +14,9 @@ const Footer = () => {
 				<div className="footer-contents d-flex">
 					<div className="footer-links d-flex">
 						<div className="footer-link">
-							<h1 className="footer-title">Navigasi</h1>
+							<h1 className="footer-title footer-title-navigasi">
+								Navigasi
+							</h1>
 							<ul className="py-2">
 								<li>
 									<NavLink className="footer-link" to="/">
@@ -50,7 +52,9 @@ const Footer = () => {
 							</ul>
 						</div>
 						<div className="footer-link">
-							<h1 className="footer-title">Kelas</h1>
+							<h1 className="footer-title footer-title-kelas">
+								Kelas
+							</h1>
 							<ul className="py-2">
 								<li>
 									<NavLink
@@ -79,7 +83,9 @@ const Footer = () => {
 							</ul>
 						</div>
 						<div className="footer-link">
-							<h1 className="footer-title">Media Sosial</h1>
+							<h1 className="footer-title footer-title-media-sosial">
+								Media Sosial
+							</h1>
 							<ul className="py-2">
 								<li>
 									<a
@@ -134,7 +140,9 @@ const Footer = () => {
 							</ul>
 						</div>
 						<div className="footer-link">
-							<h1 className="footer-title">Tautan Penting</h1>
+							<h1 className="footer-title footer-title-tautan-penting">
+								Tautan Penting
+							</h1>
 							<ul className="py-2">
 								<li>
 									<a
