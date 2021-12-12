@@ -31,7 +31,7 @@ const Footer = () => {
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "footer-link"
   }, /*#__PURE__*/_react.default.createElement("h1", {
-    className: "footer-title"
+    className: "footer-title footer-title-navigasi"
   }, "Navigasi"), /*#__PURE__*/_react.default.createElement("ul", {
     className: "py-2"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
@@ -51,7 +51,7 @@ const Footer = () => {
   }, "Donasi")))), /*#__PURE__*/_react.default.createElement("div", {
     className: "footer-link"
   }, /*#__PURE__*/_react.default.createElement("h1", {
-    className: "footer-title"
+    className: "footer-title footer-title-kelas"
   }, "Kelas"), /*#__PURE__*/_react.default.createElement("ul", {
     className: "py-2"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
@@ -66,7 +66,7 @@ const Footer = () => {
   }, "TPS")))), /*#__PURE__*/_react.default.createElement("div", {
     className: "footer-link"
   }, /*#__PURE__*/_react.default.createElement("h1", {
-    className: "footer-title"
+    className: "footer-title footer-title-media-sosial"
   }, "Media Sosial"), /*#__PURE__*/_react.default.createElement("ul", {
     className: "py-2"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
@@ -97,7 +97,7 @@ const Footer = () => {
   }, "TikTok")))), /*#__PURE__*/_react.default.createElement("div", {
     className: "footer-link"
   }, /*#__PURE__*/_react.default.createElement("h1", {
-    className: "footer-title"
+    className: "footer-title footer-title-tautan-penting"
   }, "Tautan Penting"), /*#__PURE__*/_react.default.createElement("ul", {
     className: "py-2"
   }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {

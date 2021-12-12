@@ -103,6 +103,13 @@ ul {
 	}
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+	.footer-title-media-sosial,
+	.footer-title-tautan-penting {
+		width: 100px;
+	}
+}
+
 @media (max-width: 575px) {
 	.footer {
 		padding-top: 40px !important;
@@ -121,8 +128,20 @@ ul {
 	}
 }
 
+@media (max-width: 425px) {
+	.footer-title-media-sosial,
+	.footer-title-tautan-penting {
+		width: 160px;
+	}
+}
+
 @media (max-width: 365px) {
 	.footer-links {
 		flex-direction: column;
+	}
+
+	.footer-title-media-sosial,
+	.footer-title-tautan-penting {
+		width: 100%;
 	}
 }
