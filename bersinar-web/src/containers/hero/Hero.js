@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Hero.css";
-import landingPageHero from "../../assets/images/landing-page/landingPageHero.svg";
+import landingPageHero from "../../assets/images/landing-page/landingPageHero.png";
 import startIcon from "../../assets/images/startIcon.svg";
 
 const hero = () => {
@@ -19,7 +19,10 @@ const hero = () => {
 							#BersinarBersama
 						</span>
 					</p>
-					<NavLink className="mulai-belajar-button btn" to="/">
+					<NavLink
+						className="mulai-belajar-button btn"
+						to="/our-class"
+					>
 						<img
 							className="mulai-belajar-button-icon"
 							src={startIcon}
