@@ -164,6 +164,10 @@
 	width: 500px;
 }
 
+.our-program-content:not(:last-child) {
+	margin-bottom: 40px;
+}
+
 .our-program-content:first-child {
 	margin-right: 90px;
 }
