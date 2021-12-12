@@ -16,6 +16,14 @@ body {
 	zoom: 0.875;
 }
 
+img {
+	image-rendering: optimizeSpeed;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -o-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: optimize-contrast;
+}
+
 ::-webkit-scrollbar {
 	width: 11px;
 	border-radius: 10px !important;

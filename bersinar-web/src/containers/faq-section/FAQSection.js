@@ -16,9 +16,9 @@ const FAQSection = () => {
 					<h2 className="faq-section-content-title text-center">
 						Punya pertanyaan?
 					</h2>
-					<h4 className="faq-section-content-subTitle text-center">
+					<h3 className="faq-section-content-subTitle text-center">
 						Cek jawaban FAQ kami!
-					</h4>
+					</h3>
 					<NavLink
 						className="faq-section-content-button btn d-flex justify-content-center align-items-center"
 						to="/faq"

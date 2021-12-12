@@ -8,7 +8,7 @@ import Footer from "../../components/footer/Footer";
 
 import aboutUsHero from "../../assets/images/about-us/aboutUs.svg";
 import bersinarLogoIcon from "../../assets/images/bersinar-logo/bersinarLogoIcon.svg";
-import presidenBersinar from "../../assets/images/about-us/PresidenBersinar.png";
+import presidenBersinar from "../../assets/images/about-us/presidenBersinar.png";
 import SmartWork from "../../assets/images/about-us/values/smartWork.svg";
 import Hospitality from "../../assets/images/about-us/values/hospitality.svg";
 import Dts from "../../assets/images/about-us/values/daretoShare.svg";
@@ -297,9 +297,9 @@ export default function AboutUs() {
 							<h2 className="about-us-faq-content-title text-center">
 								Punya pertanyaan?
 							</h2>
-							<h4 className="about-us-faq-content-subTitle text-center">
+							<h3 className="about-us-faq-content-subTitle text-center">
 								Cek jawaban FAQ kami!
-							</h4>
+							</h3>
 							<NavLink
 								className="about-us-faq-content-button btn d-flex justify-content-center align-items-center"
 								to="/faq"
