@@ -11,21 +11,21 @@ class Testimonials extends React.Component {
 			dataTestimonialCards: [
 				{
 					id: 1,
-					quote: '“Seneng banget bisa ketemu Bersinar, ketemu orang-orang keren yang sangat memotivasi bahwa mimpi itu bisa dijadikan kenyataan. Ada satu ucapan tutor Bersinar yang menurutku bener-bener jadi pegangan buat aku pas lagi belajar yaitu quality over quantity, bener-bener berefek untuk aku yang saat liat `Berapa soal ya yang aku kerjain?`"',
-					name: "Ahmad Zakiyudin",
-					edu: "ITS 2020"
+					quote: '"Ada satu ucapan tutor Bersinar yang menurutku bener-bener jadi pegangan, yaitu "Quality over quantity", bener-bener berefek untuk aku sampai sekarang"',
+					name: "Ziyah",
+					edu: "Psikologi Undip"
 				},
 				{
 					id: 2,
-					quote: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dicta quasi voluptate atque animi doloribus autem expedita amet rerum iste."',
-					name: "Razan Fawwaz",
-					edu: "Unsyiah 2020"
+					quote: '"Berkat Bersinar, skorku bisa tembus 700++ pada UTBK kemarin."',
+					name: "Pratiwi",
+					edu: "Ilmu Politik UGM"
 				},
 				{
 					id: 3,
-					quote: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dicta quasi voluptate atque animi doloribus autem expedita amet rerum iste."',
-					name: "Yasmin Hana",
-					edu: "UI 2020"
+					quote: '"Penyampaian tutor yang mudah dicerna dan lingkungan yang produktif tapi tetap asik membantu saya memperoleh skor UTBK yang cukup memuaskan dan bisa mencapai mimpi saya lewat jalur SBMPTN kemarin”',
+					name: "Angel",
+					edu: "Kedokteran Undip"
 				}
 			]
 		};

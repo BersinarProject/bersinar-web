@@ -23,6 +23,14 @@ var _bersinarLogoIcon = _interopRequireDefault(require("../../assets/images/bers
 
 var _presidenBersinar = _interopRequireDefault(require("../../assets/images/about-us/presidenBersinar.png"));
 
+var _smartWork = _interopRequireDefault(require("../../assets/images/about-us/values/smartWork.svg"));
+
+var _hospitality = _interopRequireDefault(require("../../assets/images/about-us/values/hospitality.svg"));
+
+var _daretoShare = _interopRequireDefault(require("../../assets/images/about-us/values/daretoShare.svg"));
+
+var _socialInfluence = _interopRequireDefault(require("../../assets/images/about-us/values/socialInfluence.svg"));
+
 var _misi = _interopRequireDefault(require("../../assets/images/about-us/misi/misi-1.svg"));
 
 var _misi2 = _interopRequireDefault(require("../../assets/images/about-us/misi/misi-2.svg"));
@@ -31,19 +39,26 @@ var _misi3 = _interopRequireDefault(require("../../assets/images/about-us/misi/m
 
 var _misi4 = _interopRequireDefault(require("../../assets/images/about-us/misi/misi-4.svg"));
 
+var _program = _interopRequireDefault(require("../../assets/images/about-us/programs/program1.png"));
+
+var _program2 = _interopRequireDefault(require("../../assets/images/about-us/programs/program2.png"));
+
 var _achievement = _interopRequireDefault(require("../../assets/images/about-us/achievement.svg"));
 
 var _FAQIllustration = _interopRequireDefault(require("../../assets/images/FAQIllustration.png"));
 
 var _FAQButtonIcon = _interopRequireDefault(require("../../assets/images/FAQButtonIcon.svg"));
 
+var _coreIcon = _interopRequireDefault(require("../../assets/images/coreIcon.svg"));
+
 var _tribute = _interopRequireDefault(require("../../assets/images/about-us/tribute.svg"));
+
+var _founderBersinar = _interopRequireDefault(require("../../assets/images/about-us/founderBersinar.png"));
 
 var _vicePresidentPertama = _interopRequireDefault(require("../../assets/images/about-us/vicePresidentPertama.png"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import coreIcon from "../../assets/images/coreIcon.svg";
 function AboutUs() {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "about-us"
@@ -78,6 +93,102 @@ function AboutUs() {
   }, /*#__PURE__*/_react.default.createElement("h1", {
     className: "president-speech-title"
   }, "Sambutan Presiden Bersinar"), /*#__PURE__*/_react.default.createElement("h2", null, "Ahnaf Fairuzuhdy Aslam"), /*#__PURE__*/_react.default.createElement("h3", null, "\"Masih banyak orang yang memandang Bersinar sebatas organisasi yang membantu anak-anak SMA dan gapyear untuk mencapai kampus impiannya. Bukan berarti pandangan ini salah, bahkan kerap kali kami memang memperkenalkan diri seperti itu. Namun, bagi saya, Bersinar jauh lebih daripada itu. Bersinar adalah sebuah komunitas di mana banyak orang berkumpul dan berkembang bersama-sama. Jika bisa dianalogikan, Bersinar layaknya sebuah universitas di mana guru, pelajar, dan orang-orang yang menjaga roda kehidupan di dalamnya tetap berputar (re: staf) dipertemukan.\"", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "\"Bersinar sendiri adalah wadah yang memiliki banyak ruang untuk dikembangkan, wadah yang dapat menampung inovasi dan aspirasi dari para anggotanya. Saya merasa beruntung bisa berada di sini. Berkembang bersama Bersinar menyadarkan saya bahwa ada begitu banyak hal yang dapat dijelajahi di dunia ini. Di sini, saya dipertemukan dengan pemuda-pemuda yang sangat bersemangat, bertalenta, dan berniat mulia untuk memajukan pendidikan di Indonesia. Saya berharap Bersinar bisa terus mengembangkan pengaruhnya ke masyarakat luas dengan menyediakan wadah pembelajaran yang gratis dan mudah diakses oleh siapa pun.\"")))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "core-values"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "core-text d-flex flex-column justify-content-center align-items-center"
+  }, /*#__PURE__*/_react.default.createElement("h1", {
+    className: "core-title"
+  }, "Our Core Values"), /*#__PURE__*/_react.default.createElement("h3", {
+    className: "core-subTitle col-md-8"
+  }, "Sebagai salah satu platform penyedia akses pendidikan yang bisa dijangkau siapapun, kami memiliki nilai-nilai (etos kerja/inti) yang kami junjung.")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "core-values-card"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "core-values-card-content d-flex flex-wrap"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "values"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "values-card d-flex justify-content-center align-items-center"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "values-card-image"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _smartWork.default,
+    alt: "Smart Work",
+    className: "values-card-image1"
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "col-5"
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "SmartWork")))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "values"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "values-card d-flex justify-content-center align-items-center"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "values-card-image"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _hospitality.default,
+    alt: "Hospitality",
+    className: "values-card-image2"
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "col-5"
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Hospitality")))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "values"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "values-card d-flex justify-content-center align-items-center"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "values-card-image"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _coreIcon.default,
+    alt: "Purpose Driven",
+    className: "values-card-image3"
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "col-5"
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Purpose-Driven")))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "values"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "values-card d-flex justify-content-center align-items-center"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "values-card-image"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _daretoShare.default,
+    alt: "Dare to Share",
+    className: "values-card-image4"
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "col-5"
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Dare to Share")))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "values"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "values-card d-flex justify-content-center align-items-center"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "values-card-image"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _socialInfluence.default,
+    alt: "Influence",
+    className: "values-card-image5"
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "col-5"
+  }, /*#__PURE__*/_react.default.createElement("h3", null, "Sustainable Social Influence"))))))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "our-program d-flex flex-column justify-content-center align-items-center"
+  }, /*#__PURE__*/_react.default.createElement("h1", {
+    className: "our-program-title"
+  }, "Program Kami"), /*#__PURE__*/_react.default.createElement("h2", {
+    className: "our-program-subTitle col-md-6"
+  }, "Kami menyediakan berbagai program pendidikan yang dapat diakses oleh seluruh pelajar Indonesia."), /*#__PURE__*/_react.default.createElement("div", {
+    className: "our-program-contents d-flex"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "our-program-content d-flex flex-column"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _program.default,
+    alt: "FWB",
+    className: "our-program-content-image"
+  }), /*#__PURE__*/_react.default.createElement("h3", {
+    className: "our-program-content-title"
+  }, "Making Friends with Bersinar"), /*#__PURE__*/_react.default.createElement("p", null, "Kelompok belajar dan mentoring yang dibimbing oleh para mentor Bersinar. Tempat ini jadi ajang Sobat Bersinar untuk mencari teman, belajar bersama, dan saling berbagi cerita.")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "our-program-content d-flex flex-column"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _program2.default,
+    alt: "Ngabers",
+    className: "our-program-content-image"
+  }), /*#__PURE__*/_react.default.createElement("h3", {
+    className: "our-program-content-title"
+  }, "Ngambis Bareng Bersinar"), /*#__PURE__*/_react.default.createElement("p", null, "Kelas daring gratis bersama dengan tutor-tutor Bersinar yang diadakan setelah UTBK. Program belajar ini merupakan program persiapan khusus UTUL UGM dan SIMAK UI.")))), /*#__PURE__*/_react.default.createElement("div", {
     className: "visi-bersinar d-flex flex-column justify-content-center align-items-center"
   }, /*#__PURE__*/_react.default.createElement("h1", {
     className: "visi-bersinar-title"
@@ -141,7 +252,7 @@ function AboutUs() {
   }, "Tribute")), /*#__PURE__*/_react.default.createElement("div", {
     className: "about-us-tribute-founder d-flex"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _vicePresidentPertama.default,
+    src: _founderBersinar.default,
     alt: "Muhammad Rai Adli"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "about-us-tribute-founder-text"
@@ -165,7 +276,7 @@ function AboutUs() {
     className: "about-us-faq-content-text d-flex flex-column justify-content-center align-items-center"
   }, /*#__PURE__*/_react.default.createElement("h2", {
     className: "about-us-faq-content-title text-center"
-  }, "Punya pertanyaan?"), /*#__PURE__*/_react.default.createElement("h4", {
+  }, "Punya pertanyaan?"), /*#__PURE__*/_react.default.createElement("h3", {
     className: "about-us-faq-content-subTitle text-center"
   }, "Cek jawaban FAQ kami!"), /*#__PURE__*/_react.default.createElement(_reactRouterDom.NavLink, {
     className: "about-us-faq-content-button btn d-flex justify-content-center align-items-center",

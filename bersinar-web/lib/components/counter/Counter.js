@@ -28,25 +28,25 @@ const counter = () => {
     className: "countDetail d-flex flex-column"
   }, /*#__PURE__*/_react.default.createElement("h2", {
     className: "countDetail-number"
-  }, "100"), /*#__PURE__*/_react.default.createElement("h4", {
+  }, "100"), /*#__PURE__*/_react.default.createElement("h3", {
     className: "countDetail-text"
   }, "Total Kelas")), /*#__PURE__*/_react.default.createElement("div", {
     className: "countDetail d-flex flex-column"
   }, /*#__PURE__*/_react.default.createElement("h2", {
     className: "countDetail-number"
-  }, "100+"), /*#__PURE__*/_react.default.createElement("h4", {
+  }, "100+"), /*#__PURE__*/_react.default.createElement("h3", {
     className: "countDetail-text"
   }, "Jam Materi")), /*#__PURE__*/_react.default.createElement("div", {
     className: "countDetail d-flex flex-column"
   }, /*#__PURE__*/_react.default.createElement("h2", {
     className: "countDetail-number"
-  }, "10Rb+"), /*#__PURE__*/_react.default.createElement("h4", {
+  }, "10Rb+"), /*#__PURE__*/_react.default.createElement("h3", {
     className: "countDetail-text"
   }, "Total Peserta")), /*#__PURE__*/_react.default.createElement("div", {
     className: "countDetail d-flex flex-column"
   }, /*#__PURE__*/_react.default.createElement("h2", {
     className: "countDetail-number"
-  }, "90%"), /*#__PURE__*/_react.default.createElement("h4", {
+  }, "90%"), /*#__PURE__*/_react.default.createElement("h3", {
     className: "countDetail-text"
   }, "Total Kepuasan"))));
 };
