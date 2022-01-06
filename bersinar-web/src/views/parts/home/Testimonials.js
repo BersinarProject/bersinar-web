@@ -1,8 +1,8 @@
 import React from "react";
 import starIcon from "../../../assets/icons/starIcon.svg";
-import imgZiyah from "../../../assets/images/landing-page/ziyah.png";
-import imgPratiwi from "../../../assets/images/landing-page/pratiwi.png";
-import imgAngel from "../../../assets/images/landing-page/angel.png";
+import imgZiyah from "../../../assets/images/landing-page/ziyah.webp";
+import imgPratiwi from "../../../assets/images/landing-page/pratiwi.webp";
+import imgAngel from "../../../assets/images/landing-page/angel.webp";
 import TestimonialCard from "../../../components/TestimonialCard";
 
 export default function Testimonials() {

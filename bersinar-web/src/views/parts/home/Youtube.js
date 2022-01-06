@@ -1,5 +1,5 @@
 import React from "react";
-import youtubeIllustration from "../../../assets/images/landing-page/youtubeIllustration.svg";
+import youtubeIllustration from "../../../assets/images/landing-page/youtubeIllustration.webp";
 
 export default function Youtube() {
     return (

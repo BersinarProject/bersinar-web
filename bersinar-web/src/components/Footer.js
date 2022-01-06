@@ -1,6 +1,6 @@
 import React from "react";
 import FooterLink from "./FooterLink";
-import bersinarLogoIconText from "../assets/icons/bersinar-logo/bersinarLogoIconText.svg";
+import bersinarLogoIconText from "../assets/icons/bersinar-logo/bersinarLogoIconText.webp";
 
 export default function Footer() {
     return (

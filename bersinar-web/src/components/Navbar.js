@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import NavbarLink from "./NavbarLink";
 import ResponsiveNavbar from "./ResponsiveNavbar";
-import bersinarLogoIconText from "../assets/icons/bersinar-logo/bersinarLogoIconText.svg";
+import bersinarLogoIconText from "../assets/icons/bersinar-logo/bersinarLogoIconText.webp";
 import donateIcon from "../assets/icons/button-icons/donateIcon.svg";
 
 export default function Navbar() {

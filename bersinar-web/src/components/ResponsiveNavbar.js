@@ -2,8 +2,8 @@ import React, { Fragment } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { Menu, Transition } from "@headlessui/react";
 import ResponsiveNavbarLink from "./ResponsiveNavbarLink";
-import bersinarLogoIconOnly from "../assets/icons/bersinar-logo/bersinarLogoIconOnly.svg";
-import bersinarLogoTextOnly from "../assets/icons/bersinar-logo/bersinarLogoTextOnly.svg";
+import bersinarLogoIconOnly from "../assets/icons/bersinar-logo/bersinarLogoIconOnly.webp";
+import bersinarLogoTextOnly from "../assets/icons/bersinar-logo/bersinarLogoTextOnly.webp";
 import navbarCollapseIcon from "../assets/icons/navbarCollapseIcon.svg";
 import donateIcon from "../assets/icons/button-icons/donateIcon.svg";
 

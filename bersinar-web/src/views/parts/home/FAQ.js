@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import FAQIllustration from "../../../assets/images/FAQIllustration.png";
+import FAQIllustration from "../../../assets/images/FAQIllustration.webp";
 import FAQIcon from "../../../assets/icons/button-icons/FAQIcon.svg";
 
 export default function FAQ() {

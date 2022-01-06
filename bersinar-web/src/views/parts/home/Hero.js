@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import landingPageHero from "../../../assets/images/landing-page/landingPageHero.png";
+import landingPageHero from "../../../assets/images/landing-page/landingPageHero.webp";
 import startIcon from "../../../assets/icons/button-icons/startIcon.svg";
 
 export default function Hero() {

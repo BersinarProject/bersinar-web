@@ -1,7 +1,7 @@
 import React from "react";
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/solid";
-import FAQIllustration from "../../../assets/images/FAQIllustration.png";
+import FAQIllustration from "../../../assets/images/FAQIllustration.webp";
 
 export default function Index() {
     return (
