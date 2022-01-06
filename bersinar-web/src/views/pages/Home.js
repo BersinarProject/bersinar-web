@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Hero from "../parts/home/Hero";
 import Counter from "../parts/home/Counter";
 import UpcomingClass from "../parts/home/UpcomingClass";
@@ -8,6 +8,10 @@ import Testimonials from "../parts/home/Testimonials";
 import FAQ from "../parts/home/FAQ";
 
 export default function Home() {
+    useEffect(() => {
+        document.title = "Bersinar - Raih Mimpi dan #BersinarBersama";
+    }, []);
+
     return (
         <div className="sm:container">
             <Hero />
