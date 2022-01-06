@@ -1,35 +1,14 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import "animate.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Router from "./router";
 
-import LandingPage from "./pages/LandingPage";
-import OurClass from "./pages/our-class/OurClass";
-import AboutUs from "./pages/about-us/AboutUs";
-import Faq from "./pages/faq/Faq";
-import ScrollToTop from "./ScrollToTop";
-
-function App() {
-	return (
-		<div className="app">
-			<Router>
-				<ScrollToTop />
-				<Switch>
-					<Route exact path="/">
-						<LandingPage />
-					</Route>
-					<Route path="/our-class">
-						<OurClass />
-					</Route>
-					<Route path="/about-us">
-						<AboutUs />
-					</Route>
-					<Route path="/faq">
-						<Faq />
-					</Route>
-				</Switch>
-			</Router>
-		</div>
-	);
+export default function App() {
+    return (
+        <div className="antialiased">
+            <Navbar />
+            <Router />
+            <Footer />
+        </div>
+    );
 }
-
-export default App;
