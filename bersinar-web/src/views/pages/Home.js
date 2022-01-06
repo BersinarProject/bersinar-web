@@ -9,7 +9,7 @@ import FAQ from "../parts/home/FAQ";
 
 export default function Home() {
     return (
-        <div className="sm:container bg-body">
+        <div className="sm:container">
             <Hero />
             <Counter />
             <UpcomingClass />

@@ -3,7 +3,7 @@ import Index from "../parts/our-class/Index";
 
 export default function OurClass() {
     return (
-        <div className="sm:container bg-body">
+        <div className="sm:container">
             <Index />
         </div>
     );
