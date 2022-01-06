@@ -6,7 +6,7 @@ export default function NavbarLink({ to, className, children }) {
         <NavLink
             to={to}
             className={`${
-                className == "active" ? "font-semibold" : "font-medium"
+                className === "active" ? "font-semibold" : "font-medium"
             } text-md font-body hover:font-semibold text-link`}>
             {children}
         </NavLink>
