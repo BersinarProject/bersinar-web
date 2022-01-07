@@ -3,7 +3,7 @@ import presidenBersinar from "../../../assets/images/about-us/PresidenBersinar.w
 
 export default function PresidentSpeech() {
     return (
-        <div className="py-[60px] flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-start">
+        <div className="py-10 sm:py-[60px] flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-start">
             <img
                 src={presidenBersinar}
                 alt="Ahnaf Fairuzuhdy Aslam"

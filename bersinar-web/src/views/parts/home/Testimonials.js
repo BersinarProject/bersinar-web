@@ -51,7 +51,7 @@ export default function Testimonials() {
                 </h2>
             </div>
             <div className="px-8 sm:px-0 mx-auto z-10 w-full sm:w-[512px] md:w-[640px] lg:w-[832px] xl:w-full relative overflow-hidden touch-pan-y">
-                <div className=" px-4 h-[200px] flex justify-start items-center xl:justify-center xl:items-center gap-x-6 lg:gap-x-12 snap-mandatory snap-x overflow-auto ">
+                <div className="px-4 h-[200px] flex justify-start items-center xl:justify-center xl:items-center gap-x-6 lg:gap-x-12 snap-mandatory snap-x overflow-auto">
                     {dataTestimonials.map((dataTestimonial) => {
                         return (
                             <TestimonialCard

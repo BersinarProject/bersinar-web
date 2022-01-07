@@ -8,7 +8,7 @@ import socialInfluence from "../../../assets/icons/core-values/socialInfluence.s
 
 export default function CoreValue() {
     return (
-        <div className="py-[60px] flex flex-col justify-center items-center">
+        <div className="py-10 sm:py-[60px] flex flex-col justify-center items-center">
             <div className="mb-10 flex flex-col justify-center items-center text-center">
                 <h1 className="mb-2 sm:mb-4 font-heading text-2xl sm:text-4xl font-extrabold text-title">
                     Our Core Values
