@@ -1,5 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Hero from "../parts/about-us/Hero";
 
 export default function AboutUs() {
-    return <div>About Us</div>;
+    useEffect(() => {
+        document.title = "Bersinar - Tentang Kami";
+    }, []);
+
+    return (
+        <div className="sm:container">
+            <Hero />
+        </div>
+    );
 }
