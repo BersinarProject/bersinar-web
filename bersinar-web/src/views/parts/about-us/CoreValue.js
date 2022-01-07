@@ -19,7 +19,7 @@ export default function CoreValue() {
                     kerja/inti) yang kami junjung.
                 </h2>
             </div>
-            <div className="px-10 sm:px-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 grid-rows-5 sm:grid-rows-3 lg:grid-rows-3 xl:grid-rows-2 gap-y-6 sm:gap-6">
+            <div className="px-10 sm:px-0 grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 grid-rows-3 lg:grid-rows-3 xl:grid-rows-2 gap-6">
                 <CoreValueCard img={smartWork} className="lg:col-span-2">
                     Smart Work
                 </CoreValueCard>
@@ -36,7 +36,7 @@ export default function CoreValue() {
                 </CoreValueCard>
                 <CoreValueCard
                     img={socialInfluence}
-                    className="sm:mx-auto xl:mx-0 sm:col-span-2 lg:col-span-4 xl:col-span-3">
+                    className="mx-auto xl:mx-0 col-span-2 lg:col-span-4 xl:col-span-3">
                     Sustainable Social Influence
                 </CoreValueCard>
             </div>

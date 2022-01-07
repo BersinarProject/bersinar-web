@@ -8,7 +8,7 @@ export default function OurProgramCard({ title, children, ...props }) {
                 <h1 className="mb-2 font-heading text-xl sm:text-2xl font-extrabold text-title">
                     {title}
                 </h1>
-                <p className="font-body text-sm sm:text-lg font-medium text-subTitle">
+                <p className="font-body text-xs sm:text-lg font-medium text-subTitle">
                     {children}
                 </p>
             </div>

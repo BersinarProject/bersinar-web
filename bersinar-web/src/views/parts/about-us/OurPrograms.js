@@ -17,7 +17,7 @@ export default function OurPrograms() {
                 </h2>
             </div>
             <div className="px-8 sm:px-0 mx-auto z-10 w-full relative overflow-hidden touch-pan-y">
-                <div className="h-[496px] sm:h-[630px] flex justify-start items-start gap-x-14 sm:gap-x-24 snap-mandatory snap-x overflow-auto sm:no-scrollbar">
+                <div className="h-[452px] sm:h-[630px] flex justify-start items-start gap-x-14 sm:gap-x-24 snap-mandatory snap-x overflow-auto sm:no-scrollbar">
                     <OurProgramCard
                         src={bersinarMengajar}
                         alt="Bersinar Mengajar"
@@ -30,7 +30,7 @@ export default function OurPrograms() {
                     <OurProgramCard
                         src={bersinarFWB}
                         alt="FWB"
-                        title="PWB - Making Friends with Bersinar">
+                        title="FWB - Making Friends with Bersinar">
                         Kelompok belajar dan mentoring yang dibimbing oleh para
                         mentor Bersinar. Tempat ini jadi ajang Sobat Bersinar
                         untuk mencari teman, belajar bersama, dan saling berbagi
