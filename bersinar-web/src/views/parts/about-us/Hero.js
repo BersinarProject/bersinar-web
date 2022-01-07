@@ -17,7 +17,7 @@ export default function Hero() {
                     <h1 className="mb-2 sm:mb-4 font-heading text-3xl sm:text-4xl font-black text-title">
                         Apa itu Bersinar?
                     </h1>
-                    <h2 className="font-body text-sm sm:text-md font-medium text-justify text-subTitle">
+                    <h2 className="font-body text-sm sm:text-lg font-medium text-justify text-subTitle">
                         Bersinar adalah sebuah platform edukasi yang menyediakan
                         kelas-kelas gratis khusus persiapan UTBK dan ujian
                         mandiri masuk perguruan tinggi.
