@@ -30,7 +30,7 @@ export default function OurPrograms() {
                     <OurProgramCard
                         src={bersinarFWB}
                         alt="FWB"
-                        title="PWB - Making Friends with Bersinar">
+                        title="FWB - Making Friends with Bersinar">
                         Kelompok belajar dan mentoring yang dibimbing oleh para
                         mentor Bersinar. Tempat ini jadi ajang Sobat Bersinar
                         untuk mencari teman, belajar bersama, dan saling berbagi
