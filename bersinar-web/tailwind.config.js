@@ -17,7 +17,8 @@ module.exports = {
             boxShadow: {
                 navbar: "0px 4px 12px rgba(0, 0, 0, 0.08);",
                 testimonialCard: "0px 4px 8px rgba(0, 0, 0, 0.12);",
-                testimonialCardHover: "0px 4px 8px rgba(0, 0, 0, 0.16);"
+                testimonialCardHover: "0px 4px 8px rgba(0, 0, 0, 0.16);",
+                coreValueCard: "0px 4px 8px rgba(0, 0, 0, 0.12);"
             },
             fontFamily: {
                 heading: ["Nunito", "ui-sans-serif"],
