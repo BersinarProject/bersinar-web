@@ -53,7 +53,7 @@ export default function Navbar() {
                                     Tentang Kami
                                 </NavbarLink>
                                 <a
-                                    href="https://trakteer.id/BersinarProject/tip/embed/modal"
+                                    href="https://trakteer.id/BersinarProject/"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="px-6 py-2 flex justify-center items-center gap-x-2.5 bg-donate hover:bg-[#47A56D] transition duration-300 rounded-lg text-md font-heading font-bold text-button">
