@@ -17,7 +17,7 @@ export default function Youtube() {
                     href="https://www.youtube.com/c/BersinarProject/videos"
                     target="_blank"
                     rel="noreferrer"
-                    className="px-8 py-2.5 flex justify-center items-center gap-x-2.5 ring-2 hover:bg-[#E8DBDB] ring-youtube hover:ring-[#D66868] rounded-lg text-md font-heading font-bold text-youtube hover:text-[#D66868]">
+                    className="px-8 py-2.5 flex justify-center items-center gap-x-2.5 ring-2 hover:bg-[#E8DBDB] ring-youtube hover:ring-[#D66868] transition duration-300 rounded-lg text-md font-heading font-bold text-youtube hover:text-[#D66868]">
                     <svg
                         width="11"
                         height="13"

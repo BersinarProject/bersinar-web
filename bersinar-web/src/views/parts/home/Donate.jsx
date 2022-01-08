@@ -21,7 +21,7 @@ export default function Donate() {
                     href="https://trakteer.id/BersinarProject/"
                     target="_blank"
                     rel="noreferrer"
-                    className="px-8 py-2.5 flex justify-center items-center gap-x-2.5 ring-2 hover:bg-[#D7E1DC] ring-donate hover:ring-[#47A56D] rounded-lg text-md font-heading font-bold text-donate hover:text-[#47A56D]">
+                    className="px-8 py-2.5 flex justify-center items-center gap-x-2.5 ring-2 hover:bg-[#D7E1DC] ring-donate hover:ring-[#47A56D] transition duration-300 rounded-lg text-md font-heading font-bold text-donate hover:text-[#47A56D]">
                     <svg
                         width="20"
                         height="20"
