@@ -9,7 +9,7 @@ export default function Navbar() {
     const location = useLocation();
 
     return (
-        <div className="bg-body shadow-navbar fixed right-0 left-0 z-20">
+        <div className="backdrop-filter backdrop-blur-lg bg-opacity-30 shadow-navbar fixed right-0 left-0 z-20">
             <ResponsiveNavbar />
             <div className="hidden lg:block py-3 border-b border-white/5">
                 <div className="container">
