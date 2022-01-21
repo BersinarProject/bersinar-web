@@ -16,3 +16,4 @@ Bersinar Engineering, Frontend Team
 | Muhammad Arief Fadhlan         | arieffadhlan@bersinarproject.com      |
 | Ramji Renanda Sitorus          | ramjirenanda@bersinarproject.com      |
 | Muh. Nur Iskandar Dzulqarnain  | iskandardz@bersinarproject.com        |
+--------------------------------------------------------------------------
