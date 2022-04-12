@@ -25,7 +25,7 @@
 
 .ngabers-procedure-list,
 .desc-ngabers,
-.desc-benefits-ngabers {
+.benefits-ngabers-list {
 	font-family: "Poppins";
     text-align: justify;
 	font-size: 20px;
@@ -74,7 +74,7 @@
 
 	.ngabers-procedure-list,
 	.desc-ngabers,
-	.desc-benefits-ngabers {
+	.benefits-ngabers-list {
 		font-size: 14px;
 		line-height: 21px;
 	}
