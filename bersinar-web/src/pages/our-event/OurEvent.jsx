@@ -2,10 +2,10 @@ import React from "react";
 import { Container } from "react-bootstrap";
 
 import "./OurEvent.css";
-import Navbar from "../../components/navbar/Navbar";
-import Footer from "../../components/footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 
-import poster from "../../assets/images/about-us/programs/program2.png";
+import poster from "../../assets/images/programs/program2.png";
 
 const OurEvent = () => {
 	return (

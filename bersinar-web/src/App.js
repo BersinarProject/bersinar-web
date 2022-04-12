@@ -5,8 +5,8 @@ import Homepage from "./pages/Homepage/Homepage";
 import OurClass from "./pages/OurClass/OurClass";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import Faq from "./pages/Faq/Faq";
-import ScrollToTop from "./ScrollToTop";
 import OurEvent from "./pages/our-event/OurEvent";
+import ScrollToTop from "./ScrollToTop";
 
 export default function App() {
 	return (
