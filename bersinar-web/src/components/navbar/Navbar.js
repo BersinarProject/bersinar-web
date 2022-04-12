@@ -47,7 +47,7 @@ const navbar = () => {
 								Jadwal Kelas
 							</NavLink>
 							<NavLink className="nav-link item" to="/events">
-								Our Events
+								Event Kami
 							</NavLink>
 							<NavLink className="nav-link item" to="/about-us">
 								Tentang Kami
