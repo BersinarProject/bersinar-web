@@ -21,6 +21,8 @@ const YoutubeSection = () => {
 					<a
 						href="https://www.youtube.com/c/BersinarProject/videos"
 						className="btn-youtube d-flex align-item-center text-decoration-none"
+						target="_blank"
+						rel="noreferrer"
 					>
 						<img
 							src={playIcon}

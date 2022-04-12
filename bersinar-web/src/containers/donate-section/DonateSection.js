@@ -19,6 +19,8 @@ const Donate = () => {
 					<a
 						href="https://trakteer.id/BersinarProject/"
 						className="btn-donate d-flex align-item-center text-decoration-none"
+						target="_blank"
+						rel="noreferrer"
 					>
 						<img
 							src={donateIcon}
