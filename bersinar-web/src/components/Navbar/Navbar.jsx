@@ -45,7 +45,7 @@ export default function Footer() {
 							<NavLink className="nav-link item" to="/our-class">
 								Jadwal Kelas
 							</NavLink>
-							<NavLink className="nav-link item" to="/events">
+							<NavLink className="nav-link item" to="/ngabers">
 								Ngabers
 							</NavLink>
 							<NavLink className="nav-link item" to="/about-us">

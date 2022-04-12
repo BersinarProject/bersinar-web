@@ -87,6 +87,7 @@ const OurEvent = () => {
 										>
 											sinar.me/DaftarNgabers
 										</a>
+										atau tombol daftar di bawah
 									</span>
 								</li>
 								<li className="ngabers-procedure-list">

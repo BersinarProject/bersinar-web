@@ -23,7 +23,7 @@ export default function App() {
 					<Route path="/about-us">
 						<AboutUs />
 					</Route>
-					<Route path="/events">
+					<Route path="/ngabers">
 						<OurEvent />
 					</Route>
 					<Route path="/faq">
