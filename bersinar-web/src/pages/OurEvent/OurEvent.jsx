@@ -87,8 +87,8 @@ const OurEvent = () => {
 										>
 											sinar.me/DaftarNgabers
 										</a>
-										atau tombol daftar di bawah
 									</span>
+									&nbsp; atau tombol daftar di bawah.
 								</li>
 								<li className="ngabers-procedure-list">
 									Setelah mengisi pendaftaran, Sober akan
