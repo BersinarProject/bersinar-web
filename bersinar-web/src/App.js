@@ -1,21 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "animate.css";
-
-import LandingPage from "./pages/LandingPage";
-import OurClass from "./pages/our-class/OurClass";
-import AboutUs from "./pages/about-us/AboutUs";
-import Faq from "./pages/faq/Faq";
+import Homepage from "./pages/Homepage/Homepage";
+import OurClass from "./pages/OurClass/OurClass";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import Faq from "./pages/Faq/Faq";
 import ScrollToTop from "./ScrollToTop";
 
-function App() {
+export default function App() {
 	return (
 		<div className="app">
 			<Router>
 				<ScrollToTop />
 				<Switch>
 					<Route exact path="/">
-						<LandingPage />
+						<Homepage />
 					</Route>
 					<Route path="/our-class">
 						<OurClass />
@@ -31,5 +30,3 @@ function App() {
 		</div>
 	);
 }
-
-export default App;
