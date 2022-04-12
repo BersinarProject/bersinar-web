@@ -12,18 +12,18 @@ const OurEvent = () => {
 	return (
 		<div>
 			<Navbar />
-			<div className="d-flex justify-content-center mt-5 mb-5 pt-4 pb-5 mx-auto">
-				<img
-					src={heroNgabers}
-					alt="Ngabers Hero"
-					className="ngabers-hero img-fluid mx-auto"
-				/>
-			</div>
 			<Container>
-				<div className="ngabers-event mb-5 d-flex flex-column gap-5">
+				<div className="ngabers-hero d-flex justify-content-center mt-5 pt-4 mx-auto">
+					<img
+						src={heroNgabers}
+						alt="Ngabers Hero"
+						className="ngabers-hero-image img-fluid mx-auto"
+					/>
+				</div>
+				<div className="ngabers-event mb-5 d-flex flex-column">
 					<div>
 						<div className="what-is-ngabers-content">
-							<h1 className="what-is-ngabers mb-4">
+							<h1 className="what-is-ngabers">
 								Apa itu Ngambis Bareng <br /> Bersinar?
 							</h1>
 							<h3 className="desc-ngabers mb-5 pb-2">
@@ -40,7 +40,7 @@ const OurEvent = () => {
 						</div>
 
 						<div className="benefits-ngabers-content">
-							<h1 className="benefits-ngabers mb-3">
+							<h1 className="benefits-ngabers">
 								Benefits Mengikuti Program Ngabers!
 							</h1>
 							<h3 className="desc-benefits-ngabers">
@@ -60,17 +60,14 @@ const OurEvent = () => {
 						</div>
 					</div>
 
-					<div className="d-flex flex-column gap-4">
+					<div className="ngabers-procedure d-flex flex-column">
 						<div>
-							<p className="title">
+							<h1 className="title">
 								Bagaimana Caranya Mengikuti <br /> Program
 								Ngabers?
-							</p>
-							<ol
-								className="paraghraph"
-								style={{ fontSize: "20px" }}
-							>
-								<li>
+							</h1>
+							<ol className="ngabers-procedure-lists">
+								<li className="ngabers-procedure-list">
 									Mengisi pendaftaran melalui link &nbsp;
 									<span>
 										<a
@@ -82,20 +79,20 @@ const OurEvent = () => {
 										</a>
 									</span>
 								</li>
-								<li>
+								<li className="ngabers-procedure-list">
 									Setelah mengisi pendaftaran, Sober akan
 									mendapatkan link discord dan harap memasuki
 									server discord sebelum tanggal 18 April
 									2022.
 								</li>
-								<li>
+								<li className="ngabers-procedure-list">
 									Informasi setiap kelas akan diinfokan oleh
 									tim IT Bersinar melalui Discord Bersinar
 									Community di mana peserta NGABERS dapat
 									melakukan diskusi bersama dengan tutor
 									maupun teman-teman disana.
 								</li>
-								<li>
+								<li className="ngabers-procedure-list">
 									Persiapkan diri kamu dan jangan sampai
 									ketinggalan ya Sober! Karena kuotanya sangat
 									terbatas.
@@ -106,27 +103,29 @@ const OurEvent = () => {
 							<div
 								style={{
 									width: "44rem",
-									borderRadius: "30px"
+									borderRadius: "30px",
+									padding: "30px"
 								}}
-								className="card p-3"
+								className="card"
 							>
 								<img
 									src={poster}
 									style={{
 										maxWidth: "640px",
-										height: "320px"
+										height: "320px",
+										borderRadius: "20px",
+										objectFit: "cover"
 									}}
 									alt="Program Ngaber"
 								/>
-								<div className="card-body">
-									<h5 className="card-title fw-bold fs-1">
+								<div className="card-body p-0 pt-3 pt-sm-5">
+									<h5 className="card-title ngabers-card-title mb-3">
 										Ayo Daftar #Ngabers Sekarang
 									</h5>
 									<div className="info">
 										<p style={{ color: "#574e5a" }}>
 											Deadline Pendaftaran : 17 April 2022
-										</p>
-										<p style={{ color: "#574e5a" }}>
+											<br />
 											Periode Pembelajaran : 18 April - 27
 											Juni 2022
 										</p>
@@ -135,13 +134,15 @@ const OurEvent = () => {
 										href="https://sinar.me/DaftarNgabers"
 										style={{
 											backgroundColor: "#fe933e",
-											fontSize: "24px"
+											fontSize: "24px",
+											fontWeight: "700",
+											borderRadius: "10px"
 										}}
-										className="btn w-100 rounded text-white"
+										className="btn btn-ngabers w-100 text-white"
 										target="_blank"
 										rel="noreferrer"
 									>
-										Daftar Sekarang
+										Daftar sekarang
 									</a>
 								</div>
 							</div>
