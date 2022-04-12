@@ -34,6 +34,14 @@ export default function Footer() {
 								<li>
 									<NavLink
 										className="footer-link"
+										to="/ngabers"
+									>
+										Ngabers
+									</NavLink>
+								</li>
+								<li>
+									<NavLink
+										className="footer-link"
 										to="/about-us"
 									>
 										Tentang Kami
