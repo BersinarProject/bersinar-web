@@ -2,8 +2,8 @@ import React from "react";
 import { Container } from "react-bootstrap";
 
 import "./OurEvent.css";
-import Navbar from "../../components/navbar/Navbar";
-import Footer from "../../components/footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 
 import heroNgabers from "../../assets/images/heroNgabers.svg";
 import poster from "../../assets/images/about-us/programs/program2.png";
@@ -13,7 +13,11 @@ const OurEvent = () => {
 		<div>
 			<Navbar />
 			<div className="d-flex justify-content-center mt-5 mb-5 pt-4 pb-5 mx-auto">
-				<img src={heroNgabers} alt="Ngabers Hero" className="ngabers-hero img-fluid mx-auto"/>
+				<img
+					src={heroNgabers}
+					alt="Ngabers Hero"
+					className="ngabers-hero img-fluid mx-auto"
+				/>
 			</div>
 			<Container>
 				<div className="ngabers-event mb-5 d-flex flex-column gap-5">
@@ -23,10 +27,15 @@ const OurEvent = () => {
 								Apa itu Ngambis Bareng <br /> Bersinar?
 							</h1>
 							<h3 className="desc-ngabers mb-5 pb-2">
-								Ngambis Bareng Bersinar merupakan program pembelajaran intensif UTBK (Soshum dan Saintek) yang akan 
-								membantu teman-teman pejuang SBMPTN selama 1 bulan lebih dengan kelas-kelas yang akan diisi oleh 
-								tutor-tutor melalui Zoom Meeting Bersinar. Program ini juga memberikan akses Sober untuk masuk ke dalam 
-								komunitas bersinar di Discord, tempat dimana para pelajar bersosialisasi bersama
+								Ngambis Bareng Bersinar merupakan program
+								pembelajaran intensif UTBK (Soshum dan Saintek)
+								yang akan membantu teman-teman pejuang SBMPTN
+								selama 1 bulan lebih dengan kelas-kelas yang
+								akan diisi oleh tutor-tutor melalui Zoom Meeting
+								Bersinar. Program ini juga memberikan akses
+								Sober untuk masuk ke dalam komunitas bersinar di
+								Discord, tempat dimana para pelajar
+								bersosialisasi bersama
 							</h3>
 						</div>
 
@@ -35,11 +44,18 @@ const OurEvent = () => {
 								Benefits Mengikuti Program Ngabers!
 							</h1>
 							<h3 className="desc-benefits-ngabers">
-								1. Persiapan mengikuti UTBK dengan program pembelajaran dan kelas-kelas yang intensif secara gratis. <br />
-								2. Mendapatkan catatan dan materi pembelajaran yang lengkap dan eksklusif. <br />
-								3. Mendapatkan lingkungan belajar yang suportif dan teman teman baru. <br />
-								4. Akses tanya jawab dan pembahasan soal yang fleksibel bersama tutor Bersinar. <br />
-								5. Platform belajar bersama untuk membangun kesiapan kamu dan tentunya mendapatkan akses bergabung ke dalam Bersinar Community.
+								1. Persiapan mengikuti UTBK dengan program
+								pembelajaran dan kelas-kelas yang intensif
+								secara gratis. <br />
+								2. Mendapatkan catatan dan materi pembelajaran
+								yang lengkap dan eksklusif. <br />
+								3. Mendapatkan lingkungan belajar yang suportif
+								dan teman teman baru. <br />
+								4. Akses tanya jawab dan pembahasan soal yang
+								fleksibel bersama tutor Bersinar. <br />
+								5. Platform belajar bersama untuk membangun
+								kesiapan kamu dan tentunya mendapatkan akses
+								bergabung ke dalam Bersinar Community.
 							</h3>
 						</div>
 					</div>
@@ -47,7 +63,8 @@ const OurEvent = () => {
 					<div className="d-flex flex-column gap-4">
 						<div>
 							<p className="title">
-								Bagaimana Caranya Mengikuti <br /> Program Ngabers?
+								Bagaimana Caranya Mengikuti <br /> Program
+								Ngabers?
 							</p>
 							<ol
 								className="paraghraph"
