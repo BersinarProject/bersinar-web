@@ -7,6 +7,7 @@ import OurClass from "./pages/our-class/OurClass";
 import AboutUs from "./pages/about-us/AboutUs";
 import Faq from "./pages/faq/Faq";
 import ScrollToTop from "./ScrollToTop";
+import OurEvent from "./pages/our-event/OurEvent";
 
 function App() {
 	return (
@@ -22,6 +23,9 @@ function App() {
 					</Route>
 					<Route path="/about-us">
 						<AboutUs />
+					</Route>
+					<Route path="/events">
+						<OurEvent />
 					</Route>
 					<Route path="/faq">
 						<Faq />
