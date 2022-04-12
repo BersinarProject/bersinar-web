@@ -17,7 +17,7 @@
 	color: #634c2a;
 }
 
-ul {
+.footer ul {
 	list-style-type: none;
 	margin-left: 0 !important;
 	padding-left: 0 !important;
@@ -115,7 +115,7 @@ ul {
 		padding-top: 40px !important;
 	}
 
-	.footer-title{
+	.footer-title {
 		word-wrap: break-word !important;
 	}
 

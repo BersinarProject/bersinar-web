@@ -22,6 +22,8 @@ export default function DonateSection() {
 					<a
 						href="https://trakteer.id/BersinarProject/"
 						className="btn-donate d-flex align-item-center text-decoration-none"
+						target="_blank"
+						rel="noreferrer"
 					>
 						<img
 							src={donateButtonIcon}
