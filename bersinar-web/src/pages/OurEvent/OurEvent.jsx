@@ -43,20 +43,30 @@ const OurEvent = () => {
 							<h1 className="benefits-ngabers">
 								Benefits Mengikuti Program Ngabers!
 							</h1>
-							<h3 className="desc-benefits-ngabers">
-								1. Persiapan mengikuti UTBK dengan program
-								pembelajaran dan kelas-kelas yang intensif
-								secara gratis. <br />
-								2. Mendapatkan catatan dan materi pembelajaran
-								yang lengkap dan eksklusif. <br />
-								3. Mendapatkan lingkungan belajar yang suportif
-								dan teman teman baru. <br />
-								4. Akses tanya jawab dan pembahasan soal yang
-								fleksibel bersama tutor Bersinar. <br />
-								5. Platform belajar bersama untuk membangun
-								kesiapan kamu dan tentunya mendapatkan akses
-								bergabung ke dalam Bersinar Community.
-							</h3>
+							<ol className="benefits-ngabers-lists">
+								<li className="benefits-ngabers-list">
+									Persiapan mengikuti UTBK dengan program
+									pembelajaran dan kelas-kelas yang intensif
+									secara gratis.
+								</li>
+								<li className="benefits-ngabers-list">
+									Mendapatkan catatan dan materi pembelajaran
+									yang lengkap dan eksklusif.
+								</li>
+								<li className="benefits-ngabers-list">
+									Mendapatkan lingkungan belajar yang suportif
+									dan teman teman baru.
+								</li>
+								<li className="benefits-ngabers-list">
+									Akses tanya jawab dan pembahasan soal yang
+									fleksibel bersama tutor Bersinar.
+								</li>
+								<li className="benefits-ngabers-list">
+									Platform belajar bersama untuk membangun
+									kesiapan kamu dan tentunya mendapatkan akses
+									bergabung ke dalam Bersinar Community.
+								</li>
+							</ol>
 						</div>
 					</div>
 
