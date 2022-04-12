@@ -88,7 +88,10 @@ const OurEvent = () => {
 									</div>
 									<a
 										href="https://sinar.me/DaftarNgabers"
-										style={{ backgroundColor: "#fe933e" }}
+										style={{
+											backgroundColor: "#fe933e",
+											fontSize: "24px"
+										}}
 										className="btn w-100 rounded text-white"
 										target="_blank"
 										rel="noreferrer"
