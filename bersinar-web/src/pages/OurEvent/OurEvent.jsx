@@ -5,8 +5,10 @@ import "./OurEvent.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 
-import heroNgabers from "../../assets/images/heroNgabers.svg";
-import poster from "../../assets/images/programs/program2.png";
+// eslint-disable-next-line import/no-duplicates
+import heroNgabers from "../../assets/images/ngabersCard.jpg";
+// eslint-disable-next-line import/no-duplicates
+import poster from "../../assets/images/ngabersCard.jpg";
 
 const OurEvent = () => {
 	return (
@@ -78,17 +80,8 @@ const OurEvent = () => {
 							</h1>
 							<ol className="ngabers-procedure-lists">
 								<li className="ngabers-procedure-list">
-									Mengisi pendaftaran melalui link &nbsp;
-									<span>
-										<a
-											href="https://sinar.me/DaftarNgabers"
-											target="_blank"
-											rel="noreferrer"
-										>
-											sinar.me/DaftarNgabers
-										</a>
-									</span>
-									&nbsp; atau tombol daftar di bawah.
+									Mengisi pendaftaran melalui tombol daftar di
+									bawah.
 								</li>
 								<li className="ngabers-procedure-list">
 									Setelah mengisi pendaftaran, Sober akan
@@ -142,7 +135,7 @@ const OurEvent = () => {
 										</p>
 									</div>
 									<a
-										href="https://sinar.me/DaftarNgabers"
+										href="https://docs.google.com/forms/d/e/1FAIpQLScfBJEyg8aWZKP9LRQCvBcne3HTqvPywAs_j8tuSd51YjcvYg/viewform"
 										style={{
 											backgroundColor: "#fe933e",
 											fontSize: "24px",
