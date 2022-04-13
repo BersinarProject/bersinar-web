@@ -116,7 +116,7 @@ const OurEvent = () => {
 									src={poster}
 									style={{
 										maxWidth: "640px",
-										height: "320px",
+										maxHeight: "320px",
 										borderRadius: "20px",
 										objectFit: "cover"
 									}}
@@ -131,7 +131,7 @@ const OurEvent = () => {
 											Deadline Pendaftaran : 17 April 2022
 											<br />
 											Periode Pembelajaran : 18 April - 27
-											Juni 2022
+											Mei 2022
 										</p>
 									</div>
 									<a
