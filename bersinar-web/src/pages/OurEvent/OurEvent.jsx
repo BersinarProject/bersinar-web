@@ -6,9 +6,12 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 
 // eslint-disable-next-line import/no-duplicates
-import heroNgabers from "../../assets/images/ngabersCard.jpg";
+import heroNgabers from "../../assets/images/poster.png";
 // eslint-disable-next-line import/no-duplicates
-import poster from "../../assets/images/ngabersCard.jpg";
+import poster from "../../assets/images/banner.jpg";
+
+const today = new Date();
+const deadlineDate = new Date("May 11, 2022 15:00:00");
 
 const OurEvent = () => {
 	return (
@@ -17,7 +20,7 @@ const OurEvent = () => {
 			<Container>
 				<div className="ngabers-hero d-flex justify-content-center mt-5 pt-4 mx-auto">
 					<img
-						src={heroNgabers}
+						src={poster}
 						alt="Ngabers Hero"
 						className="ngabers-hero-image img-fluid mx-auto"
 					/>
@@ -86,8 +89,7 @@ const OurEvent = () => {
 								<li className="ngabers-procedure-list">
 									Setelah mengisi pendaftaran, Sober akan
 									mendapatkan link discord dan harap memasuki
-									server discord sebelum tanggal 18 April
-									2022.
+									server discord sebelum tanggal 14 Mei 2022.
 								</li>
 								<li className="ngabers-procedure-list">
 									Informasi setiap kelas akan diinfokan oleh
@@ -102,6 +104,16 @@ const OurEvent = () => {
 									terbatas.
 								</li>
 							</ol>
+						</div>
+						<div>
+							<h1 className="title">Bersinar Special Class!</h1>
+							<div className="ngabers-poster d-flex justify-content-center mx-auto">
+								<img
+									src={heroNgabers}
+									alt="Ngabers Hero"
+									className="ngabers-hero-image img-fluid mx-auto"
+								/>
+							</div>
 						</div>
 						<div className="d-flex justify-content-center align-items-center">
 							<div
@@ -120,7 +132,7 @@ const OurEvent = () => {
 										borderRadius: "20px",
 										objectFit: "cover"
 									}}
-									alt="Program Ngaber"
+									alt="Program Ngabers"
 								/>
 								<div className="card-body p-0 pt-3 pt-sm-5">
 									<h5 className="card-title ngabers-card-title mb-3">
@@ -128,28 +140,62 @@ const OurEvent = () => {
 									</h5>
 									<div className="info">
 										<p style={{ color: "#574e5a" }}>
-											Deadline Pendaftaran : 17 April 2022
+											Deadline Pendaftaran : 13 Mei 2022
 											<br />
-											Periode Pembelajaran : 18 April - 27
-											Mei 2022
+											Periode Pembelajaran : 14 Mei - 30
+											Juni 2022
 										</p>
 									</div>
-									<a
-										href="https://docs.google.com/forms/d/e/1FAIpQLScfBJEyg8aWZKP9LRQCvBcne3HTqvPywAs_j8tuSd51YjcvYg/viewform"
-										style={{
-											backgroundColor: "#fe933e",
-											fontSize: "24px",
-											fontWeight: "700",
-											borderRadius: "10px"
-										}}
-										className="btn btn-ngabers w-100 text-white"
-										target="_blank"
-										rel="noreferrer"
-									>
-										Daftar sekarang
-									</a>
+									{deadlineDate < today ? (
+										<button
+											type="button"
+											onClick={() => {
+												window.open(
+													"https://docs.google.com/forms/d/e/1FAIpQLScfBJEyg8aWZKP9LRQCvBcne3HTqvPywAs_j8tuSd51YjcvYg/viewform",
+													"_blank"
+												);
+											}}
+											style={{
+												backgroundColor: "#fe933e",
+												fontSize: "24px",
+												fontWeight: "700",
+												borderRadius: "10px"
+											}}
+											className="btn btn-ngabers w-100 text-white"
+											target="_blank"
+											rel="noreferrer"
+										>
+											Daftar sekarang
+										</button>
+									) : (
+										<button
+											type="button"
+											onClick={() => {
+												window.open("", "_blank");
+											}}
+											style={{
+												backgroundColor: "#fe933e",
+												fontSize: "24px",
+												fontWeight: "700",
+												borderRadius: "10px"
+											}}
+											className="btn btn-ngabers w-100 text-white"
+											target="_blank"
+											rel="noreferrer"
+											disabled
+										>
+											Daftar sekarang
+										</button>
+									)}
 								</div>
 							</div>
+						</div>
+						<div className="d-flex justify-content-center align-items-center">
+							<p className="alert">
+								Jika sudah pukul 17:00 namun tombol masih belum
+								dapat diklik, <br /> silahkan refresh kembali
+								halaman ini!
+							</p>
 						</div>
 					</div>
 				</div>
