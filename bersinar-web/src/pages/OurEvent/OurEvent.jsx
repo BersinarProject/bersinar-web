@@ -11,7 +11,7 @@ import heroNgabers from "../../assets/images/poster.png";
 import poster from "../../assets/images/banner.jpg";
 
 const today = new Date();
-const deadlineDate = new Date("May 11, 2022 15:00:00");
+const deadlineDate = new Date("May 11, 2022 17:00:00");
 
 const OurEvent = () => {
 	return (
